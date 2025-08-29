@@ -161,16 +161,3 @@ python run_analysis.py --results-dir results --analysis-dir analysis
 ```
 
 ---
-
-## Notes & Troubleshooting
-
-- **OpenAI key missing**: set `OPENAI_API_KEY` in `.env` or shell. LLM steps require it.
-- **spaCy model not installed**: run `python -m spacy download en_core_web_lg`.
-- **FileNotFoundError**: verify `data/LakeDistrictCorpus/LD80_metadata/LD80_metadata.csv` and `data/LakeDistrictCorpus/LD80_geoparsed/` exist.
-- **Large texts / costs**: initialize `LLMTrajectoryExtractor(max_text_length=1000, use_chunking=False)` or use a smaller `--num-records`.
-
----
-
-## License
-
-MIT License (see `LICENSE`). 
