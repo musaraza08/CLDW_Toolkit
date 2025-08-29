@@ -1,0 +1,38 @@
+{
+  "trajectory": [
+    {
+      "place": "Lancaster",
+      "order": 1,
+      "context": "At Lancaster we were informed, it was too late to cross the Sands.",
+      "lat": "54.04660667916625",
+      "lon": "-2.801902525771824",
+      "type": "ppl"
+    },
+    {
+      "place": "Whitehaven",
+      "order": 2,
+      "context": "However, we reached Whitehaven before Night.",
+      "lat": "54.54261524067765",
+      "lon": "-3.574638671553102",
+      "type": "ppl"
+    },
+    {
+      "place": "Lorton",
+      "order": 3,
+      "context": "I rode over to Lorton , a little Village at the Foot of a high Mountain.",
+      "lat": "54.61745318512404",
+      "lon": "-3.308706047209322",
+      "type": "ppl"
+    },
+    {
+      "place": "Thorny hill",
+      "order": 4,
+      "context": "We rode through a pleasant Country, to Thorny hill , near which is the grand Seat of the Duke of Queensborough.",
+      "lat": "53.967975269708",
+      "lon": "-2.312531460550741",
+      "type": "mtn"
+    }
+  ],
+  "route_summary": "Lancaster → Whitehaven → Lorton → Thorny hill",
+  "confidence": "medium"
+}

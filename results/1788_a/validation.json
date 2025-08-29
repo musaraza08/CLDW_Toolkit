@@ -1,0 +1,578 @@
+{
+  "ID": "1788_a",
+  "llm": {
+    "id": "1788_a",
+    "method": "LLM",
+    "counts": {
+      "pred_len": 16,
+      "gt_len": 27
+    },
+    "metrics": {
+      "nodes": {
+        "precision": 0.75,
+        "recall": 0.4444444444444444,
+        "f1": 0.5581395348837209,
+        "tp": 12,
+        "fp": 4,
+        "fn": 15
+      },
+      "edges": {
+        "precision": 0.4666666666666667,
+        "recall": 0.2692307692307692,
+        "f1": 0.3414634146341463,
+        "tp": 7,
+        "fp": 8,
+        "fn": 19
+      },
+      "sequence": {
+        "lcs_ratio": 0.4444444444444444,
+        "edit_distance": 15,
+        "edit_distance_norm": 0.5555555555555556,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.375,
+        "kendall_tau": 1.0
+      }
+    },
+    "geo": {
+      "count": 0,
+      "mean_km": null,
+      "median_km": null,
+      "pct_within_1km": null,
+      "pct_within_5km": null,
+      "pct_within_10km": null
+    },
+    "ner": {
+      "precision": 0.75,
+      "recall": 0.4444444444444444,
+      "f1": 0.5581395348837209,
+      "tp": 12,
+      "fp": 4,
+      "fn": 15
+    },
+    "trajectory_simple": {
+      "edit_distance": 15,
+      "edit_distance_norm": 0.5555555555555556,
+      "sequence_accuracy": 0.0,
+      "positional_accuracy": 0.375,
+      "geospatial": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      }
+    },
+    "relations_simple": {
+      "precision": 0.4666666666666667,
+      "recall": 0.2692307692307692,
+      "f1": 0.3414634146341463,
+      "kendall_tau": 1.0
+    },
+    "errors": {
+      "hallucinations": {
+        "count": 4,
+        "proportion_pred": 0.25
+      },
+      "mis_orderings": {
+        "num_inversions": 0,
+        "inversion_fraction": 0.0
+      },
+      "implicit_inference": {
+        "count": 8,
+        "proportion_pred_edges": 0.5333333333333333
+      }
+    },
+    "matches": [
+      {
+        "pred_index": 0,
+        "gt_index": 0,
+        "pred_place": "Ormskirk",
+        "gt_place": "Ormskirk",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 1,
+        "gt_index": 1,
+        "pred_place": "Preston",
+        "gt_place": "Preston",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 2,
+        "gt_index": 2,
+        "pred_place": "Garstang",
+        "gt_place": "Garstang",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 3,
+        "gt_index": 3,
+        "pred_place": "Lancaster",
+        "gt_place": "Lancaster",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 4,
+        "gt_index": 4,
+        "pred_place": "Hornby",
+        "gt_place": "Hornby",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 6,
+        "gt_index": 6,
+        "pred_place": "Kendal",
+        "gt_place": "Kendal",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 9,
+        "gt_index": 12,
+        "pred_place": "Coniston",
+        "gt_place": "Coniston",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 10,
+        "gt_index": 13,
+        "pred_place": "Low Wood",
+        "gt_place": "Low Wood",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 11,
+        "gt_index": 14,
+        "pred_place": "Ambleside",
+        "gt_place": "Ambleside",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 12,
+        "gt_index": 18,
+        "pred_place": "Keswick",
+        "gt_place": "Keswick",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 14,
+        "gt_index": 25,
+        "pred_place": "Penrith",
+        "gt_place": "Penrith",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 15,
+        "gt_index": 26,
+        "pred_place": "Carlisle",
+        "gt_place": "Carlisle",
+        "reason": "name>=0.92",
+        "score": 0.0
+      }
+    ],
+    "unmatched_pred_indices": [
+      5,
+      7,
+      8,
+      13
+    ],
+    "unmatched_gt_indices": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  "nlp": {
+    "id": "1788_a",
+    "method": "NLP",
+    "counts": {
+      "pred_len": 2,
+      "gt_len": 27
+    },
+    "metrics": {
+      "nodes": {
+        "precision": 1.0,
+        "recall": 0.07407407407407407,
+        "f1": 0.13793103448275862,
+        "tp": 2,
+        "fp": 0,
+        "fn": 25
+      },
+      "edges": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 26
+      },
+      "sequence": {
+        "lcs_ratio": 0.07407407407407407,
+        "edit_distance": 25,
+        "edit_distance_norm": 0.9259259259259259,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.0,
+        "kendall_tau": 1.0
+      }
+    },
+    "geo": {
+      "count": 2,
+      "mean_km": 0.0,
+      "median_km": 0.0,
+      "pct_within_1km": 1.0,
+      "pct_within_5km": 1.0,
+      "pct_within_10km": 1.0
+    },
+    "ner": {
+      "precision": 1.0,
+      "recall": 0.07407407407407407,
+      "f1": 0.13793103448275862,
+      "tp": 2,
+      "fp": 0,
+      "fn": 25
+    },
+    "trajectory_simple": {
+      "edit_distance": 25,
+      "edit_distance_norm": 0.9259259259259259,
+      "sequence_accuracy": 0.0,
+      "positional_accuracy": 0.0,
+      "geospatial": {
+        "count": 2,
+        "mean_km": 0.0,
+        "median_km": 0.0,
+        "pct_within_1km": 1.0,
+        "pct_within_5km": 1.0,
+        "pct_within_10km": 1.0
+      }
+    },
+    "relations_simple": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "kendall_tau": 1.0
+    },
+    "errors": {
+      "hallucinations": {
+        "count": 0,
+        "proportion_pred": 0.0
+      },
+      "mis_orderings": {
+        "num_inversions": 0,
+        "inversion_fraction": 0.0
+      },
+      "implicit_inference": {
+        "count": 1,
+        "proportion_pred_edges": 1.0
+      }
+    },
+    "matches": [
+      {
+        "pred_index": 0,
+        "gt_index": 18,
+        "pred_place": "Keswick",
+        "gt_place": "Keswick",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      },
+      {
+        "pred_index": 1,
+        "gt_index": 26,
+        "pred_place": "Carlisle",
+        "gt_place": "Carlisle",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      }
+    ],
+    "unmatched_pred_indices": [],
+    "unmatched_gt_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  "pairwise": {
+    "llm_as_pred": {
+      "id": "1788_a",
+      "method": "LLM_vs_NLP",
+      "counts": {
+        "pred_len": 16,
+        "gt_len": 2
+      },
+      "metrics": {
+        "nodes": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222222222222222,
+          "tp": 2,
+          "fp": 14,
+          "fn": 0
+        },
+        "edges": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 15,
+          "fn": 1
+        },
+        "sequence": {
+          "lcs_ratio": 1.0,
+          "edit_distance": 14,
+          "edit_distance_norm": 7.0,
+          "sequence_accuracy": 0.0,
+          "positional_accuracy": 0.0,
+          "kendall_tau": 1.0
+        }
+      },
+      "geo": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      },
+      "ner": {
+        "precision": 0.125,
+        "recall": 1.0,
+        "f1": 0.2222222222222222,
+        "tp": 2,
+        "fp": 14,
+        "fn": 0
+      },
+      "trajectory_simple": {
+        "edit_distance": 14,
+        "edit_distance_norm": 7.0,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.0,
+        "geospatial": {
+          "count": 0,
+          "mean_km": null,
+          "median_km": null,
+          "pct_within_1km": null,
+          "pct_within_5km": null,
+          "pct_within_10km": null
+        }
+      },
+      "relations_simple": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "kendall_tau": 1.0
+      },
+      "errors": {
+        "hallucinations": {
+          "count": 14,
+          "proportion_pred": 0.875
+        },
+        "mis_orderings": {
+          "num_inversions": 0,
+          "inversion_fraction": 0.0
+        },
+        "implicit_inference": {
+          "count": 15,
+          "proportion_pred_edges": 1.0
+        }
+      },
+      "matches": [
+        {
+          "pred_index": 12,
+          "gt_index": 0,
+          "pred_place": "Keswick",
+          "gt_place": "Keswick",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 15,
+          "gt_index": 1,
+          "pred_place": "Carlisle",
+          "gt_place": "Carlisle",
+          "reason": "name>=0.92",
+          "score": 0.0
+        }
+      ],
+      "unmatched_pred_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "unmatched_gt_indices": []
+    },
+    "nlp_as_pred": {
+      "id": "1788_a",
+      "method": "NLP_vs_LLM",
+      "counts": {
+        "pred_len": 2,
+        "gt_len": 16
+      },
+      "metrics": {
+        "nodes": {
+          "precision": 1.0,
+          "recall": 0.125,
+          "f1": 0.2222222222222222,
+          "tp": 2,
+          "fp": 0,
+          "fn": 14
+        },
+        "edges": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 15
+        },
+        "sequence": {
+          "lcs_ratio": 0.125,
+          "edit_distance": 14,
+          "edit_distance_norm": 0.875,
+          "sequence_accuracy": 0.0,
+          "positional_accuracy": 0.0,
+          "kendall_tau": 1.0
+        }
+      },
+      "geo": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      },
+      "ner": {
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.2222222222222222,
+        "tp": 2,
+        "fp": 0,
+        "fn": 14
+      },
+      "trajectory_simple": {
+        "edit_distance": 14,
+        "edit_distance_norm": 0.875,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.0,
+        "geospatial": {
+          "count": 0,
+          "mean_km": null,
+          "median_km": null,
+          "pct_within_1km": null,
+          "pct_within_5km": null,
+          "pct_within_10km": null
+        }
+      },
+      "relations_simple": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "kendall_tau": 1.0
+      },
+      "errors": {
+        "hallucinations": {
+          "count": 0,
+          "proportion_pred": 0.0
+        },
+        "mis_orderings": {
+          "num_inversions": 0,
+          "inversion_fraction": 0.0
+        },
+        "implicit_inference": {
+          "count": 1,
+          "proportion_pred_edges": 1.0
+        }
+      },
+      "matches": [
+        {
+          "pred_index": 0,
+          "gt_index": 12,
+          "pred_place": "Keswick",
+          "gt_place": "Keswick",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 1,
+          "gt_index": 15,
+          "pred_place": "Carlisle",
+          "gt_place": "Carlisle",
+          "reason": "name>=0.92",
+          "score": 0.0
+        }
+      ],
+      "unmatched_pred_indices": [],
+      "unmatched_gt_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ]
+    }
+  }
+}

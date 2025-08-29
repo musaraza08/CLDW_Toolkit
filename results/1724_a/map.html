@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d2d9d1f7a659a38d49d7860ab6745cb9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d2d9d1f7a659a38d49d7860ab6745cb9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d2d9d1f7a659a38d49d7860ab6745cb9 = L.map(
+                "map_d2d9d1f7a659a38d49d7860ab6745cb9",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_887deb7e73f0ed91429252bcd21b8b8f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_887deb7e73f0ed91429252bcd21b8b8f.addTo(map_d2d9d1f7a659a38d49d7860ab6745cb9);
+        
+    
+            var feature_group_9a23d77f65cdca0264c7310ddea46841 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_3aeced15ae41c768302953507d685370 = L.marker(
+                [54.0488219, -2.8013499],
+                {
+}
+            ).addTo(feature_group_9a23d77f65cdca0264c7310ddea46841);
+        
+    
+            var icon_0c0624736074b05d33b18e7c6fb5d8b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_614216f9ed5935e8dd9464179648287a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b72347e4f56625fe8929df7fca66bea = $(`<div id="html_3b72347e4f56625fe8929df7fca66bea" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_614216f9ed5935e8dd9464179648287a.setContent(html_3b72347e4f56625fe8929df7fca66bea);
+            
+        
+
+        marker_3aeced15ae41c768302953507d685370.bindPopup(popup_614216f9ed5935e8dd9464179648287a)
+        ;
+
+        
+    
+    
+                marker_3aeced15ae41c768302953507d685370.setIcon(icon_0c0624736074b05d33b18e7c6fb5d8b2);
+            
+    
+            var marker_a05e144c69e4a8361892c19e727e0d41 = L.marker(
+                [51.3788171, -2.3695986],
+                {
+}
+            ).addTo(feature_group_9a23d77f65cdca0264c7310ddea46841);
+        
+    
+            var icon_2c39366f41bfa9ac7c0c59a266bb48cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_039933d9d0ef7c4c49d9f2f2d70e6494 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4153d3b8aa5dcfc6cacb3f1e779f811b = $(`<div id="html_4153d3b8aa5dcfc6cacb3f1e779f811b" style="width: 100.0%; height: 100.0%;">                     <b>Westmoreland</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_039933d9d0ef7c4c49d9f2f2d70e6494.setContent(html_4153d3b8aa5dcfc6cacb3f1e779f811b);
+            
+        
+
+        marker_a05e144c69e4a8361892c19e727e0d41.bindPopup(popup_039933d9d0ef7c4c49d9f2f2d70e6494)
+        ;
+
+        
+    
+    
+                marker_a05e144c69e4a8361892c19e727e0d41.setIcon(icon_2c39366f41bfa9ac7c0c59a266bb48cc);
+            
+    
+            var marker_1075d1f80f05430fb8733fdc160d23fc = L.marker(
+                [54.3289795, -2.747183],
+                {
+}
+            ).addTo(feature_group_9a23d77f65cdca0264c7310ddea46841);
+        
+    
+            var icon_d1fb1c62601a7d56edf63e9c074bf2d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f4a3cbb9aa37dd8da04f389f4e0c990 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a58856c491840ba2c7e4232b5195e83f = $(`<div id="html_a58856c491840ba2c7e4232b5195e83f" style="width: 100.0%; height: 100.0%;">                     <b>Kendal</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_2f4a3cbb9aa37dd8da04f389f4e0c990.setContent(html_a58856c491840ba2c7e4232b5195e83f);
+            
+        
+
+        marker_1075d1f80f05430fb8733fdc160d23fc.bindPopup(popup_2f4a3cbb9aa37dd8da04f389f4e0c990)
+        ;
+
+        
+    
+    
+                marker_1075d1f80f05430fb8733fdc160d23fc.setIcon(icon_d1fb1c62601a7d56edf63e9c074bf2d8);
+            
+    
+            var marker_091f806ea1f229b7fc93f1c186fa7824 = L.marker(
+                [54.58041, -2.486536],
+                {
+}
+            ).addTo(feature_group_9a23d77f65cdca0264c7310ddea46841);
+        
+    
+            var icon_311c9c21c48a935ce8aa1a575fae186e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38708594347af70b8d823de58423404c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5c3b9191ce46e57c3adf50e5e49162c7 = $(`<div id="html_5c3b9191ce46e57c3adf50e5e49162c7" style="width: 100.0%; height: 100.0%;">                     <b>Appleby</b><br>                     Order: 5<br>                     Context: <br>                     Method: LLM<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_38708594347af70b8d823de58423404c.setContent(html_5c3b9191ce46e57c3adf50e5e49162c7);
+            
+        
+
+        marker_091f806ea1f229b7fc93f1c186fa7824.bindPopup(popup_38708594347af70b8d823de58423404c)
+        ;
+
+        
+    
+    
+                marker_091f806ea1f229b7fc93f1c186fa7824.setIcon(icon_311c9c21c48a935ce8aa1a575fae186e);
+            
+    
+            var marker_46c1df3ed8d393f7225a4c03b198d174 = L.marker(
+                [54.6639133, -2.7522047],
+                {
+}
+            ).addTo(feature_group_9a23d77f65cdca0264c7310ddea46841);
+        
+    
+            var icon_207b5f5f22a7e97a727670820d99a700 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7c91ead953994d01f8569b12b75714c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_78f0c8a90d2b17ca3851caf04dd004b7 = $(`<div id="html_78f0c8a90d2b17ca3851caf04dd004b7" style="width: 100.0%; height: 100.0%;">                     <b>Penrith</b><br>                     Order: 6<br>                     Context: <br>                     Method: LLM<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_a7c91ead953994d01f8569b12b75714c.setContent(html_78f0c8a90d2b17ca3851caf04dd004b7);
+            
+        
+
+        marker_46c1df3ed8d393f7225a4c03b198d174.bindPopup(popup_a7c91ead953994d01f8569b12b75714c)
+        ;
+
+        
+    
+    
+                marker_46c1df3ed8d393f7225a4c03b198d174.setIcon(icon_207b5f5f22a7e97a727670820d99a700);
+            
+    
+            var marker_c14a37dc0bbcc822f5c4f15a66ab87d0 = L.marker(
+                [54.8948478, -2.9362311],
+                {
+}
+            ).addTo(feature_group_9a23d77f65cdca0264c7310ddea46841);
+        
+    
+            var icon_52fff27a68e952aab4002778c1c28487 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d26ff104483c59917c8d5471444f6286 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ec6de2e23fbdf9632604adb84eaff9a4 = $(`<div id="html_ec6de2e23fbdf9632604adb84eaff9a4" style="width: 100.0%; height: 100.0%;">                     <b>Carlisle</b><br>                     Order: 7<br>                     Context: <br>                     Method: LLM<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_d26ff104483c59917c8d5471444f6286.setContent(html_ec6de2e23fbdf9632604adb84eaff9a4);
+            
+        
+
+        marker_c14a37dc0bbcc822f5c4f15a66ab87d0.bindPopup(popup_d26ff104483c59917c8d5471444f6286)
+        ;
+
+        
+    
+    
+                marker_c14a37dc0bbcc822f5c4f15a66ab87d0.setIcon(icon_52fff27a68e952aab4002778c1c28487);
+            
+    
+            var poly_line_691130c78d8b897e9f919f787baea220 = L.polyline(
+                [[54.0488219, -2.8013499], [51.3788171, -2.3695986], [54.3289795, -2.747183], [54.58041, -2.486536], [54.6639133, -2.7522047], [54.8948478, -2.9362311]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9a23d77f65cdca0264c7310ddea46841);
+        
+    
+        var popup_d67995cbff48466c35601c854876569f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_100bd1638fb9777ccaaf8e21789473a3 = $(`<div id="html_100bd1638fb9777ccaaf8e21789473a3" style="width: 100.0%; height: 100.0%;">Route: LLM – Daniel Defoe (1727)</div>`)[0];
+                popup_d67995cbff48466c35601c854876569f.setContent(html_100bd1638fb9777ccaaf8e21789473a3);
+            
+        
+
+        poly_line_691130c78d8b897e9f919f787baea220.bindPopup(popup_d67995cbff48466c35601c854876569f)
+        ;
+
+        
+    
+    
+            feature_group_9a23d77f65cdca0264c7310ddea46841.addTo(map_d2d9d1f7a659a38d49d7860ab6745cb9);
+        
+    
+            var feature_group_eebeec90593e96f8b962583374472b8c = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d9b1e7a1da00426832420a6537fe1ac3 = L.marker(
+                [53.1825472, -1.1724514],
+                {
+}
+            ).addTo(feature_group_eebeec90593e96f8b962583374472b8c);
+        
+    
+            var icon_1924b526079542811d69f9f85262c258 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2dad837742ecaf2219b9ca2b574e449 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1e71153c3ea2d698098435f6c1a21b1 = $(`<div id="html_e1e71153c3ea2d698098435f6c1a21b1" style="width: 100.0%; height: 100.0%;">                     <b>Leeming Lane</b><br>                     Order: 1<br>                     Context: The Roman highway, which I have so often mentioned, And which, in my last letter, I left at Leeming Lane , enters this county from Rear Cross upon Stanmore , and crossing it almost due east and west, goes through Appleby , passing the Eden a little north from Perith , at an ancient Roman station called Brovoniacam, where there was a large and stately stone bridge; but now the great road leads to the left-hand to Perith .<br>                     Method: NLP<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_a2dad837742ecaf2219b9ca2b574e449.setContent(html_e1e71153c3ea2d698098435f6c1a21b1);
+            
+        
+
+        marker_d9b1e7a1da00426832420a6537fe1ac3.bindPopup(popup_a2dad837742ecaf2219b9ca2b574e449)
+        ;
+
+        
+    
+    
+                marker_d9b1e7a1da00426832420a6537fe1ac3.setIcon(icon_1924b526079542811d69f9f85262c258);
+            
+    
+            var marker_f705eec9e4e34d645829596f38c67320 = L.marker(
+                [55.0, -1.66667],
+                {
+}
+            ).addTo(feature_group_eebeec90593e96f8b962583374472b8c);
+        
+    
+            var icon_fe78a5c9fd369c2e23a435cb5673c47d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58ad33e8d0f7a8e5797dce3b50c47860 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b3738804271350c3a3e66afb803d23a9 = $(`<div id="html_b3738804271350c3a3e66afb803d23a9" style="width: 100.0%; height: 100.0%;">                     <b>Newcastle</b><br>                     Order: 2<br>                     Context: house is a castle, we came to Carlisle , a small but well fortified city, the frontier place and key of England on the west sea, as Berwick upon Tweed is on the east; and in both which there have, for many years, I might say ages, been strong garrisons kept to check the invading Scots; from below this town the famous Picts Wall began, which crossed the whole island to Newcastle upon Tyne , where I have mentioned it already.<br>                     Method: NLP<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_58ad33e8d0f7a8e5797dce3b50c47860.setContent(html_b3738804271350c3a3e66afb803d23a9);
+            
+        
+
+        marker_f705eec9e4e34d645829596f38c67320.bindPopup(popup_58ad33e8d0f7a8e5797dce3b50c47860)
+        ;
+
+        
+    
+    
+                marker_f705eec9e4e34d645829596f38c67320.setIcon(icon_fe78a5c9fd369c2e23a435cb5673c47d);
+            
+    
+            var marker_db8f011d99fae9f84534414a17072810 = L.marker(
+                [53.8611712, -2.5650945],
+                {
+}
+            ).addTo(feature_group_eebeec90593e96f8b962583374472b8c);
+        
+    
+            var icon_cb2901d48671ea909d535242dd03e3a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb57f1860d2c134d0e307807840c8fbc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4cb5ebd8e38574e00675f1ba1d62c013 = $(`<div id="html_4cb5ebd8e38574e00675f1ba1d62c013" style="width: 100.0%; height: 100.0%;">                     <b>Lancashire</b><br>                     Order: 3<br>                     Context: But before I go on to speak of this town, I must go back, as we did for our particular satisfaction, to the sea coast, which, in this northern county, is more remarkable than that of Lancashire , though the other is extended much farther in length; for here are some towns of good trade.<br>                     Method: NLP<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_cb57f1860d2c134d0e307807840c8fbc.setContent(html_4cb5ebd8e38574e00675f1ba1d62c013);
+            
+        
+
+        marker_db8f011d99fae9f84534414a17072810.bindPopup(popup_cb57f1860d2c134d0e307807840c8fbc)
+        ;
+
+        
+    
+    
+                marker_db8f011d99fae9f84534414a17072810.setIcon(icon_cb2901d48671ea909d535242dd03e3a6);
+            
+    
+            var marker_abd7e344c57bcca8c883e66e58dce556 = L.marker(
+                [51.47267150878906, -0.1193526387214661],
+                {
+}
+            ).addTo(feature_group_eebeec90593e96f8b962583374472b8c);
+        
+    
+            var icon_c1e1dc3e717cbc650f6a9fc2a34db257 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_07e5645e6feac8f0a7d179df71e16007 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c74d962441f778335d4ece8e922578cb = $(`<div id="html_c74d962441f778335d4ece8e922578cb" style="width: 100.0%; height: 100.0%;">                     <b>London</b><br>                     Order: 4<br>                     Context: This is performed with horses, which, changing often, go night and day without intermission, and as they say, very much out-go the post; so that the fish come very sweet and good to London , where the extraordinary price they yield, being often sold at two shillings and sixpence to four shillings per pound, pay very well for the carriage.<br>                     Method: NLP<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_07e5645e6feac8f0a7d179df71e16007.setContent(html_c74d962441f778335d4ece8e922578cb);
+            
+        
+
+        marker_abd7e344c57bcca8c883e66e58dce556.bindPopup(popup_07e5645e6feac8f0a7d179df71e16007)
+        ;
+
+        
+    
+    
+                marker_abd7e344c57bcca8c883e66e58dce556.setIcon(icon_c1e1dc3e717cbc650f6a9fc2a34db257);
+            
+    
+            var marker_9192e38679002e46c77c22b142ff12b0 = L.marker(
+                [51.5000209, -0.192442],
+                {
+}
+            ).addTo(feature_group_eebeec90593e96f8b962583374472b8c);
+        
+    
+            var icon_f37784c8a348043ed5cb1bfb0da9285e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7caf66fd607cbf1405fba2333fbafb82 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b48d71f5e9ff8af63aaa05abfd80360 = $(`<div id="html_4b48d71f5e9ff8af63aaa05abfd80360" style="width: 100.0%; height: 100.0%;">                     <b>England</b><br>                     Order: 5<br>                     Context: The south part of Scotland on this side, coming at least fifty miles farther into England , than at Berwick .<br>                     Method: NLP<br>                     Author: Daniel Defoe<br>                     Year: 1727                     </div>`)[0];
+                popup_7caf66fd607cbf1405fba2333fbafb82.setContent(html_4b48d71f5e9ff8af63aaa05abfd80360);
+            
+        
+
+        marker_9192e38679002e46c77c22b142ff12b0.bindPopup(popup_7caf66fd607cbf1405fba2333fbafb82)
+        ;
+
+        
+    
+    
+                marker_9192e38679002e46c77c22b142ff12b0.setIcon(icon_f37784c8a348043ed5cb1bfb0da9285e);
+            
+    
+            var poly_line_26362b1e509e812940a4d8dc4fc1980f = L.polyline(
+                [[53.1825472, -1.1724514], [55.0, -1.66667], [53.8611712, -2.5650945], [51.47267150878906, -0.1193526387214661], [51.5000209, -0.192442]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_eebeec90593e96f8b962583374472b8c);
+        
+    
+        var popup_30ac7bd3a69219e99470643975a23ce9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e737e1610dee5a9e0fae7332d5387cae = $(`<div id="html_e737e1610dee5a9e0fae7332d5387cae" style="width: 100.0%; height: 100.0%;">Route: NLP – Daniel Defoe (1727)</div>`)[0];
+                popup_30ac7bd3a69219e99470643975a23ce9.setContent(html_e737e1610dee5a9e0fae7332d5387cae);
+            
+        
+
+        poly_line_26362b1e509e812940a4d8dc4fc1980f.bindPopup(popup_30ac7bd3a69219e99470643975a23ce9)
+        ;
+
+        
+    
+    
+            feature_group_eebeec90593e96f8b962583374472b8c.addTo(map_d2d9d1f7a659a38d49d7860ab6745cb9);
+        
+    
+            var layer_control_88e93efae90d2f7e516d7b3d045a76d5_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_887deb7e73f0ed91429252bcd21b8b8f,
+                },
+                overlays :  {
+                    "LLM \u2013 Daniel Defoe (1727)" : feature_group_9a23d77f65cdca0264c7310ddea46841,
+                    "NLP \u2013 Daniel Defoe (1727)" : feature_group_eebeec90593e96f8b962583374472b8c,
+                },
+            };
+            let layer_control_88e93efae90d2f7e516d7b3d045a76d5 = L.control.layers(
+                layer_control_88e93efae90d2f7e516d7b3d045a76d5_layers.base_layers,
+                layer_control_88e93efae90d2f7e516d7b3d045a76d5_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_d2d9d1f7a659a38d49d7860ab6745cb9);
+
+        
+</script>
+</html>

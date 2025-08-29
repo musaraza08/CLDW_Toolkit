@@ -1,0 +1,102 @@
+{
+  "trajectory": [
+    {
+      "place": "Ormskirk",
+      "order": 1,
+      "mention": "From Ormskirk go in a post chaise",
+      "note": "departure"
+    },
+    {
+      "place": "Preston",
+      "order": 2,
+      "mention": "Leave Preston , and go on to Garstang",
+      "note": "travel to Garstang"
+    },
+    {
+      "place": "Garstang",
+      "order": 3,
+      "mention": "Leave Preston , and go on to Garstang",
+      "note": "travel to Garstang"
+    },
+    {
+      "place": "Lancaster",
+      "order": 4,
+      "mention": "Dine at Lancaster",
+      "note": "stop for dining"
+    },
+    {
+      "place": "Hornby",
+      "order": 5,
+      "mention": "Sleep at Hornby",
+      "note": "overnight stay"
+    },
+    {
+      "place": "Kirby Lonsdale",
+      "order": 6,
+      "mention": "Leave Hornby , and ride by the side of the River Loon, to Kirby Lonsdale",
+      "note": "travel to Kirby Lonsdale"
+    },
+    {
+      "place": "Kendal",
+      "order": 7,
+      "mention": "From Kirby Lonsdale proceed to Kendal",
+      "note": "travel to Kendal"
+    },
+    {
+      "place": "Bowness",
+      "order": 8,
+      "mention": "Leave Kendal , and pass through a country, than which one more barren, hilly, and dreary, cannot be imagined. Ride to Bowness",
+      "note": "travel to Bowness"
+    },
+    {
+      "place": "Hawks Head",
+      "order": 9,
+      "mention": "Cross the ferry from Bowness , and walk to Hawks Head",
+      "note": "travel to Hawks Head"
+    },
+    {
+      "place": "Coniston",
+      "order": 10,
+      "mention": "we ride to Coniston in the morning",
+      "note": "travel to Coniston"
+    },
+    {
+      "place": "Low Wood",
+      "order": 11,
+      "mention": "Return to Low Wood to dinner",
+      "note": "return to Low Wood"
+    },
+    {
+      "place": "Ambleside",
+      "order": 12,
+      "mention": "return to Bowness by Ambleside",
+      "note": "return via Ambleside"
+    },
+    {
+      "place": "Keswick",
+      "order": 13,
+      "mention": "Leave Low Wood Inn, and ride through Ambleside to Keswick",
+      "note": "travel to Keswick"
+    },
+    {
+      "place": "Ulls Water",
+      "order": 14,
+      "mention": "We ride to Ulls Water",
+      "note": "travel to Ulls Water"
+    },
+    {
+      "place": "Penrith",
+      "order": 15,
+      "mention": "sleep at Penrith",
+      "note": "overnight stay"
+    },
+    {
+      "place": "Carlisle",
+      "order": 16,
+      "mention": "ride to Carlisle in the evening",
+      "note": "travel to Carlisle"
+    }
+  ],
+  "route_summary": "Ormskirk → Preston → Garstang → Lancaster → Hornby → Kirby Lonsdale → Kendal → Bowness → Hawks Head → Coniston → Low Wood → Ambleside → Keswick → Ulls Water → Penrith → Carlisle",
+  "confidence": "high"
+}

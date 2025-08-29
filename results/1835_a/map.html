@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b8e04c67959d5729c62662518d702a27 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b8e04c67959d5729c62662518d702a27" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b8e04c67959d5729c62662518d702a27 = L.map(
+                "map_b8e04c67959d5729c62662518d702a27",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e8f8ceba6f75bccc0274f52f88e45bff = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e8f8ceba6f75bccc0274f52f88e45bff.addTo(map_b8e04c67959d5729c62662518d702a27);
+        
+    
+            var feature_group_d3e291075880423ca17412068dea8ab3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_c59871e5d6b9f5344a5408b024cec008 = L.marker(
+                [54.0488219, -2.8013499],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_5a49e1ecbf18b4c9fe185f39b193822c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_396df6143c16ca55ef8af0d1f48540e2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b5e48683e8cf2237ec7f621ca71cb00 = $(`<div id="html_8b5e48683e8cf2237ec7f621ca71cb00" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_396df6143c16ca55ef8af0d1f48540e2.setContent(html_8b5e48683e8cf2237ec7f621ca71cb00);
+            
+        
+
+        marker_c59871e5d6b9f5344a5408b024cec008.bindPopup(popup_396df6143c16ca55ef8af0d1f48540e2)
+        ;
+
+        
+    
+    
+                marker_c59871e5d6b9f5344a5408b024cec008.setIcon(icon_5a49e1ecbf18b4c9fe185f39b193822c);
+            
+    
+            var marker_96efc3a4646d478b0fa7aacf7fa5872a = L.marker(
+                [54.3289795, -2.747183],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_64e1ef93e670e514c06f0cdf558be1d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1557003cba117f2884607625b8f25cf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21f9b137cb0f0d9a2d49f18e904a93c9 = $(`<div id="html_21f9b137cb0f0d9a2d49f18e904a93c9" style="width: 100.0%; height: 100.0%;">                     <b>Kendal</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_1557003cba117f2884607625b8f25cf1.setContent(html_21f9b137cb0f0d9a2d49f18e904a93c9);
+            
+        
+
+        marker_96efc3a4646d478b0fa7aacf7fa5872a.bindPopup(popup_1557003cba117f2884607625b8f25cf1)
+        ;
+
+        
+    
+    
+                marker_96efc3a4646d478b0fa7aacf7fa5872a.setIcon(icon_64e1ef93e670e514c06f0cdf558be1d6);
+            
+    
+            var marker_2e9471d65a186ddb691fc45a72f209c2 = L.marker(
+                [54.9284336, -3.2242576],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_de23c1e1d1a5bfdcee4fc044a55d1239 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fe3276ba11f9c64ec5cf034261341c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c42406bac4ec073752fb56e2eef34ebb = $(`<div id="html_c42406bac4ec073752fb56e2eef34ebb" style="width: 100.0%; height: 100.0%;">                     <b>Bowness</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_2fe3276ba11f9c64ec5cf034261341c6.setContent(html_c42406bac4ec073752fb56e2eef34ebb);
+            
+        
+
+        marker_2e9471d65a186ddb691fc45a72f209c2.bindPopup(popup_2fe3276ba11f9c64ec5cf034261341c6)
+        ;
+
+        
+    
+    
+                marker_2e9471d65a186ddb691fc45a72f209c2.setIcon(icon_de23c1e1d1a5bfdcee4fc044a55d1239);
+            
+    
+            var marker_704e4dfdeef4c9222bdde31f51ecfb06 = L.marker(
+                [54.431954, -2.9630528],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_c1905ee29bdb958b3eb74dc1786e029c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7947e69f42c11c7c98d9732e8584ea3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a309c2aaa5c05f168af5e7a46166bb90 = $(`<div id="html_a309c2aaa5c05f168af5e7a46166bb90" style="width: 100.0%; height: 100.0%;">                     <b>Ambleside</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_d7947e69f42c11c7c98d9732e8584ea3.setContent(html_a309c2aaa5c05f168af5e7a46166bb90);
+            
+        
+
+        marker_704e4dfdeef4c9222bdde31f51ecfb06.bindPopup(popup_d7947e69f42c11c7c98d9732e8584ea3)
+        ;
+
+        
+    
+    
+                marker_704e4dfdeef4c9222bdde31f51ecfb06.setIcon(icon_c1905ee29bdb958b3eb74dc1786e029c);
+            
+    
+            var marker_bdd9c752d851b2c8227fcfb62af239cb = L.marker(
+                [54.4593879, -3.0243657],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_83d42a246929e64b93661b7089d08fc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0254e76c7acb97a26b7a5a576c85401 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e1f79ba42cfbbe038390d3e782eefe2 = $(`<div id="html_5e1f79ba42cfbbe038390d3e782eefe2" style="width: 100.0%; height: 100.0%;">                     <b>Grasmere</b><br>                     Order: 5<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_f0254e76c7acb97a26b7a5a576c85401.setContent(html_5e1f79ba42cfbbe038390d3e782eefe2);
+            
+        
+
+        marker_bdd9c752d851b2c8227fcfb62af239cb.bindPopup(popup_f0254e76c7acb97a26b7a5a576c85401)
+        ;
+
+        
+    
+    
+                marker_bdd9c752d851b2c8227fcfb62af239cb.setIcon(icon_83d42a246929e64b93661b7089d08fc2);
+            
+    
+            var marker_212b824e39e11842e247e19b039192dc = L.marker(
+                [54.6009812, -3.1375822],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_0d445ba80403c5e5aba8bc0846daa80e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c86529a208931a7743ad676561ab4ab4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f6d46a40f43ed3653b166b4cd419be62 = $(`<div id="html_f6d46a40f43ed3653b166b4cd419be62" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 6<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_c86529a208931a7743ad676561ab4ab4.setContent(html_f6d46a40f43ed3653b166b4cd419be62);
+            
+        
+
+        marker_212b824e39e11842e247e19b039192dc.bindPopup(popup_c86529a208931a7743ad676561ab4ab4)
+        ;
+
+        
+    
+    
+                marker_212b824e39e11842e247e19b039192dc.setIcon(icon_0d445ba80403c5e5aba8bc0846daa80e);
+            
+    
+            var marker_b1cd209e5d65cd2cd45dd52e284b5069 = L.marker(
+                [54.5409307, -3.2762422],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_6f3e8fca7bdf586220fea16f47c8ac06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f48b816301f8b0046ebb156df8345db7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac768d7c85ff8a6b02714165c89433f5 = $(`<div id="html_ac768d7c85ff8a6b02714165c89433f5" style="width: 100.0%; height: 100.0%;">                     <b>Buttermere</b><br>                     Order: 7<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_f48b816301f8b0046ebb156df8345db7.setContent(html_ac768d7c85ff8a6b02714165c89433f5);
+            
+        
+
+        marker_b1cd209e5d65cd2cd45dd52e284b5069.bindPopup(popup_f48b816301f8b0046ebb156df8345db7)
+        ;
+
+        
+    
+    
+                marker_b1cd209e5d65cd2cd45dd52e284b5069.setIcon(icon_6f3e8fca7bdf586220fea16f47c8ac06);
+            
+    
+            var marker_39edfce8208ce08055d68d9daecb7509 = L.marker(
+                [51.4430411, -0.045944],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_5ee77f0e865d97f85139afa9d1f014bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f8948fc248ab668e8e18e2802d57b24 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01268e7f1317eea7a4032d1bb0148338 = $(`<div id="html_01268e7f1317eea7a4032d1bb0148338" style="width: 100.0%; height: 100.0%;">                     <b>Wastdale</b><br>                     Order: 8<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_1f8948fc248ab668e8e18e2802d57b24.setContent(html_01268e7f1317eea7a4032d1bb0148338);
+            
+        
+
+        marker_39edfce8208ce08055d68d9daecb7509.bindPopup(popup_1f8948fc248ab668e8e18e2802d57b24)
+        ;
+
+        
+    
+    
+                marker_39edfce8208ce08055d68d9daecb7509.setIcon(icon_5ee77f0e865d97f85139afa9d1f014bb);
+            
+    
+            var marker_5e01a839de657f8c8e9b53b551fd915b = L.marker(
+                [54.5751365, -2.8932053],
+                {
+}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+            var icon_ad25c5951013f5a12786708f2c7ffd4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7bac667d38ef2ca5cd4152e78c50c6c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d1200671b9f7d0d2e6a547369d7113ee = $(`<div id="html_d1200671b9f7d0d2e6a547369d7113ee" style="width: 100.0%; height: 100.0%;">                     <b>Ullswater</b><br>                     Order: 9<br>                     Context: <br>                     Method: LLM<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_7bac667d38ef2ca5cd4152e78c50c6c5.setContent(html_d1200671b9f7d0d2e6a547369d7113ee);
+            
+        
+
+        marker_5e01a839de657f8c8e9b53b551fd915b.bindPopup(popup_7bac667d38ef2ca5cd4152e78c50c6c5)
+        ;
+
+        
+    
+    
+                marker_5e01a839de657f8c8e9b53b551fd915b.setIcon(icon_ad25c5951013f5a12786708f2c7ffd4c);
+            
+    
+            var poly_line_68a9fa2e1de6408da5482ce30c16eaad = L.polyline(
+                [[54.0488219, -2.8013499], [54.3289795, -2.747183], [54.9284336, -3.2242576], [54.431954, -2.9630528], [54.4593879, -3.0243657], [54.6009812, -3.1375822], [54.5409307, -3.2762422], [51.4430411, -0.045944], [54.5751365, -2.8932053]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d3e291075880423ca17412068dea8ab3);
+        
+    
+        var popup_6d7fdc1d5d346ffe8c8ec904fdf94ee2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58ec6981728b2580ec163b2dd0a05e8d = $(`<div id="html_58ec6981728b2580ec163b2dd0a05e8d" style="width: 100.0%; height: 100.0%;">Route: LLM – William Wordsworth (1835)</div>`)[0];
+                popup_6d7fdc1d5d346ffe8c8ec904fdf94ee2.setContent(html_58ec6981728b2580ec163b2dd0a05e8d);
+            
+        
+
+        poly_line_68a9fa2e1de6408da5482ce30c16eaad.bindPopup(popup_6d7fdc1d5d346ffe8c8ec904fdf94ee2)
+        ;
+
+        
+    
+    
+            feature_group_d3e291075880423ca17412068dea8ab3.addTo(map_b8e04c67959d5729c62662518d702a27);
+        
+    
+            var feature_group_07e11c529f6c0189fa1a426e21c19e2f = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_7d6e2a62233d89fee5c27bf7ce29b28c = L.marker(
+                [54.04660667916625, -2.801902525771824],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_bb484615dadf5dae9e62957e0082e8fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b94bd9747156025e98cf8bb339c4b5ed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af1d295343363059460a182edae47222 = $(`<div id="html_af1d295343363059460a182edae47222" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 1<br>                     Context: The journey towards the lake country through Lancashire , is, with the exception of the Vale of the Ribble, at Preston , uninteresting; till you come near Lancaster , and obtain a view of the fells and mountains of Lancashire and Westmoreland ; with Lancaster Castle , and the Tower of the Church seeming to make part of the Castle , in the foreground.<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_b94bd9747156025e98cf8bb339c4b5ed.setContent(html_af1d295343363059460a182edae47222);
+            
+        
+
+        marker_7d6e2a62233d89fee5c27bf7ce29b28c.bindPopup(popup_b94bd9747156025e98cf8bb339c4b5ed)
+        ;
+
+        
+    
+    
+                marker_7d6e2a62233d89fee5c27bf7ce29b28c.setIcon(icon_bb484615dadf5dae9e62957e0082e8fe);
+            
+    
+            var marker_47a2e2dee1e5e018822e05fa2949cdbf = L.marker(
+                [54.89435005187988, -2.923743724822998],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_0e3f749f47890c1e452dc9cf3dadcd50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1edd6f7b3116a5fe501ea0c8ebeaa03 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d21945f7d6d997c1a0baaa9dd8cb27c0 = $(`<div id="html_d21945f7d6d997c1a0baaa9dd8cb27c0" style="width: 100.0%; height: 100.0%;">                     <b>Carlisle</b><br>                     Order: 2<br>                     Context: Travellers from the North would do well to go from Carlisle by Wigton , and proceed along the Lake of Bassenthwaite to Keswick ; or, if convenience should take them first to Penrith , it would still be better to cross the country to Keswick , and begin with that vale, rather than with Ulswater.<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_d1edd6f7b3116a5fe501ea0c8ebeaa03.setContent(html_d21945f7d6d997c1a0baaa9dd8cb27c0);
+            
+        
+
+        marker_47a2e2dee1e5e018822e05fa2949cdbf.bindPopup(popup_d1edd6f7b3116a5fe501ea0c8ebeaa03)
+        ;
+
+        
+    
+    
+                marker_47a2e2dee1e5e018822e05fa2949cdbf.setIcon(icon_0e3f749f47890c1e452dc9cf3dadcd50);
+            
+    
+            var marker_3cb52e0f66241d565faa56d85a2eaaf3 = L.marker(
+                [54.82423915205727, -3.162105902218126],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_4ec46fb33355de8417ea9e3742b3e0a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9afd34e3f970bc3e13681e20b67f36a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a3e2dc87e8685f83bbe09fc5031ae00 = $(`<div id="html_3a3e2dc87e8685f83bbe09fc5031ae00" style="width: 100.0%; height: 100.0%;">                     <b>Wigton</b><br>                     Order: 3<br>                     Context: Travellers from the North would do well to go from Carlisle by Wigton , and proceed along the Lake of Bassenthwaite to Keswick ; or, if convenience should take them first to Penrith , it would still be better to cross the country to Keswick , and begin with that vale, rather than with Ulswater.<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_c9afd34e3f970bc3e13681e20b67f36a.setContent(html_3a3e2dc87e8685f83bbe09fc5031ae00);
+            
+        
+
+        marker_3cb52e0f66241d565faa56d85a2eaaf3.bindPopup(popup_c9afd34e3f970bc3e13681e20b67f36a)
+        ;
+
+        
+    
+    
+                marker_3cb52e0f66241d565faa56d85a2eaaf3.setIcon(icon_4ec46fb33355de8417ea9e3742b3e0a2);
+            
+    
+            var marker_d75a2c0134c1cf17e1ccda68d66ce537 = L.marker(
+                [54.60160037173823, -3.125370693283439],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_23826fdcc19cce3211e0b0ebb6f26b1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66b9ddd2dabc6574ad28217107c1701f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08c43028d1252d05ad5fff7f734a776e = $(`<div id="html_08c43028d1252d05ad5fff7f734a776e" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 4<br>                     Context: Travellers from the North would do well to go from Carlisle by Wigton , and proceed along the Lake of Bassenthwaite to Keswick ; or, if convenience should take them first to Penrith , it would still be better to cross the country to Keswick , and begin with that vale, rather than with Ulswater.<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_66b9ddd2dabc6574ad28217107c1701f.setContent(html_08c43028d1252d05ad5fff7f734a776e);
+            
+        
+
+        marker_d75a2c0134c1cf17e1ccda68d66ce537.bindPopup(popup_66b9ddd2dabc6574ad28217107c1701f)
+        ;
+
+        
+    
+    
+                marker_d75a2c0134c1cf17e1ccda68d66ce537.setIcon(icon_23826fdcc19cce3211e0b0ebb6f26b1f);
+            
+    
+            var marker_cd2b77c6a12d966416ea98868e52d0e7 = L.marker(
+                [54.6813, -3.2315],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_5c8a2152c7f9b7a8f871864793374756 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_260c20e1b9bdb8ea4245290693b15ab9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c88172d1bff7848ba81d7278a66682fb = $(`<div id="html_c88172d1bff7848ba81d7278a66682fb" style="width: 100.0%; height: 100.0%;">                     <b>Armathwaite bridge</b><br>                     Order: 5<br>                     Context: Nunnery may be reached by Corby by making a circuit and crossing the Eden at Armathwaite bridge .<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_260c20e1b9bdb8ea4245290693b15ab9.setContent(html_c88172d1bff7848ba81d7278a66682fb);
+            
+        
+
+        marker_cd2b77c6a12d966416ea98868e52d0e7.bindPopup(popup_260c20e1b9bdb8ea4245290693b15ab9)
+        ;
+
+        
+    
+    
+                marker_cd2b77c6a12d966416ea98868e52d0e7.setIcon(icon_5c8a2152c7f9b7a8f871864793374756);
+            
+    
+            var marker_6047510a2d445ec099dd268de7b2fd8e = L.marker(
+                [54.1374080041431, -2.650576036698101],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_02cd2413fb1d83f96299943af6ac53ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95d361f6673dbf4e964f5fb39ab2854f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b1a329a4ec945324eff45ed1cb533a4 = $(`<div id="html_4b1a329a4ec945324eff45ed1cb533a4" style="width: 100.0%; height: 100.0%;">                     <b>Storrs Hall</b><br>                     Order: 6<br>                     Context: Bowness is situated upon its eastern side, and at equal distance from each extremity of the Lake of Windermere The lower part of this Lake is rarely visited, but has many interesting points of view, especially at Storrs Hall and at Fell Foot , where the Coniston Mountains peer nobly over the western barrier, which elsewhere, along the whole Lake, is comparatively tame.<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_95d361f6673dbf4e964f5fb39ab2854f.setContent(html_4b1a329a4ec945324eff45ed1cb533a4);
+            
+        
+
+        marker_6047510a2d445ec099dd268de7b2fd8e.bindPopup(popup_95d361f6673dbf4e964f5fb39ab2854f)
+        ;
+
+        
+    
+    
+                marker_6047510a2d445ec099dd268de7b2fd8e.setIcon(icon_02cd2413fb1d83f96299943af6ac53ed);
+            
+    
+            var marker_44246513fa193dfe1c7963c704f962a9 = L.marker(
+                [54.60160037173823, -3.125370693283439],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_eac8f02d22fb20dad3662cdc601fbb34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e7410e843fc4b8e3ebf180ca00e7bfe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d6329f41aafc577e4709ffaf0fd2f35 = $(`<div id="html_6d6329f41aafc577e4709ffaf0fd2f35" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 7<br>                     Context: Having previously enquired, at the Inn near Wythburn Chapel , the best way from this mile-stone to the bridge that divides the Lake, he must cross it, and proceed with the Lake on the right, to the hamlet a little beyond its termination, and rejoin the main road upon Shoulthwaite Moss , about four miles from Keswick ; or, if on foot, the Tourist may follow the stream that issues from Thirlmere down the romantic Vale of St. John 's, and so( enquiring the way at some cottage) to Keswick , by a circuit of little more than a mile.<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_9e7410e843fc4b8e3ebf180ca00e7bfe.setContent(html_6d6329f41aafc577e4709ffaf0fd2f35);
+            
+        
+
+        marker_44246513fa193dfe1c7963c704f962a9.bindPopup(popup_9e7410e843fc4b8e3ebf180ca00e7bfe)
+        ;
+
+        
+    
+    
+                marker_44246513fa193dfe1c7963c704f962a9.setIcon(icon_eac8f02d22fb20dad3662cdc601fbb34);
+            
+    
+            var marker_d935f3745ca2be1573da5158e92b3468 = L.marker(
+                [54.57527677327518, -2.885404073107643],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_85458d63aeb7e4c1d325a1ef5ba6110a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d4b8e6ea729d58f8be9c64760496c43 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2c7c182b7b7c509fa89fbbeffd35cb0c = $(`<div id="html_2c7c182b7b7c509fa89fbbeffd35cb0c" style="width: 100.0%; height: 100.0%;">                     <b>Ullswater</b><br>                     Order: 8<br>                     Context: The other, coming down Martindale , enters Ullswater at sandwyke, opposite to Gowbarrow Park .<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_5d4b8e6ea729d58f8be9c64760496c43.setContent(html_2c7c182b7b7c509fa89fbbeffd35cb0c);
+            
+        
+
+        marker_d935f3745ca2be1573da5158e92b3468.bindPopup(popup_5d4b8e6ea729d58f8be9c64760496c43)
+        ;
+
+        
+    
+    
+                marker_d935f3745ca2be1573da5158e92b3468.setIcon(icon_85458d63aeb7e4c1d325a1ef5ba6110a);
+            
+    
+            var marker_c6d2e603dad92d5ac07fbf3371ddbf7b = L.marker(
+                [54.54900660499009, -2.935420119284143],
+                {
+}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+            var icon_f4540217f80cfe52761d368cbde4b421 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc324b767b8111e99271cecb65063da9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5796a57ad1193706ad65798355c241dd = $(`<div id="html_5796a57ad1193706ad65798355c241dd" style="width: 100.0%; height: 100.0%;">                     <b>Blowick</b><br>                     Order: 9<br>                     Context: No persons but such as come to Patterdale , merely to pass through it, should fail to walk as far as Blowick , the only enclosed land which on this side borders the higher part of the Lake.<br>                     Method: NLP<br>                     Author: William Wordsworth<br>                     Year: 1835                     </div>`)[0];
+                popup_cc324b767b8111e99271cecb65063da9.setContent(html_5796a57ad1193706ad65798355c241dd);
+            
+        
+
+        marker_c6d2e603dad92d5ac07fbf3371ddbf7b.bindPopup(popup_cc324b767b8111e99271cecb65063da9)
+        ;
+
+        
+    
+    
+                marker_c6d2e603dad92d5ac07fbf3371ddbf7b.setIcon(icon_f4540217f80cfe52761d368cbde4b421);
+            
+    
+            var poly_line_84ba4b9182fa7b29ca11c85b6d9cf06a = L.polyline(
+                [[54.04660667916625, -2.801902525771824], [54.89435005187988, -2.923743724822998], [54.82423915205727, -3.162105902218126], [54.60160037173823, -3.125370693283439], [54.6813, -3.2315], [54.1374080041431, -2.650576036698101], [54.60160037173823, -3.125370693283439], [54.57527677327518, -2.885404073107643], [54.54900660499009, -2.935420119284143]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_07e11c529f6c0189fa1a426e21c19e2f);
+        
+    
+        var popup_7aebe79c1fac964effe2c6d463c73d23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04e95ca4612276a083afee5b88f217ad = $(`<div id="html_04e95ca4612276a083afee5b88f217ad" style="width: 100.0%; height: 100.0%;">Route: NLP – William Wordsworth (1835)</div>`)[0];
+                popup_7aebe79c1fac964effe2c6d463c73d23.setContent(html_04e95ca4612276a083afee5b88f217ad);
+            
+        
+
+        poly_line_84ba4b9182fa7b29ca11c85b6d9cf06a.bindPopup(popup_7aebe79c1fac964effe2c6d463c73d23)
+        ;
+
+        
+    
+    
+            feature_group_07e11c529f6c0189fa1a426e21c19e2f.addTo(map_b8e04c67959d5729c62662518d702a27);
+        
+    
+            var layer_control_4ac64c8e0cbce75599120d1734e1a468_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_e8f8ceba6f75bccc0274f52f88e45bff,
+                },
+                overlays :  {
+                    "LLM \u2013 William Wordsworth (1835)" : feature_group_d3e291075880423ca17412068dea8ab3,
+                    "NLP \u2013 William Wordsworth (1835)" : feature_group_07e11c529f6c0189fa1a426e21c19e2f,
+                },
+            };
+            let layer_control_4ac64c8e0cbce75599120d1734e1a468 = L.control.layers(
+                layer_control_4ac64c8e0cbce75599120d1734e1a468_layers.base_layers,
+                layer_control_4ac64c8e0cbce75599120d1734e1a468_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_b8e04c67959d5729c62662518d702a27);
+
+        
+</script>
+</html>

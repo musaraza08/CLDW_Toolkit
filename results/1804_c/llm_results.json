@@ -1,0 +1,66 @@
+{
+  "trajectory": [
+    {
+      "place": "Carlisle",
+      "order": 1,
+      "mention": "entering the city",
+      "note": "arrival and exploration of the city"
+    },
+    {
+      "place": "Wigton",
+      "order": 2,
+      "mention": "Reached Wigton",
+      "note": "travel from Carlisle to Wigton"
+    },
+    {
+      "place": "Ouse Bridge",
+      "order": 3,
+      "mention": "on my road to Ouse Bridge",
+      "note": "travel from Wigton to Ouse Bridge"
+    },
+    {
+      "place": "Keswick",
+      "order": 4,
+      "mention": "proceeded for Keswick",
+      "note": "travel from Ouse Bridge to Keswick"
+    },
+    {
+      "place": "Rydal Hall",
+      "order": 5,
+      "mention": "proceeded for Rydal Hall",
+      "note": "departure from Keswick to Rydal Hall"
+    },
+    {
+      "place": "Ambleside",
+      "order": 6,
+      "mention": "proceeded forward to Ambleside",
+      "note": "travel from Rydal Hall to Ambleside"
+    },
+    {
+      "place": "Ponsonby",
+      "order": 7,
+      "mention": "we arrived at Ponsonby",
+      "note": "travel from Rydal Hall to Ponsonby"
+    },
+    {
+      "place": "Coniston",
+      "order": 8,
+      "mention": "took a ride towards that charming spot",
+      "note": "travel from Ponsonby to Coniston"
+    },
+    {
+      "place": "Kendal",
+      "order": 9,
+      "mention": "progress to Kendal",
+      "note": "travel from Coniston to Kendal"
+    },
+    {
+      "place": "Kirby Lonsdale",
+      "order": 10,
+      "mention": "coming in sight of Kirby Lonsdale",
+      "note": "travel from Kendal to Kirby Lonsdale"
+    }
+  ],
+  "route_summary": "Carlisle → Wigton → Ouse Bridge → Keswick → Rydal Hall → Ambleside → Ponsonby → Coniston → Kendal → Kirby Lonsdale",
+  "confidence": "high"
+}

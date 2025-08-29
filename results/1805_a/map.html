@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa0c6bb6628cf8b147cd345158388e89 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fa0c6bb6628cf8b147cd345158388e89" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fa0c6bb6628cf8b147cd345158388e89 = L.map(
+                "map_fa0c6bb6628cf8b147cd345158388e89",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ce6b35e9712a2e9af3aa89d783a02d22 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ce6b35e9712a2e9af3aa89d783a02d22.addTo(map_fa0c6bb6628cf8b147cd345158388e89);
+        
+    
+            var feature_group_b124f23a4b4377e13d0c2e090fc05fe8 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_34bea1c92d0e824d703c00203c2c66fa = L.marker(
+                [54.5266327, -2.3179826],
+                {
+}
+            ).addTo(feature_group_b124f23a4b4377e13d0c2e090fc05fe8);
+        
+    
+            var icon_24bd53c84a82a6e7d5ef4d7cb70e81ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ecda2d89bf5d5afb2eccc66ea59789ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f4fb5dc51cf9f3de879e76a484986481 = $(`<div id="html_f4fb5dc51cf9f3de879e76a484986481" style="width: 100.0%; height: 100.0%;">                     <b>Brough</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Richard Phillips (pub.)<br>                     Year: 1805                     </div>`)[0];
+                popup_ecda2d89bf5d5afb2eccc66ea59789ec.setContent(html_f4fb5dc51cf9f3de879e76a484986481);
+            
+        
+
+        marker_34bea1c92d0e824d703c00203c2c66fa.bindPopup(popup_ecda2d89bf5d5afb2eccc66ea59789ec)
+        ;
+
+        
+    
+    
+                marker_34bea1c92d0e824d703c00203c2c66fa.setIcon(icon_24bd53c84a82a6e7d5ef4d7cb70e81ed);
+            
+    
+            var marker_8e0f9bab707604d0c14e0a3c40ce0c1e = L.marker(
+                [54.58041, -2.486536],
+                {
+}
+            ).addTo(feature_group_b124f23a4b4377e13d0c2e090fc05fe8);
+        
+    
+            var icon_9a569a26be751aaf2d898d6138ab5b4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5492152bd2ef317ecb804d5533367c38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_28066981e190e1d0a02c687a5efa8414 = $(`<div id="html_28066981e190e1d0a02c687a5efa8414" style="width: 100.0%; height: 100.0%;">                     <b>Appleby</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Richard Phillips (pub.)<br>                     Year: 1805                     </div>`)[0];
+                popup_5492152bd2ef317ecb804d5533367c38.setContent(html_28066981e190e1d0a02c687a5efa8414);
+            
+        
+
+        marker_8e0f9bab707604d0c14e0a3c40ce0c1e.bindPopup(popup_5492152bd2ef317ecb804d5533367c38)
+        ;
+
+        
+    
+    
+                marker_8e0f9bab707604d0c14e0a3c40ce0c1e.setIcon(icon_9a569a26be751aaf2d898d6138ab5b4e);
+            
+    
+            var marker_f8197d2377c9b237da73e2d16adf64d5 = L.marker(
+                [54.6639133, -2.7522047],
+                {
+}
+            ).addTo(feature_group_b124f23a4b4377e13d0c2e090fc05fe8);
+        
+    
+            var icon_dd6fd6cea6a48a06fe4088adeee97000 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa5c60bf0ce00ff15646c844ae9239b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0867a1442610c9dd4422ba10ec244e3b = $(`<div id="html_0867a1442610c9dd4422ba10ec244e3b" style="width: 100.0%; height: 100.0%;">                     <b>Penrith</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Richard Phillips (pub.)<br>                     Year: 1805                     </div>`)[0];
+                popup_fa5c60bf0ce00ff15646c844ae9239b3.setContent(html_0867a1442610c9dd4422ba10ec244e3b);
+            
+        
+
+        marker_f8197d2377c9b237da73e2d16adf64d5.bindPopup(popup_fa5c60bf0ce00ff15646c844ae9239b3)
+        ;
+
+        
+    
+    
+                marker_f8197d2377c9b237da73e2d16adf64d5.setIcon(icon_dd6fd6cea6a48a06fe4088adeee97000);
+            
+    
+            var poly_line_d356bb2a6422c6b4a3f8309b50c25d4c = L.polyline(
+                [[54.5266327, -2.3179826], [54.58041, -2.486536], [54.6639133, -2.7522047]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b124f23a4b4377e13d0c2e090fc05fe8);
+        
+    
+        var popup_47810b4fb1b1a81d94523e8b7628d3b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae826c4fbf69eaefc14f29d879a84654 = $(`<div id="html_ae826c4fbf69eaefc14f29d879a84654" style="width: 100.0%; height: 100.0%;">Route: LLM – Anon.-Richard Phillips (pub.) (1805)</div>`)[0];
+                popup_47810b4fb1b1a81d94523e8b7628d3b0.setContent(html_ae826c4fbf69eaefc14f29d879a84654);
+            
+        
+
+        poly_line_d356bb2a6422c6b4a3f8309b50c25d4c.bindPopup(popup_47810b4fb1b1a81d94523e8b7628d3b0)
+        ;
+
+        
+    
+    
+            feature_group_b124f23a4b4377e13d0c2e090fc05fe8.addTo(map_fa0c6bb6628cf8b147cd345158388e89);
+        
+    
+            var layer_control_0b57fe84c38b3c75099442e0f98ca173_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_ce6b35e9712a2e9af3aa89d783a02d22,
+                },
+                overlays :  {
+                    "LLM \u2013 Anon.-Richard Phillips (pub.) (1805)" : feature_group_b124f23a4b4377e13d0c2e090fc05fe8,
+                },
+            };
+            let layer_control_0b57fe84c38b3c75099442e0f98ca173 = L.control.layers(
+                layer_control_0b57fe84c38b3c75099442e0f98ca173_layers.base_layers,
+                layer_control_0b57fe84c38b3c75099442e0f98ca173_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_fa0c6bb6628cf8b147cd345158388e89);
+
+        
+</script>
+</html>

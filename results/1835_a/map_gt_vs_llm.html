@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4bc5939903c8db7efaf5710e6320e6ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4bc5939903c8db7efaf5710e6320e6ee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4bc5939903c8db7efaf5710e6320e6ee = L.map(
+                "map_4bc5939903c8db7efaf5710e6320e6ee",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aa13ca82f0544a46a4e83f20373ac1d4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_aa13ca82f0544a46a4e83f20373ac1d4.addTo(map_4bc5939903c8db7efaf5710e6320e6ee);
+        
+    
+            var feature_group_c2b381b6c28fc4f2f03de47e4514f0ea = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_10235cf6fa7b9569ca2bd6155293e259 = L.marker(
+                [54.04660667916625, -2.801902525771824],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_c6b7e200b6fcaa1c86ae131b42091a8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13427c8915eee2653c22ed846b37cb86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2526ea53e8b89cbc1c8e5eeedf32d0c2 = $(`<div id="html_2526ea53e8b89cbc1c8e5eeedf32d0c2" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_13427c8915eee2653c22ed846b37cb86.setContent(html_2526ea53e8b89cbc1c8e5eeedf32d0c2);
+            
+        
+
+        marker_10235cf6fa7b9569ca2bd6155293e259.bindPopup(popup_13427c8915eee2653c22ed846b37cb86)
+        ;
+
+        
+    
+    
+                marker_10235cf6fa7b9569ca2bd6155293e259.setIcon(icon_c6b7e200b6fcaa1c86ae131b42091a8f);
+            
+    
+            var marker_db36e1624afa9fa161b8d3ad036dbbce = L.marker(
+                [54.32561646560368, -2.745809060481465],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_da1a0ffe71145f355168acee25ba1666 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba8da539f2b39e71156bc0e5e27bad6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa24e583bcee762d0d2e10c5b7e1829a = $(`<div id="html_fa24e583bcee762d0d2e10c5b7e1829a" style="width: 100.0%; height: 100.0%;">                     <b>Kendal</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_ba8da539f2b39e71156bc0e5e27bad6b.setContent(html_fa24e583bcee762d0d2e10c5b7e1829a);
+            
+        
+
+        marker_db36e1624afa9fa161b8d3ad036dbbce.bindPopup(popup_ba8da539f2b39e71156bc0e5e27bad6b)
+        ;
+
+        
+    
+    
+                marker_db36e1624afa9fa161b8d3ad036dbbce.setIcon(icon_da1a0ffe71145f355168acee25ba1666);
+            
+    
+            var marker_17ae12cf2cc7cd7e766702b7be7b8ee6 = L.marker(
+                [54.36040070757029, -2.915738676011205],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_d8532b504855cf637b270db1ddfe71c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2de700e1332e75b64333fddccf5ecf17 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_465f47d41d9ee830339d17e3a444c525 = $(`<div id="html_465f47d41d9ee830339d17e3a444c525" style="width: 100.0%; height: 100.0%;">                     <b>Bowness-On-Windermere</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_2de700e1332e75b64333fddccf5ecf17.setContent(html_465f47d41d9ee830339d17e3a444c525);
+            
+        
+
+        marker_17ae12cf2cc7cd7e766702b7be7b8ee6.bindPopup(popup_2de700e1332e75b64333fddccf5ecf17)
+        ;
+
+        
+    
+    
+                marker_17ae12cf2cc7cd7e766702b7be7b8ee6.setIcon(icon_d8532b504855cf637b270db1ddfe71c1);
+            
+    
+            var marker_4a2df4287798035d3c3eb08636485ec2 = L.marker(
+                [54.43199742280473, -2.959272920560253],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_dfd6fbac2003ccdea5fbcd57c216e0d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc1a36421607546c90bf2e7609e52cbe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab7a9fbb353a6ae6a7528b7788e4779a = $(`<div id="html_ab7a9fbb353a6ae6a7528b7788e4779a" style="width: 100.0%; height: 100.0%;">                     <b>Ambleside</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_cc1a36421607546c90bf2e7609e52cbe.setContent(html_ab7a9fbb353a6ae6a7528b7788e4779a);
+            
+        
+
+        marker_4a2df4287798035d3c3eb08636485ec2.bindPopup(popup_cc1a36421607546c90bf2e7609e52cbe)
+        ;
+
+        
+    
+    
+                marker_4a2df4287798035d3c3eb08636485ec2.setIcon(icon_dfd6fbac2003ccdea5fbcd57c216e0d2);
+            
+    
+            var marker_2955cbc27b43a9d2a083d9f2243087c0 = L.marker(
+                [54.44823197501312, -2.98206973035289],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_bb4507f6e72555b0903f6fcfdc747868 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_deccd9ce9352c98a32bfe179034a78dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c3112a8fda7dea0d55a88f4e2b1c5ffc = $(`<div id="html_c3112a8fda7dea0d55a88f4e2b1c5ffc" style="width: 100.0%; height: 100.0%;">                     <b>Rydal</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_deccd9ce9352c98a32bfe179034a78dc.setContent(html_c3112a8fda7dea0d55a88f4e2b1c5ffc);
+            
+        
+
+        marker_2955cbc27b43a9d2a083d9f2243087c0.bindPopup(popup_deccd9ce9352c98a32bfe179034a78dc)
+        ;
+
+        
+    
+    
+                marker_2955cbc27b43a9d2a083d9f2243087c0.setIcon(icon_bb4507f6e72555b0903f6fcfdc747868);
+            
+    
+            var marker_cc511a90ddd218c8bb1e00dd432af21c = L.marker(
+                [54.44966001297723, -2.994852043565142],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_ae4662abbf7e6e8ed2b9187bab97a2eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_104b1af4cd3ee8404ea7daeca1eefb65 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b15c2d04a44da1e97a4d54b7a2f24aa = $(`<div id="html_6b15c2d04a44da1e97a4d54b7a2f24aa" style="width: 100.0%; height: 100.0%;">                     <b>Rydal Water</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_104b1af4cd3ee8404ea7daeca1eefb65.setContent(html_6b15c2d04a44da1e97a4d54b7a2f24aa);
+            
+        
+
+        marker_cc511a90ddd218c8bb1e00dd432af21c.bindPopup(popup_104b1af4cd3ee8404ea7daeca1eefb65)
+        ;
+
+        
+    
+    
+                marker_cc511a90ddd218c8bb1e00dd432af21c.setIcon(icon_ae4662abbf7e6e8ed2b9187bab97a2eb);
+            
+    
+            var marker_114d09233561eef4088db272805312d4 = L.marker(
+                [54.45838873427238, -3.02591946706321],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_53791a867d2a1745b24bdc7c22192705 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fa7b817156fa5eab58244b6e5914e87 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2cf7b5b9501bdfa0d01977fb4ff4f39 = $(`<div id="html_b2cf7b5b9501bdfa0d01977fb4ff4f39" style="width: 100.0%; height: 100.0%;">                     <b>Grasmere</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_4fa7b817156fa5eab58244b6e5914e87.setContent(html_b2cf7b5b9501bdfa0d01977fb4ff4f39);
+            
+        
+
+        marker_114d09233561eef4088db272805312d4.bindPopup(popup_4fa7b817156fa5eab58244b6e5914e87)
+        ;
+
+        
+    
+    
+                marker_114d09233561eef4088db272805312d4.setIcon(icon_53791a867d2a1745b24bdc7c22192705);
+            
+    
+            var marker_8cddaa3bbab185a478212ff9b442635d = L.marker(
+                [54.53486670386065, -3.058713394258698],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_aff9b27a45b9743f5c76d2a8fe7013cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90c7fc841de1c2c9c821dcfae41a77d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_064c28332e23fed19e9ba1bbd5ad0785 = $(`<div id="html_064c28332e23fed19e9ba1bbd5ad0785" style="width: 100.0%; height: 100.0%;">                     <b>Thirlmere</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_90c7fc841de1c2c9c821dcfae41a77d6.setContent(html_064c28332e23fed19e9ba1bbd5ad0785);
+            
+        
+
+        marker_8cddaa3bbab185a478212ff9b442635d.bindPopup(popup_90c7fc841de1c2c9c821dcfae41a77d6)
+        ;
+
+        
+    
+    
+                marker_8cddaa3bbab185a478212ff9b442635d.setIcon(icon_aff9b27a45b9743f5c76d2a8fe7013cb);
+            
+    
+            var marker_d3405880fcf8459f538b3536a597c90d = L.marker(
+                [54.60160037173823, -3.125370693283439],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_a77b9559e21fa036fd02d181776b5a5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d74efa83b27617c7e9438d9322ea4c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9997257c1622de7691d59a85c608935 = $(`<div id="html_d9997257c1622de7691d59a85c608935" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_4d74efa83b27617c7e9438d9322ea4c8.setContent(html_d9997257c1622de7691d59a85c608935);
+            
+        
+
+        marker_d3405880fcf8459f538b3536a597c90d.bindPopup(popup_4d74efa83b27617c7e9438d9322ea4c8)
+        ;
+
+        
+    
+    
+                marker_d3405880fcf8459f538b3536a597c90d.setIcon(icon_a77b9559e21fa036fd02d181776b5a5f);
+            
+    
+            var marker_6b85041556a41cbd7b1c17bc72601391 = L.marker(
+                [54.58308385381825, -3.152850781702139],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_0322cee372cda8da1159751015c25089 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49947df0e5086a321281340e2f2d2d4f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_edee2ec82b59da33e362d9b341425f6f = $(`<div id="html_edee2ec82b59da33e362d9b341425f6f" style="width: 100.0%; height: 100.0%;">                     <b>Derwent Water</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_49947df0e5086a321281340e2f2d2d4f.setContent(html_edee2ec82b59da33e362d9b341425f6f);
+            
+        
+
+        marker_6b85041556a41cbd7b1c17bc72601391.bindPopup(popup_49947df0e5086a321281340e2f2d2d4f)
+        ;
+
+        
+    
+    
+                marker_6b85041556a41cbd7b1c17bc72601391.setIcon(icon_0322cee372cda8da1159751015c25089);
+            
+    
+            var marker_9a3e884c8f37f5c9ec18682ad98ea1f1 = L.marker(
+                [54.65436466085852, -3.216877183061965],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_452270815b09c34cd3016b484e014864 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e67d8cc70232a5fea1ed28ce139e6ab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac98ffa91721fbbe754a05097b5c297f = $(`<div id="html_ac98ffa91721fbbe754a05097b5c297f" style="width: 100.0%; height: 100.0%;">                     <b>Bassenthwaite Lake</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_0e67d8cc70232a5fea1ed28ce139e6ab.setContent(html_ac98ffa91721fbbe754a05097b5c297f);
+            
+        
+
+        marker_9a3e884c8f37f5c9ec18682ad98ea1f1.bindPopup(popup_0e67d8cc70232a5fea1ed28ce139e6ab)
+        ;
+
+        
+    
+    
+                marker_9a3e884c8f37f5c9ec18682ad98ea1f1.setIcon(icon_452270815b09c34cd3016b484e014864);
+            
+    
+            var marker_3438a220ebe5207f23c58ed172778946 = L.marker(
+                [54.54589906722578, -3.275491839681807],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_85c80285b8b6814d984900a9cbd05799 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95bd8c9d55048feea5806cc44d755b15 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0193db2cb5d391c391371947bd75b9cc = $(`<div id="html_0193db2cb5d391c391371947bd75b9cc" style="width: 100.0%; height: 100.0%;">                     <b>Buttermere</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_95bd8c9d55048feea5806cc44d755b15.setContent(html_0193db2cb5d391c391371947bd75b9cc);
+            
+        
+
+        marker_3438a220ebe5207f23c58ed172778946.bindPopup(popup_95bd8c9d55048feea5806cc44d755b15)
+        ;
+
+        
+    
+    
+                marker_3438a220ebe5207f23c58ed172778946.setIcon(icon_85c80285b8b6814d984900a9cbd05799);
+            
+    
+            var marker_d3958f4d441db1995d114c6d08bf4471 = L.marker(
+                [54.55455472767663, -3.30669123730051],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_de7eb53555a439e612632602b38331cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7433d93dd3fd4f54fb87e106f32aa1f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62447f7c21391c392566e870a95efd8f = $(`<div id="html_62447f7c21391c392566e870a95efd8f" style="width: 100.0%; height: 100.0%;">                     <b>Crummock Water</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_e7433d93dd3fd4f54fb87e106f32aa1f.setContent(html_62447f7c21391c392566e870a95efd8f);
+            
+        
+
+        marker_d3958f4d441db1995d114c6d08bf4471.bindPopup(popup_e7433d93dd3fd4f54fb87e106f32aa1f)
+        ;
+
+        
+    
+    
+                marker_d3958f4d441db1995d114c6d08bf4471.setIcon(icon_de7eb53555a439e612632602b38331cc);
+            
+    
+            var marker_567e1beade75a9740e6d5dc7d8de93ab = L.marker(
+                [54.57807111295115, -3.326731581761575],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_768091e71ddb260a1d14900a95219874 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85e081d2e4e21c5807eec8512eaa1ee7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5579e7237fb77f2e80ad5fd4f48d3abf = $(`<div id="html_5579e7237fb77f2e80ad5fd4f48d3abf" style="width: 100.0%; height: 100.0%;">                     <b>Loweswater</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_85e081d2e4e21c5807eec8512eaa1ee7.setContent(html_5579e7237fb77f2e80ad5fd4f48d3abf);
+            
+        
+
+        marker_567e1beade75a9740e6d5dc7d8de93ab.bindPopup(popup_85e081d2e4e21c5807eec8512eaa1ee7)
+        ;
+
+        
+    
+    
+                marker_567e1beade75a9740e6d5dc7d8de93ab.setIcon(icon_768091e71ddb260a1d14900a95219874);
+            
+    
+            var marker_df57ed9e4e1c2275008b5a92921c4320 = L.marker(
+                [54.57527677327518, -2.885404073107643],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_33eb163a7edb8cef25e09f3010668fa4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d536c898f5778cdecc85ba538405fa6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dfdebb08383d009d0475810b40598663 = $(`<div id="html_dfdebb08383d009d0475810b40598663" style="width: 100.0%; height: 100.0%;">                     <b>Ullswater</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_9d536c898f5778cdecc85ba538405fa6.setContent(html_dfdebb08383d009d0475810b40598663);
+            
+        
+
+        marker_df57ed9e4e1c2275008b5a92921c4320.bindPopup(popup_9d536c898f5778cdecc85ba538405fa6)
+        ;
+
+        
+    
+    
+                marker_df57ed9e4e1c2275008b5a92921c4320.setIcon(icon_33eb163a7edb8cef25e09f3010668fa4);
+            
+    
+            var marker_3fb5f2a7ed8afb218ba7f48cb6f6408a = L.marker(
+                [54.60292651226363, -2.936655869166173],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_f5d12cbf26bf4dbd826e9cb2b5a875e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af345a7d4f3d3860c7cdb31f38c0e7f6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15ad9c719a9c8158d4b8be803bdd4ddd = $(`<div id="html_15ad9c719a9c8158d4b8be803bdd4ddd" style="width: 100.0%; height: 100.0%;">                     <b>Matterdale End</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_af345a7d4f3d3860c7cdb31f38c0e7f6.setContent(html_15ad9c719a9c8158d4b8be803bdd4ddd);
+            
+        
+
+        marker_3fb5f2a7ed8afb218ba7f48cb6f6408a.bindPopup(popup_af345a7d4f3d3860c7cdb31f38c0e7f6)
+        ;
+
+        
+    
+    
+                marker_3fb5f2a7ed8afb218ba7f48cb6f6408a.setIcon(icon_f5d12cbf26bf4dbd826e9cb2b5a875e8);
+            
+    
+            var marker_f0ff417d60be44b85590cc04f4ef0800 = L.marker(
+                [54.58507196358554, -2.920770635497279],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_585e977c5124bf1af9b2d37592c2fd83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99b8a08df9225a94f4bbae038b97b5cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a570de06a18dc89a5f94f1cdee830f05 = $(`<div id="html_a570de06a18dc89a5f94f1cdee830f05" style="width: 100.0%; height: 100.0%;">                     <b>Gowbarrow Park</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_99b8a08df9225a94f4bbae038b97b5cd.setContent(html_a570de06a18dc89a5f94f1cdee830f05);
+            
+        
+
+        marker_f0ff417d60be44b85590cc04f4ef0800.bindPopup(popup_99b8a08df9225a94f4bbae038b97b5cd)
+        ;
+
+        
+    
+    
+                marker_f0ff417d60be44b85590cc04f4ef0800.setIcon(icon_585e977c5124bf1af9b2d37592c2fd83);
+            
+    
+            var marker_004799953c2d17cd36be6c739b95fe94 = L.marker(
+                [54.53595761254276, -2.938607921075117],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_03fdd0bedb388a43687baac524d47d69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e49bf6ef39d6fae7dbf22776bbaaba09 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de96f4e5d5dfd2d3a89d636ee0e691d0 = $(`<div id="html_de96f4e5d5dfd2d3a89d636ee0e691d0" style="width: 100.0%; height: 100.0%;">                     <b>Patterdale</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_e49bf6ef39d6fae7dbf22776bbaaba09.setContent(html_de96f4e5d5dfd2d3a89d636ee0e691d0);
+            
+        
+
+        marker_004799953c2d17cd36be6c739b95fe94.bindPopup(popup_e49bf6ef39d6fae7dbf22776bbaaba09)
+        ;
+
+        
+    
+    
+                marker_004799953c2d17cd36be6c739b95fe94.setIcon(icon_03fdd0bedb388a43687baac524d47d69);
+            
+    
+            var marker_3b90ae1f456b199939ecacbd60f751b2 = L.marker(
+                [54.61151285171987, -2.817815867535586],
+                {
+}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+            var icon_5fbb0d746d3184c59f03630d8eb81b6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_debf9bbd740e2dbabd368c0a4a6eba6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_767667ce94d7554645bf8b25689a6b2c = $(`<div id="html_767667ce94d7554645bf8b25689a6b2c" style="width: 100.0%; height: 100.0%;">                     <b>Pooley Bridge</b><br>                     Order: <br>                     Context: <br>                     Method: GT<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_debf9bbd740e2dbabd368c0a4a6eba6b.setContent(html_767667ce94d7554645bf8b25689a6b2c);
+            
+        
+
+        marker_3b90ae1f456b199939ecacbd60f751b2.bindPopup(popup_debf9bbd740e2dbabd368c0a4a6eba6b)
+        ;
+
+        
+    
+    
+                marker_3b90ae1f456b199939ecacbd60f751b2.setIcon(icon_5fbb0d746d3184c59f03630d8eb81b6b);
+            
+    
+            var poly_line_98e55f31b08a265c498572f6d48a0912 = L.polyline(
+                [[54.04660667916625, -2.801902525771824], [54.32561646560368, -2.745809060481465], [54.36040070757029, -2.915738676011205], [54.43199742280473, -2.959272920560253], [54.44823197501312, -2.98206973035289], [54.44966001297723, -2.994852043565142], [54.45838873427238, -3.02591946706321], [54.53486670386065, -3.058713394258698], [54.60160037173823, -3.125370693283439], [54.58308385381825, -3.152850781702139], [54.65436466085852, -3.216877183061965], [54.54589906722578, -3.275491839681807], [54.55455472767663, -3.30669123730051], [54.57807111295115, -3.326731581761575], [54.57527677327518, -2.885404073107643], [54.60292651226363, -2.936655869166173], [54.58507196358554, -2.920770635497279], [54.53595761254276, -2.938607921075117], [54.61151285171987, -2.817815867535586]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c2b381b6c28fc4f2f03de47e4514f0ea);
+        
+    
+        var popup_47415565dd6b85b35608f5d875b8cee8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3fcebace165d9d5d131a0c14d3ee25a = $(`<div id="html_d3fcebace165d9d5d131a0c14d3ee25a" style="width: 100.0%; height: 100.0%;">Route: GT</div>`)[0];
+                popup_47415565dd6b85b35608f5d875b8cee8.setContent(html_d3fcebace165d9d5d131a0c14d3ee25a);
+            
+        
+
+        poly_line_98e55f31b08a265c498572f6d48a0912.bindPopup(popup_47415565dd6b85b35608f5d875b8cee8)
+        ;
+
+        
+    
+    
+            feature_group_c2b381b6c28fc4f2f03de47e4514f0ea.addTo(map_4bc5939903c8db7efaf5710e6320e6ee);
+        
+    
+            var feature_group_988aa04ed0055f14a5962b72213bb6a3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_8d531149412ed55102016333ba46796f = L.marker(
+                [54.0488219, -2.8013499],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_28bd95d7a1f852ff1102672e9012f14f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4e2edcab82578f5468d1c4dfea711d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c12182caa614c338b021cf51a5a3e7c = $(`<div id="html_4c12182caa614c338b021cf51a5a3e7c" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_d4e2edcab82578f5468d1c4dfea711d6.setContent(html_4c12182caa614c338b021cf51a5a3e7c);
+            
+        
+
+        marker_8d531149412ed55102016333ba46796f.bindPopup(popup_d4e2edcab82578f5468d1c4dfea711d6)
+        ;
+
+        
+    
+    
+                marker_8d531149412ed55102016333ba46796f.setIcon(icon_28bd95d7a1f852ff1102672e9012f14f);
+            
+    
+            var marker_2fb86378530002b57b9c819455b02503 = L.marker(
+                [54.3289795, -2.747183],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_337ad9734cf75a3aa33eeafcc5035443 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c486ceb4390743fda61a43672495a6fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_333c0a3d063b70061f71ad0c3620d87e = $(`<div id="html_333c0a3d063b70061f71ad0c3620d87e" style="width: 100.0%; height: 100.0%;">                     <b>Kendal</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_c486ceb4390743fda61a43672495a6fb.setContent(html_333c0a3d063b70061f71ad0c3620d87e);
+            
+        
+
+        marker_2fb86378530002b57b9c819455b02503.bindPopup(popup_c486ceb4390743fda61a43672495a6fb)
+        ;
+
+        
+    
+    
+                marker_2fb86378530002b57b9c819455b02503.setIcon(icon_337ad9734cf75a3aa33eeafcc5035443);
+            
+    
+            var marker_22646462b7fbe79ce78fd5dc145275fb = L.marker(
+                [54.9284336, -3.2242576],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_41af2963991a36780b252f7d58ff3073 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0917ec0a2314aa6d01f72ac025a4771f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8743698b258fe31dc22eef6523699c09 = $(`<div id="html_8743698b258fe31dc22eef6523699c09" style="width: 100.0%; height: 100.0%;">                     <b>Bowness</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_0917ec0a2314aa6d01f72ac025a4771f.setContent(html_8743698b258fe31dc22eef6523699c09);
+            
+        
+
+        marker_22646462b7fbe79ce78fd5dc145275fb.bindPopup(popup_0917ec0a2314aa6d01f72ac025a4771f)
+        ;
+
+        
+    
+    
+                marker_22646462b7fbe79ce78fd5dc145275fb.setIcon(icon_41af2963991a36780b252f7d58ff3073);
+            
+    
+            var marker_2e4cac24b4810cfd9219e0431822e0ba = L.marker(
+                [54.431954, -2.9630528],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_5ddcffd8c40678941a5d24dcad6a97f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9fb6aa6d529c3846fa32c167f83cda2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c82aa3419d34cd0d65ccf32f1e2f576b = $(`<div id="html_c82aa3419d34cd0d65ccf32f1e2f576b" style="width: 100.0%; height: 100.0%;">                     <b>Ambleside</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_b9fb6aa6d529c3846fa32c167f83cda2.setContent(html_c82aa3419d34cd0d65ccf32f1e2f576b);
+            
+        
+
+        marker_2e4cac24b4810cfd9219e0431822e0ba.bindPopup(popup_b9fb6aa6d529c3846fa32c167f83cda2)
+        ;
+
+        
+    
+    
+                marker_2e4cac24b4810cfd9219e0431822e0ba.setIcon(icon_5ddcffd8c40678941a5d24dcad6a97f8);
+            
+    
+            var marker_272dfe93e0dcbf4feb127274da9ce840 = L.marker(
+                [54.4593879, -3.0243657],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_aee02b38b1a6ae4e5d80af613168a3f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a223aa975f5a1f3f2608ba5f3d8ff058 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c51a3cf95e29a209176d07610e5f0507 = $(`<div id="html_c51a3cf95e29a209176d07610e5f0507" style="width: 100.0%; height: 100.0%;">                     <b>Grasmere</b><br>                     Order: 5<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_a223aa975f5a1f3f2608ba5f3d8ff058.setContent(html_c51a3cf95e29a209176d07610e5f0507);
+            
+        
+
+        marker_272dfe93e0dcbf4feb127274da9ce840.bindPopup(popup_a223aa975f5a1f3f2608ba5f3d8ff058)
+        ;
+
+        
+    
+    
+                marker_272dfe93e0dcbf4feb127274da9ce840.setIcon(icon_aee02b38b1a6ae4e5d80af613168a3f0);
+            
+    
+            var marker_90de3eaa292ff806296d2d9752e6a163 = L.marker(
+                [54.6009812, -3.1375822],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_db9d92289af45a9e54a20bc91f783a7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b362913b274249c581d530b36123ea4f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a9257b2534c1a9ba8d7edefa46af44f = $(`<div id="html_2a9257b2534c1a9ba8d7edefa46af44f" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 6<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_b362913b274249c581d530b36123ea4f.setContent(html_2a9257b2534c1a9ba8d7edefa46af44f);
+            
+        
+
+        marker_90de3eaa292ff806296d2d9752e6a163.bindPopup(popup_b362913b274249c581d530b36123ea4f)
+        ;
+
+        
+    
+    
+                marker_90de3eaa292ff806296d2d9752e6a163.setIcon(icon_db9d92289af45a9e54a20bc91f783a7e);
+            
+    
+            var marker_e8386a72b0c32b6c56f0563f2fd94548 = L.marker(
+                [54.5409307, -3.2762422],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_e829fee2659fdf1423c61c5215a2d02f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff580c876e9e1fcf88b03d5397efeec1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f27459ff6094c1edaada9e8ffeeba463 = $(`<div id="html_f27459ff6094c1edaada9e8ffeeba463" style="width: 100.0%; height: 100.0%;">                     <b>Buttermere</b><br>                     Order: 7<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_ff580c876e9e1fcf88b03d5397efeec1.setContent(html_f27459ff6094c1edaada9e8ffeeba463);
+            
+        
+
+        marker_e8386a72b0c32b6c56f0563f2fd94548.bindPopup(popup_ff580c876e9e1fcf88b03d5397efeec1)
+        ;
+
+        
+    
+    
+                marker_e8386a72b0c32b6c56f0563f2fd94548.setIcon(icon_e829fee2659fdf1423c61c5215a2d02f);
+            
+    
+            var marker_5fcf6aa82ba0255d02267649e61101ca = L.marker(
+                [51.4430411, -0.045944],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_d4222c72015fc3e043e52e1a42727985 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2eac17129ff1d4a2367205327329e45d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7326c0cadffec21d0afc793f2e7a264a = $(`<div id="html_7326c0cadffec21d0afc793f2e7a264a" style="width: 100.0%; height: 100.0%;">                     <b>Wastdale</b><br>                     Order: 8<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_2eac17129ff1d4a2367205327329e45d.setContent(html_7326c0cadffec21d0afc793f2e7a264a);
+            
+        
+
+        marker_5fcf6aa82ba0255d02267649e61101ca.bindPopup(popup_2eac17129ff1d4a2367205327329e45d)
+        ;
+
+        
+    
+    
+                marker_5fcf6aa82ba0255d02267649e61101ca.setIcon(icon_d4222c72015fc3e043e52e1a42727985);
+            
+    
+            var marker_f9bdd0500e292f9cc3da22e2b1580af4 = L.marker(
+                [54.5751365, -2.8932053],
+                {
+}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+            var icon_62c889c62e54b00932c16727a1174614 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65b6d781e9819bb39f892d35d437741c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4965571e71a94bca29b47d13b86d137 = $(`<div id="html_a4965571e71a94bca29b47d13b86d137" style="width: 100.0%; height: 100.0%;">                     <b>Ullswater</b><br>                     Order: 9<br>                     Context: <br>                     Method: LLM<br>                     Author: <br>                     Year:                      </div>`)[0];
+                popup_65b6d781e9819bb39f892d35d437741c.setContent(html_a4965571e71a94bca29b47d13b86d137);
+            
+        
+
+        marker_f9bdd0500e292f9cc3da22e2b1580af4.bindPopup(popup_65b6d781e9819bb39f892d35d437741c)
+        ;
+
+        
+    
+    
+                marker_f9bdd0500e292f9cc3da22e2b1580af4.setIcon(icon_62c889c62e54b00932c16727a1174614);
+            
+    
+            var poly_line_67fec9d9c700d925a503996282c0deee = L.polyline(
+                [[54.0488219, -2.8013499], [54.3289795, -2.747183], [54.9284336, -3.2242576], [54.431954, -2.9630528], [54.4593879, -3.0243657], [54.6009812, -3.1375822], [54.5409307, -3.2762422], [51.4430411, -0.045944], [54.5751365, -2.8932053]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_988aa04ed0055f14a5962b72213bb6a3);
+        
+    
+        var popup_1938730ebb18cc564d4ccbff5f18f242 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d5d04287df77f14f384e4ac1bf26b4d = $(`<div id="html_3d5d04287df77f14f384e4ac1bf26b4d" style="width: 100.0%; height: 100.0%;">Route: LLM</div>`)[0];
+                popup_1938730ebb18cc564d4ccbff5f18f242.setContent(html_3d5d04287df77f14f384e4ac1bf26b4d);
+            
+        
+
+        poly_line_67fec9d9c700d925a503996282c0deee.bindPopup(popup_1938730ebb18cc564d4ccbff5f18f242)
+        ;
+
+        
+    
+    
+            feature_group_988aa04ed0055f14a5962b72213bb6a3.addTo(map_4bc5939903c8db7efaf5710e6320e6ee);
+        
+    
+            var layer_control_f70a08d93720040638e86d39f6f4689c_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_aa13ca82f0544a46a4e83f20373ac1d4,
+                },
+                overlays :  {
+                    "GT" : feature_group_c2b381b6c28fc4f2f03de47e4514f0ea,
+                    "LLM" : feature_group_988aa04ed0055f14a5962b72213bb6a3,
+                },
+            };
+            let layer_control_f70a08d93720040638e86d39f6f4689c = L.control.layers(
+                layer_control_f70a08d93720040638e86d39f6f4689c_layers.base_layers,
+                layer_control_f70a08d93720040638e86d39f6f4689c_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_4bc5939903c8db7efaf5710e6320e6ee);
+
+        
+</script>
+</html>

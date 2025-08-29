@@ -1,0 +1,86 @@
+{
+  "trajectory": [
+    {
+      "place": "North Britain",
+      "order": 1,
+      "context": "Far as the eye could reach,& c.' it would have been at least as well applied as to any part of North Britain .",
+      "lat": null,
+      "lon": null,
+      "type": null
+    },
+    {
+      "place": "Keswick",
+      "order": 2,
+      "context": "Arrived at our inn at Keswick , which we found inferior to most of the Highland inns, a circumstance unpardonable in a country much more frequented.",
+      "lat": "54.60120234465001",
+      "lon": "-3.137880601359804",
+      "type": "ppl"
+    },
+    {
+      "place": "Thornville",
+      "order": 3,
+      "context": "I now returned, and found I was just in time for breakfast, and Sir Michael requested me to desire Mr. Gerrard to follow, whom he undertook to wait on; but as I knew it would interfere with his schemes, I politely excused him, and wrote word, that I would wish him to amuse himself and go on to Thornville at his leisure, as it might be a day or two before I should leave my generous landlord; he accordingly proceeded, returning me the gig.",
+      "lat": "53.98579406467463",
+      "lon": "-1.305390746711617",
+      "type": "civil"
+    },
+    {
+      "place": "Ponsonby",
+      "order": 4,
+      "context": "We had agreed the night before to rise early, in order to take the hill-road to Ponsonby , by which twenty - five miles are saved; but Sir Michael being engaged in justice business, and other similarly pleasant avocations for a young gentleman, the forenoon passed away insensibly; and finding the day so much advanced, I had the honour to set out with Miss Fleming , leaving the gentlemen to follow.",
+      "lat": "54.43598051808319",
+      "lon": "-3.457115296600183",
+      "type": "ppl"
+    },
+    {
+      "place": "Rydal Hall",
+      "order": 5,
+      "context": "The gentlemen, we had been obliged to leave at Rydal Hall , overtook us, as I was contemplating the wild situation eround Hard Knot , a vale which forms a junction of the three countries of Cumberland , Westmoreland , and Lancashire .",
+      "lat": "54.4483",
+      "lon": "-2.98",
+      "type": "manual update"
+    },
+    {
+      "place": "Ponsonby",
+      "order": 6,
+      "context": "Sir James Graham and his brother dined with us at Ponsonby , and politely expressed their concern at not being at Netherton when I passed it, upon which I promised to pay my respects to Sir James in my next excursion, and to examine his museum of Roman antiquities, so universally known and admired by the literati.",
+      "lat": "54.43598051808319",
+      "lon": "-3.457115296600183",
+      "type": "ppl"
+    },
+    {
+      "place": "Coniston Lake",
+      "order": 7,
+      "context": "Night came on so fast, and the road was sometimes so steep, that it was twilight before we reached the banks of Coniston Lake , which I lamented, as both the lake and the country round it are beautifully picturesque, and finely variegated.",
+      "lat": "54.3361",
+      "lon": "-3.0765",
+      "type": "manual_update"
+    },
+    {
+      "place": "Rydal Hall",
+      "order": 8,
+      "context": "Miss F. with much solicitation, was prevailed upon to stay the evening, which was the mildest imaginable, and we set off for Rydal Hall ; the murmuring of water-falls heard at a distance, and the romantic scenes advantageously discovered by the clear light of the moon, as we passed, made our ride seem very short, and we reached home sooner than we expected.",
+      "lat": "54.4483",
+      "lon": "-2.98",
+      "type": "manual update"
+    },
+    {
+      "place": "England",
+      "order": 9,
+      "context": "Passed by Ings church, a neat, modern building, which is said to owe its foundation to the following event: A British merchant, of the name of Ings , or Innes , a native of this part of the country, having acquired a very considerable fortune at Lisbon , where he had resided many years; and from whence he had, from time to time, conveyed great part of his property to his relations in England ; at length, resolved to return to this native country, and having converted the remainder of this effects into Portugal gold, embarked with it privately, on board a vessel, bound for England ; which was scarcely got out of the harbour, when his escape was discovered, and a great outcry made from the shore to bring her back: the captain, sensible of his own danger, would have tacked about, and landed him, when his whole property would have been confiscated, and his person imprisoned; it being contrary to the laws of Portugal to carry the gold coin out of the kingdom; but, providentially, the wind blowing directly contrary, obliged the captain to continue his course, and he arrived safe in England ; and built this church in grateful remembrance of his wonderful preservation.",
+      "lat": null,
+      "lon": null,
+      "type": null
+    },
+    {
+      "place": "River Lune",
+      "order": 10,
+      "context": "The country, on quitting the suburbs of Kendal , becomes very barren, being almost destitute of leaf or grass; the russet predominates, and the road is hilly and stony, which made it unpleasant riding; but soon coming in sight of Kirby Lonsdale , my eye was instantly relieved, and my ideas enlivened; for here the beautiful River Lune refreshes the vale; some hanging woods, corn fields, and good pastures, together with the pleasing appearance of the neat town of Kirby Lonsdale rendered the scene quite delightful.",
+      "lat": "54.21368667875034",
+      "lon": "-2.672622913542797",
+      "type": "water"
+    }
+  ],
+  "route_summary": "North Britain → Keswick → Thornville → Ponsonby → Rydal Hall → Ponsonby → Coniston Lake → Rydal Hall → England → River Lune",
+  "confidence": "medium"
+}

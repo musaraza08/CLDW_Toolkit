@@ -1,0 +1,24 @@
+{
+  "trajectory": [
+    {
+      "place": "Brough",
+      "order": 1,
+      "mention": "arrived in view of an extensive and well-cultivated vale, in the midst of which the little town of Brough is seated",
+      "note": "arrival in Brough"
+    },
+    {
+      "place": "Appleby",
+      "order": 2,
+      "mention": "From Brough to Appleby, the road is excellent",
+      "note": "travel from Brough to Appleby"
+    },
+    {
+      "place": "Penrith",
+      "order": 3,
+      "mention": "we proceeded on our way to Penrith",
+      "note": "departure from Appleby to Penrith"
+    }
+  ],
+  "route_summary": "Brough → Appleby → Penrith",
+  "confidence": "high"
+}

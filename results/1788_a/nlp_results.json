@@ -1,0 +1,22 @@
+{
+  "trajectory": [
+    {
+      "place": "Keswick",
+      "order": 1,
+      "context": "Leave Low Wood Inn, and ride through Ambleside to Keswick , a small village, at the head of Windermere Water .",
+      "lat": "54.60160037173823",
+      "lon": "-3.125370693283439",
+      "type": "ppl"
+    },
+    {
+      "place": "Carlisle",
+      "order": 2,
+      "context": "Dine at Penrith , and ride to Carlisle in the evening.",
+      "lat": "54.89435005187988",
+      "lon": "-2.923743724822998",
+      "type": "ppla"
+    }
+  ],
+  "route_summary": "Keswick → Carlisle",
+  "confidence": "medium"
+}

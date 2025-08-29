@@ -1,0 +1,38 @@
+{
+  "trajectory": [
+    {
+      "place": "Netherby",
+      "order": 1,
+      "context": "Wednesday We took leave of our respectable host this morning, and set out for Carlisle , which is 12 miles distant from Netherby .",
+      "lat": "55.03426776775118",
+      "lon": "-2.946690997669673",
+      "type": "ppl"
+    },
+    {
+      "place": "Keswick",
+      "order": 2,
+      "context": "We passed a most agreeable day in visiting its different parts, and continued our journey afterwards to Keswick , a distance of 10 miles from the point where where we quitted Ulleswater Lake.",
+      "lat": "54.60160037173823",
+      "lon": "-3.125370693283439",
+      "type": "ppl"
+    },
+    {
+      "place": "Calgarth Park",
+      "order": 3,
+      "context": "On our return to Low Wood , we dressed, and afterwards moved our quarters to Calgarth Park , where we dined and passed a most agreeable evening, under the hospitable roof of our worthy friend, the Bishop and his numerous family.",
+      "lat": "54.38830822",
+      "lon": "-2.928529867",
+      "type": "manual update"
+    },
+    {
+      "place": "Lancaster",
+      "order": 4,
+      "context": "There is but little worthy of observation here, and we passed on through a very long stage of twenty - one miles, to Lancaster .",
+      "lat": "54.04660667916625",
+      "lon": "-2.801902525771824",
+      "type": "ppl"
+    }
+  ],
+  "route_summary": "Netherby → Keswick → Calgarth Park → Lancaster",
+  "confidence": "medium"
+}

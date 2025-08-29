@@ -1,0 +1,36 @@
+{
+  "trajectory": [
+    {
+      "place": "Penrith",
+      "order": 1,
+      "mention": "Our starting point shall be Penrith",
+      "note": "departure point for the tour"
+    },
+    {
+      "place": "Pooley Bridge",
+      "order": 2,
+      "mention": "From Penrith two roads lead to Pooley Bridge",
+      "note": "first destination after Penrith"
+    },
+    {
+      "place": "Patterdale",
+      "order": 3,
+      "mention": "the road runs along the western shore of Ulleswater To Patterdale",
+      "note": "travel along Ulleswater to reach Patterdale"
+    },
+    {
+      "place": "Ambleside",
+      "order": 4,
+      "mention": "the lake may be seen while travelling to Ambleside",
+      "note": "destination after Patterdale"
+    },
+    {
+      "place": "Keswick",
+      "order": 5,
+      "mention": "the traveller should now proceed to Keswick",
+      "note": "next major stop after Ambleside"
+    }
+  ],
+  "route_summary": "Penrith → Pooley Bridge → Patterdale → Ambleside → Keswick",
+  "confidence": "high"
+}

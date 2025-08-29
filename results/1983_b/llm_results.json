@@ -1,0 +1,102 @@
+{
+  "trajectory": [
+    {
+      "place": "Settle",
+      "order": 1,
+      "mention": "Left Settle",
+      "note": "departure"
+    },
+    {
+      "place": "Ingleton",
+      "order": 2,
+      "mention": "rode to Ingleton",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Kirby Lonsdale",
+      "order": 3,
+      "mention": "Proceeded to Kirby Lonsdale",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Dallam Tower",
+      "order": 4,
+      "mention": "proceeded to Dallam Tower",
+      "note": "visit to a notable location"
+    },
+    {
+      "place": "Kendal",
+      "order": 5,
+      "mention": "road to Kendal",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Bowness",
+      "order": 6,
+      "mention": "descend to Bowness",
+      "note": "arrival at destination"
+    },
+    {
+      "place": "Ambleside",
+      "order": 7,
+      "mention": "Salutation Inn at Ambleside",
+      "note": "stay at inn"
+    },
+    {
+      "place": "Rydale",
+      "order": 8,
+      "mention": "From Ambleside to Rydale",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Grasmere",
+      "order": 9,
+      "mention": "Grasmere Lake breaks upon the sight",
+      "note": "arrival at destination"
+    },
+    {
+      "place": "Keswick",
+      "order": 10,
+      "mention": "leading to Keswick",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Buttermere",
+      "order": 11,
+      "mention": "Left Keswick on an excursion to Buttermere",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Lorton",
+      "order": 12,
+      "mention": "entered the beautiful Vale of Lorton",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Paterdale",
+      "order": 13,
+      "mention": "Proceed on my way to Paterdale",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Penrith",
+      "order": 14,
+      "mention": "route to Penrith",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Appleby",
+      "order": 15,
+      "mention": "proceeded on my journey to Appleby",
+      "note": "travel to next location"
+    },
+    {
+      "place": "Brough",
+      "order": 16,
+      "mention": "rode to Brough",
+      "note": "travel to next location"
+    }
+  ],
+  "route_summary": "Settle → Ingleton → Kirby Lonsdale → Dallam Tower → Kendal → Bowness → Ambleside → Rydale → Grasmere → Keswick → Buttermere → Lorton → Paterdale → Penrith → Appleby → Brough",
+  "confidence": "high"
+}

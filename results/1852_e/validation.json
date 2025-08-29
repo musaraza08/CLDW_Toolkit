@@ -1,0 +1,491 @@
+{
+  "ID": "1852_e",
+  "llm": {
+    "id": "1852_e",
+    "method": "LLM",
+    "counts": {
+      "pred_len": 6,
+      "gt_len": 12
+    },
+    "metrics": {
+      "nodes": {
+        "precision": 0.8333333333333334,
+        "recall": 0.4166666666666667,
+        "f1": 0.5555555555555556,
+        "tp": 5,
+        "fp": 1,
+        "fn": 7
+      },
+      "edges": {
+        "precision": 0.6,
+        "recall": 0.2727272727272727,
+        "f1": 0.37499999999999994,
+        "tp": 3,
+        "fp": 2,
+        "fn": 8
+      },
+      "sequence": {
+        "lcs_ratio": 0.4166666666666667,
+        "edit_distance": 7,
+        "edit_distance_norm": 0.5833333333333334,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.6666666666666666,
+        "kendall_tau": 1.0
+      }
+    },
+    "geo": {
+      "count": 0,
+      "mean_km": null,
+      "median_km": null,
+      "pct_within_1km": null,
+      "pct_within_5km": null,
+      "pct_within_10km": null
+    },
+    "ner": {
+      "precision": 0.8333333333333334,
+      "recall": 0.4166666666666667,
+      "f1": 0.5555555555555556,
+      "tp": 5,
+      "fp": 1,
+      "fn": 7
+    },
+    "trajectory_simple": {
+      "edit_distance": 7,
+      "edit_distance_norm": 0.5833333333333334,
+      "sequence_accuracy": 0.0,
+      "positional_accuracy": 0.6666666666666666,
+      "geospatial": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      }
+    },
+    "relations_simple": {
+      "precision": 0.6,
+      "recall": 0.2727272727272727,
+      "f1": 0.37499999999999994,
+      "kendall_tau": 1.0
+    },
+    "errors": {
+      "hallucinations": {
+        "count": 1,
+        "proportion_pred": 0.16666666666666666
+      },
+      "mis_orderings": {
+        "num_inversions": 0,
+        "inversion_fraction": 0.0
+      },
+      "implicit_inference": {
+        "count": 2,
+        "proportion_pred_edges": 0.4
+      }
+    },
+    "matches": [
+      {
+        "pred_index": 0,
+        "gt_index": 0,
+        "pred_place": "Liverpool",
+        "gt_place": "Liverpool",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 1,
+        "gt_index": 1,
+        "pred_place": "Bowness-on-Windermere",
+        "gt_place": "Bowness-On-Windermere",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 2,
+        "gt_index": 2,
+        "pred_place": "Ambleside",
+        "gt_place": "Ambleside",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 3,
+        "gt_index": 3,
+        "pred_place": "Rydal",
+        "gt_place": "Rydal",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 4,
+        "gt_index": 6,
+        "pred_place": "Grasmere",
+        "gt_place": "Grasmere",
+        "reason": "name>=0.92",
+        "score": 0.0
+      }
+    ],
+    "unmatched_pred_indices": [
+      5
+    ],
+    "unmatched_gt_indices": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "nlp": {
+    "id": "1852_e",
+    "method": "NLP",
+    "counts": {
+      "pred_len": 4,
+      "gt_len": 12
+    },
+    "metrics": {
+      "nodes": {
+        "precision": 0.75,
+        "recall": 0.25,
+        "f1": 0.375,
+        "tp": 3,
+        "fp": 1,
+        "fn": 9
+      },
+      "edges": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 3,
+        "fn": 11
+      },
+      "sequence": {
+        "lcs_ratio": 0.25,
+        "edit_distance": 9,
+        "edit_distance_norm": 0.75,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.25,
+        "kendall_tau": 1.0
+      }
+    },
+    "geo": {
+      "count": 3,
+      "mean_km": 0.0,
+      "median_km": 0.0,
+      "pct_within_1km": 1.0,
+      "pct_within_5km": 1.0,
+      "pct_within_10km": 1.0
+    },
+    "ner": {
+      "precision": 0.75,
+      "recall": 0.25,
+      "f1": 0.375,
+      "tp": 3,
+      "fp": 1,
+      "fn": 9
+    },
+    "trajectory_simple": {
+      "edit_distance": 9,
+      "edit_distance_norm": 0.75,
+      "sequence_accuracy": 0.0,
+      "positional_accuracy": 0.25,
+      "geospatial": {
+        "count": 3,
+        "mean_km": 0.0,
+        "median_km": 0.0,
+        "pct_within_1km": 1.0,
+        "pct_within_5km": 1.0,
+        "pct_within_10km": 1.0
+      }
+    },
+    "relations_simple": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "kendall_tau": 1.0
+    },
+    "errors": {
+      "hallucinations": {
+        "count": 1,
+        "proportion_pred": 0.25
+      },
+      "mis_orderings": {
+        "num_inversions": 0,
+        "inversion_fraction": 0.0
+      },
+      "implicit_inference": {
+        "count": 3,
+        "proportion_pred_edges": 1.0
+      }
+    },
+    "matches": [
+      {
+        "pred_index": 0,
+        "gt_index": 0,
+        "pred_place": "Liverpool",
+        "gt_place": "Liverpool",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      },
+      {
+        "pred_index": 1,
+        "gt_index": 6,
+        "pred_place": "Grasmere",
+        "gt_place": "Grasmere",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      },
+      {
+        "pred_index": 3,
+        "gt_index": 11,
+        "pred_place": "Liverpool",
+        "gt_place": "Liverpool",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      }
+    ],
+    "unmatched_pred_indices": [
+      2
+    ],
+    "unmatched_gt_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "pairwise": {
+    "llm_as_pred": {
+      "id": "1852_e",
+      "method": "LLM_vs_NLP",
+      "counts": {
+        "pred_len": 6,
+        "gt_len": 4
+      },
+      "metrics": {
+        "nodes": {
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "tp": 2,
+          "fp": 4,
+          "fn": 2
+        },
+        "edges": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 5,
+          "fn": 3
+        },
+        "sequence": {
+          "lcs_ratio": 0.5,
+          "edit_distance": 5,
+          "edit_distance_norm": 1.25,
+          "sequence_accuracy": 0.0,
+          "positional_accuracy": 0.25,
+          "kendall_tau": 1.0
+        }
+      },
+      "geo": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      },
+      "ner": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4,
+        "tp": 2,
+        "fp": 4,
+        "fn": 2
+      },
+      "trajectory_simple": {
+        "edit_distance": 5,
+        "edit_distance_norm": 1.25,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.25,
+        "geospatial": {
+          "count": 0,
+          "mean_km": null,
+          "median_km": null,
+          "pct_within_1km": null,
+          "pct_within_5km": null,
+          "pct_within_10km": null
+        }
+      },
+      "relations_simple": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "kendall_tau": 1.0
+      },
+      "errors": {
+        "hallucinations": {
+          "count": 4,
+          "proportion_pred": 0.6666666666666666
+        },
+        "mis_orderings": {
+          "num_inversions": 0,
+          "inversion_fraction": 0.0
+        },
+        "implicit_inference": {
+          "count": 5,
+          "proportion_pred_edges": 1.0
+        }
+      },
+      "matches": [
+        {
+          "pred_index": 0,
+          "gt_index": 0,
+          "pred_place": "Liverpool",
+          "gt_place": "Liverpool",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 4,
+          "gt_index": 1,
+          "pred_place": "Grasmere",
+          "gt_place": "Grasmere",
+          "reason": "name>=0.92",
+          "score": 0.0
+        }
+      ],
+      "unmatched_pred_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "unmatched_gt_indices": [
+        2,
+        3
+      ]
+    },
+    "nlp_as_pred": {
+      "id": "1852_e",
+      "method": "NLP_vs_LLM",
+      "counts": {
+        "pred_len": 4,
+        "gt_len": 6
+      },
+      "metrics": {
+        "nodes": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4,
+          "tp": 2,
+          "fp": 2,
+          "fn": 4
+        },
+        "edges": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 3,
+          "fn": 5
+        },
+        "sequence": {
+          "lcs_ratio": 0.3333333333333333,
+          "edit_distance": 5,
+          "edit_distance_norm": 0.8333333333333334,
+          "sequence_accuracy": 0.0,
+          "positional_accuracy": 0.25,
+          "kendall_tau": 1.0
+        }
+      },
+      "geo": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      },
+      "ner": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4,
+        "tp": 2,
+        "fp": 2,
+        "fn": 4
+      },
+      "trajectory_simple": {
+        "edit_distance": 5,
+        "edit_distance_norm": 0.8333333333333334,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.25,
+        "geospatial": {
+          "count": 0,
+          "mean_km": null,
+          "median_km": null,
+          "pct_within_1km": null,
+          "pct_within_5km": null,
+          "pct_within_10km": null
+        }
+      },
+      "relations_simple": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "kendall_tau": 1.0
+      },
+      "errors": {
+        "hallucinations": {
+          "count": 1,
+          "proportion_pred": 0.25
+        },
+        "mis_orderings": {
+          "num_inversions": 0,
+          "inversion_fraction": 0.0
+        },
+        "implicit_inference": {
+          "count": 3,
+          "proportion_pred_edges": 1.0
+        }
+      },
+      "matches": [
+        {
+          "pred_index": 0,
+          "gt_index": 0,
+          "pred_place": "Liverpool",
+          "gt_place": "Liverpool",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 1,
+          "gt_index": 4,
+          "pred_place": "Grasmere",
+          "gt_place": "Grasmere",
+          "reason": "name>=0.92",
+          "score": 0.0
+        }
+      ],
+      "unmatched_pred_indices": [
+        2,
+        3
+      ],
+      "unmatched_gt_indices": [
+        1,
+        2,
+        3,
+        5
+      ]
+    }
+  }
+}

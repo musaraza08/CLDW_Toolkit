@@ -1,0 +1,42 @@
+{
+  "trajectory": [
+    {
+      "place": "Liverpool",
+      "order": 1,
+      "mention": "Reaching Liverpool that night",
+      "note": "arrival in Liverpool"
+    },
+    {
+      "place": "Bowness-on-Windermere",
+      "order": 2,
+      "mention": "reached Bowness, on Lake Windermere",
+      "note": "arrival by rail"
+    },
+    {
+      "place": "Ambleside",
+      "order": 3,
+      "mention": "sailed to Ambleside",
+      "note": "arrival by steamer"
+    },
+    {
+      "place": "Rydal",
+      "order": 4,
+      "mention": "walked from Ambleside to Rydal",
+      "note": "walked to Rydal"
+    },
+    {
+      "place": "Grasmere",
+      "order": 5,
+      "mention": "walk to Grasmere to breakfast",
+      "note": "walked to Grasmere"
+    },
+    {
+      "place": "Elterwater",
+      "order": 6,
+      "mention": "another lake, the Elter Water",
+      "note": "walked to Elter Water"
+    }
+  ],
+  "route_summary": "Liverpool → Bowness-on-Windermere → Ambleside → Rydal → Grasmere → Elterwater",
+  "confidence": "high"
+}

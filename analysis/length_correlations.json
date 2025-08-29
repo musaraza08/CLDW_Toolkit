@@ -1,0 +1,26 @@
+{
+  "NLP": {
+    "edit_distance_norm": {
+      "pearson": 0.11758015746473963,
+      "spearman": 0.2796365500928297,
+      "n": 10
+    },
+    "positional_accuracy": {
+      "pearson": -0.4623464632080724,
+      "spearman": -0.5693243283022934,
+      "n": 10
+    }
+  },
+  "LLM": {
+    "edit_distance_norm": {
+      "pearson": 0.26344739642622106,
+      "spearman": 0.3873335483621993,
+      "n": 12
+    },
+    "positional_accuracy": {
+      "pearson": -0.2728051505680901,
+      "spearman": -0.37391224581226906,
+      "n": 12
+    }
+  }
+}

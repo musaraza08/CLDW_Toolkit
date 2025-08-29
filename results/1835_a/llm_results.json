@@ -1,0 +1,60 @@
+{
+  "trajectory": [
+    {
+      "place": "Lancaster",
+      "order": 1,
+      "mention": "Let us now go back to Lancaster",
+      "note": "starting point for a circuitous route"
+    },
+    {
+      "place": "Kendal",
+      "order": 2,
+      "mention": "The direct road thence to Kendal is 22 miles",
+      "note": "travel from Lancaster to Kendal"
+    },
+    {
+      "place": "Bowness",
+      "order": 3,
+      "mention": "Travellers from the North would do well to go from Carlisle by Wigton , and proceed along the Lake of Bassenthwaite to Keswick",
+      "note": "approach to Windermere via Bowness"
+    },
+    {
+      "place": "Ambleside",
+      "order": 4,
+      "mention": "walking thence to Ambleside",
+      "note": "travel from Bowness to Ambleside"
+    },
+    {
+      "place": "Grasmere",
+      "order": 5,
+      "mention": "and along the fell to the foot of Grasmere Lake",
+      "note": "travel from Ambleside to Grasmere"
+    },
+    {
+      "place": "Keswick",
+      "order": 6,
+      "mention": "The direct road from Grasmere to Keswick",
+      "note": "travel from Grasmere to Keswick"
+    },
+    {
+      "place": "Buttermere",
+      "order": 7,
+      "mention": "Borrowdale is also conveniently seen on the way to Wastdale over Styhead; or, to Buttermere",
+      "note": "travel from Keswick to Buttermere"
+    },
+    {
+      "place": "Wastdale",
+      "order": 8,
+      "mention": "Into Wastdale Are three horse-roads",
+      "note": "travel from Buttermere to Wastdale"
+    },
+    {
+      "place": "Ullswater",
+      "order": 9,
+      "mention": "We will conclude with Ullswater",
+      "note": "final destination in the travel sequence"
+    }
+  ],
+  "route_summary": "Lancaster → Kendal → Bowness → Ambleside → Grasmere → Keswick → Buttermere → Wastdale → Ullswater",
+  "confidence": "high"
+}

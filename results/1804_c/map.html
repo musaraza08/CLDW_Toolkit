@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_45b69fcbd38b6666aaa3d196431455e1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_45b69fcbd38b6666aaa3d196431455e1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_45b69fcbd38b6666aaa3d196431455e1 = L.map(
+                "map_45b69fcbd38b6666aaa3d196431455e1",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f01403a3a671e2526005715bb2dfbb72 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f01403a3a671e2526005715bb2dfbb72.addTo(map_45b69fcbd38b6666aaa3d196431455e1);
+        
+    
+            var feature_group_0e9d3729a901fdc55784426311245121 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_b9899d6b1ce98ee799f378442fa6e36d = L.marker(
+                [54.8948478, -2.9362311],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_cefe339631c24d617cbb55fe25ce1532 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c960d9e8389aef3aac9a44d625cf809 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ebdf292c9ac9563be5d36e48ea931d4c = $(`<div id="html_ebdf292c9ac9563be5d36e48ea931d4c" style="width: 100.0%; height: 100.0%;">                     <b>Carlisle</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_5c960d9e8389aef3aac9a44d625cf809.setContent(html_ebdf292c9ac9563be5d36e48ea931d4c);
+            
+        
+
+        marker_b9899d6b1ce98ee799f378442fa6e36d.bindPopup(popup_5c960d9e8389aef3aac9a44d625cf809)
+        ;
+
+        
+    
+    
+                marker_b9899d6b1ce98ee799f378442fa6e36d.setIcon(icon_cefe339631c24d617cbb55fe25ce1532);
+            
+    
+            var marker_8cf7496e8dae110cbebadf0527ebea43 = L.marker(
+                [54.8246802, -3.1610942],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_1129d3d467c5a902227990515b60e05d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_762d30419c3faccb116b083351495620 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_faca0b468fdfc8cccfff6198c6b7a1b4 = $(`<div id="html_faca0b468fdfc8cccfff6198c6b7a1b4" style="width: 100.0%; height: 100.0%;">                     <b>Wigton</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_762d30419c3faccb116b083351495620.setContent(html_faca0b468fdfc8cccfff6198c6b7a1b4);
+            
+        
+
+        marker_8cf7496e8dae110cbebadf0527ebea43.bindPopup(popup_762d30419c3faccb116b083351495620)
+        ;
+
+        
+    
+    
+                marker_8cf7496e8dae110cbebadf0527ebea43.setIcon(icon_1129d3d467c5a902227990515b60e05d);
+            
+    
+            var marker_2b71b89f6d7ccc1f0791463af555557a = L.marker(
+                [53.7249138, -0.8786927],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_b77d62a4b803ab572160c4d0f9f12d7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c8d521a4198ad826504b433a08a3805 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_744f63d43a83fb34488042c466528422 = $(`<div id="html_744f63d43a83fb34488042c466528422" style="width: 100.0%; height: 100.0%;">                     <b>Ouse Bridge</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_0c8d521a4198ad826504b433a08a3805.setContent(html_744f63d43a83fb34488042c466528422);
+            
+        
+
+        marker_2b71b89f6d7ccc1f0791463af555557a.bindPopup(popup_0c8d521a4198ad826504b433a08a3805)
+        ;
+
+        
+    
+    
+                marker_2b71b89f6d7ccc1f0791463af555557a.setIcon(icon_b77d62a4b803ab572160c4d0f9f12d7a);
+            
+    
+            var marker_b7f2c51239699f628b170c5963dc7bf3 = L.marker(
+                [54.6009812, -3.1375822],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_cb76c1743275f41f4d33c8bfc3f92c45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abf22f5b476ca3f5c451a66653973bcc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d7cab556caf2e26ed8fce891fb2abc4e = $(`<div id="html_d7cab556caf2e26ed8fce891fb2abc4e" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_abf22f5b476ca3f5c451a66653973bcc.setContent(html_d7cab556caf2e26ed8fce891fb2abc4e);
+            
+        
+
+        marker_b7f2c51239699f628b170c5963dc7bf3.bindPopup(popup_abf22f5b476ca3f5c451a66653973bcc)
+        ;
+
+        
+    
+    
+                marker_b7f2c51239699f628b170c5963dc7bf3.setIcon(icon_cb76c1743275f41f4d33c8bfc3f92c45);
+            
+    
+            var marker_da404f693e93b4249c327445900d6c5d = L.marker(
+                [54.4486605, -2.9799473],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_9f2f19176a776b088ed28d5c6458fcd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd0ffb4a37ca0d2e28298c0851eddcc1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4c2b92c50d3baf4792a610e5aed45fb = $(`<div id="html_c4c2b92c50d3baf4792a610e5aed45fb" style="width: 100.0%; height: 100.0%;">                     <b>Rydal Hall</b><br>                     Order: 5<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_bd0ffb4a37ca0d2e28298c0851eddcc1.setContent(html_c4c2b92c50d3baf4792a610e5aed45fb);
+            
+        
+
+        marker_da404f693e93b4249c327445900d6c5d.bindPopup(popup_bd0ffb4a37ca0d2e28298c0851eddcc1)
+        ;
+
+        
+    
+    
+                marker_da404f693e93b4249c327445900d6c5d.setIcon(icon_9f2f19176a776b088ed28d5c6458fcd8);
+            
+    
+            var marker_cd5478b5a09cd33c3e73e21abcc51780 = L.marker(
+                [54.431954, -2.9630528],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_bee3f0c47856fb671ed202f2531e9965 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92c5fd362267860a270d026dac6a2e52 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5081a42c8f4232d38b877203612ee705 = $(`<div id="html_5081a42c8f4232d38b877203612ee705" style="width: 100.0%; height: 100.0%;">                     <b>Ambleside</b><br>                     Order: 6<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_92c5fd362267860a270d026dac6a2e52.setContent(html_5081a42c8f4232d38b877203612ee705);
+            
+        
+
+        marker_cd5478b5a09cd33c3e73e21abcc51780.bindPopup(popup_92c5fd362267860a270d026dac6a2e52)
+        ;
+
+        
+    
+    
+                marker_cd5478b5a09cd33c3e73e21abcc51780.setIcon(icon_bee3f0c47856fb671ed202f2531e9965);
+            
+    
+            var marker_767b241d70c38cf98c58e2642ab57789 = L.marker(
+                [54.4361658, -3.4581195],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_17337a46bc120d14399f941d1cf9a862 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dda07685d90a94efcfcd0c222ec7f821 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_72c7e0b9c56103743c0f2cdf7c649a29 = $(`<div id="html_72c7e0b9c56103743c0f2cdf7c649a29" style="width: 100.0%; height: 100.0%;">                     <b>Ponsonby</b><br>                     Order: 7<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_dda07685d90a94efcfcd0c222ec7f821.setContent(html_72c7e0b9c56103743c0f2cdf7c649a29);
+            
+        
+
+        marker_767b241d70c38cf98c58e2642ab57789.bindPopup(popup_dda07685d90a94efcfcd0c222ec7f821)
+        ;
+
+        
+    
+    
+                marker_767b241d70c38cf98c58e2642ab57789.setIcon(icon_17337a46bc120d14399f941d1cf9a862);
+            
+    
+            var marker_60a4aa010a62a76f3ad81482db76af1f = L.marker(
+                [54.3689253, -3.0755427],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_b7ac967b8354071247b1b1615dd13535 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86b241c4bdcd253f10a16f30c4a53f9f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc8cdcc0554e05e1170f349fe6452a1c = $(`<div id="html_dc8cdcc0554e05e1170f349fe6452a1c" style="width: 100.0%; height: 100.0%;">                     <b>Coniston</b><br>                     Order: 8<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_86b241c4bdcd253f10a16f30c4a53f9f.setContent(html_dc8cdcc0554e05e1170f349fe6452a1c);
+            
+        
+
+        marker_60a4aa010a62a76f3ad81482db76af1f.bindPopup(popup_86b241c4bdcd253f10a16f30c4a53f9f)
+        ;
+
+        
+    
+    
+                marker_60a4aa010a62a76f3ad81482db76af1f.setIcon(icon_b7ac967b8354071247b1b1615dd13535);
+            
+    
+            var marker_f856c2a6e5ec259adde5087d19e3e7b2 = L.marker(
+                [54.3289795, -2.747183],
+                {
+}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+            var icon_913ace175a1e59e38ad69470d7f62f5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8dd62c0c633ba17167c576a52ee85dc6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_647be43e3d47222495c40cef09e9d28e = $(`<div id="html_647be43e3d47222495c40cef09e9d28e" style="width: 100.0%; height: 100.0%;">                     <b>Kendal</b><br>                     Order: 9<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_8dd62c0c633ba17167c576a52ee85dc6.setContent(html_647be43e3d47222495c40cef09e9d28e);
+            
+        
+
+        marker_f856c2a6e5ec259adde5087d19e3e7b2.bindPopup(popup_8dd62c0c633ba17167c576a52ee85dc6)
+        ;
+
+        
+    
+    
+                marker_f856c2a6e5ec259adde5087d19e3e7b2.setIcon(icon_913ace175a1e59e38ad69470d7f62f5e);
+            
+    
+            var poly_line_c69dd475aaf41077c1fd4c38ecdbf1fa = L.polyline(
+                [[54.8948478, -2.9362311], [54.8246802, -3.1610942], [53.7249138, -0.8786927], [54.6009812, -3.1375822], [54.4486605, -2.9799473], [54.431954, -2.9630528], [54.4361658, -3.4581195], [54.3689253, -3.0755427], [54.3289795, -2.747183]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0e9d3729a901fdc55784426311245121);
+        
+    
+        var popup_9fe44aef62bb89b34098127bdda6e6b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c3bc19ee1009a861c7b6a266c64c114 = $(`<div id="html_8c3bc19ee1009a861c7b6a266c64c114" style="width: 100.0%; height: 100.0%;">Route: LLM – Thomas Thornton (1804)</div>`)[0];
+                popup_9fe44aef62bb89b34098127bdda6e6b8.setContent(html_8c3bc19ee1009a861c7b6a266c64c114);
+            
+        
+
+        poly_line_c69dd475aaf41077c1fd4c38ecdbf1fa.bindPopup(popup_9fe44aef62bb89b34098127bdda6e6b8)
+        ;
+
+        
+    
+    
+            feature_group_0e9d3729a901fdc55784426311245121.addTo(map_45b69fcbd38b6666aaa3d196431455e1);
+        
+    
+            var feature_group_92d5bb700fbcf658ea851a41c47f6a96 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_2068bf0f97fcbe4b8b3d4e265256e363 = L.marker(
+                [53.8666204, -1.9093803],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_d088dd8dda7d5edf030e6297681db476 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_039879899455b149a7e3d20baaba83f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7f951285d4d21844a971e6afe6f9d6b9 = $(`<div id="html_7f951285d4d21844a971e6afe6f9d6b9" style="width: 100.0%; height: 100.0%;">                     <b>North Britain</b><br>                     Order: 1<br>                     Context: Far as the eye could reach,& c.' it would have been at least as well applied as to any part of North Britain .<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_039879899455b149a7e3d20baaba83f0.setContent(html_7f951285d4d21844a971e6afe6f9d6b9);
+            
+        
+
+        marker_2068bf0f97fcbe4b8b3d4e265256e363.bindPopup(popup_039879899455b149a7e3d20baaba83f0)
+        ;
+
+        
+    
+    
+                marker_2068bf0f97fcbe4b8b3d4e265256e363.setIcon(icon_d088dd8dda7d5edf030e6297681db476);
+            
+    
+            var marker_7aadb44ce6105fb3cb24658104626fb4 = L.marker(
+                [54.60120234465001, -3.137880601359804],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_9d693cc61d51aec214115ac7492f26c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_074db382d2c7adf342d528122278a4d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_932ab0a4674443276f0d8e932ae897d9 = $(`<div id="html_932ab0a4674443276f0d8e932ae897d9" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 2<br>                     Context: Arrived at our inn at Keswick , which we found inferior to most of the Highland inns, a circumstance unpardonable in a country much more frequented.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_074db382d2c7adf342d528122278a4d0.setContent(html_932ab0a4674443276f0d8e932ae897d9);
+            
+        
+
+        marker_7aadb44ce6105fb3cb24658104626fb4.bindPopup(popup_074db382d2c7adf342d528122278a4d0)
+        ;
+
+        
+    
+    
+                marker_7aadb44ce6105fb3cb24658104626fb4.setIcon(icon_9d693cc61d51aec214115ac7492f26c4);
+            
+    
+            var marker_20be9be42281742d7af3fc91cef15fc3 = L.marker(
+                [53.98579406467463, -1.305390746711617],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_0defaf9e84a68044b686917651db4e2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef9fda0942d788a6b690e548000c533e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f958a47a989735d0e32905b3582a7dfc = $(`<div id="html_f958a47a989735d0e32905b3582a7dfc" style="width: 100.0%; height: 100.0%;">                     <b>Thornville</b><br>                     Order: 3<br>                     Context: I now returned, and found I was just in time for breakfast, and Sir Michael requested me to desire Mr. Gerrard to follow, whom he undertook to wait on; but as I knew it would interfere with his schemes, I politely excused him, and wrote word, that I would wish him to amuse himself and go on to Thornville at his leisure, as it might be a day or two before I should leave my generous landlord; he accordingly proceeded, returning me the gig.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_ef9fda0942d788a6b690e548000c533e.setContent(html_f958a47a989735d0e32905b3582a7dfc);
+            
+        
+
+        marker_20be9be42281742d7af3fc91cef15fc3.bindPopup(popup_ef9fda0942d788a6b690e548000c533e)
+        ;
+
+        
+    
+    
+                marker_20be9be42281742d7af3fc91cef15fc3.setIcon(icon_0defaf9e84a68044b686917651db4e2d);
+            
+    
+            var marker_ffb5d490ff6a517c6e26973105516ba8 = L.marker(
+                [54.43598051808319, -3.457115296600183],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_f21f743466f6cc9fb184a6b109746b56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e53dcfc71b8438bc7b2809b49d6d399 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7db39b8b1c2576711c7ee8bd28684c11 = $(`<div id="html_7db39b8b1c2576711c7ee8bd28684c11" style="width: 100.0%; height: 100.0%;">                     <b>Ponsonby</b><br>                     Order: 4<br>                     Context: We had agreed the night before to rise early, in order to take the hill-road to Ponsonby , by which twenty - five miles are saved; but Sir Michael being engaged in justice business, and other similarly pleasant avocations for a young gentleman, the forenoon passed away insensibly; and finding the day so much advanced, I had the honour to set out with Miss Fleming , leaving the gentlemen to follow.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_7e53dcfc71b8438bc7b2809b49d6d399.setContent(html_7db39b8b1c2576711c7ee8bd28684c11);
+            
+        
+
+        marker_ffb5d490ff6a517c6e26973105516ba8.bindPopup(popup_7e53dcfc71b8438bc7b2809b49d6d399)
+        ;
+
+        
+    
+    
+                marker_ffb5d490ff6a517c6e26973105516ba8.setIcon(icon_f21f743466f6cc9fb184a6b109746b56);
+            
+    
+            var marker_852cec4041a7eadd2059d769b17d5cd6 = L.marker(
+                [54.4483, -2.98],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_0b8dfd33c0ff32e0d04c8fab6f8fede8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3964b2bd5ec584eed079e79555ac7d08 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00c3c12286da520da27fa604ac8cfdfa = $(`<div id="html_00c3c12286da520da27fa604ac8cfdfa" style="width: 100.0%; height: 100.0%;">                     <b>Rydal Hall</b><br>                     Order: 5<br>                     Context: The gentlemen, we had been obliged to leave at Rydal Hall , overtook us, as I was contemplating the wild situation eround Hard Knot , a vale which forms a junction of the three countries of Cumberland , Westmoreland , and Lancashire .<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_3964b2bd5ec584eed079e79555ac7d08.setContent(html_00c3c12286da520da27fa604ac8cfdfa);
+            
+        
+
+        marker_852cec4041a7eadd2059d769b17d5cd6.bindPopup(popup_3964b2bd5ec584eed079e79555ac7d08)
+        ;
+
+        
+    
+    
+                marker_852cec4041a7eadd2059d769b17d5cd6.setIcon(icon_0b8dfd33c0ff32e0d04c8fab6f8fede8);
+            
+    
+            var marker_6e639ec8040ba94234e9f550222a67ee = L.marker(
+                [54.43598051808319, -3.457115296600183],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_7ab3d9ed0adc9af08eb42c770e7a5f0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a0b9fedc896d4facef9c0b3dfa49312 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c9ca94112d9b5d1aa7cbcbb6c526f4e0 = $(`<div id="html_c9ca94112d9b5d1aa7cbcbb6c526f4e0" style="width: 100.0%; height: 100.0%;">                     <b>Ponsonby</b><br>                     Order: 6<br>                     Context: Sir James Graham and his brother dined with us at Ponsonby , and politely expressed their concern at not being at Netherton when I passed it, upon which I promised to pay my respects to Sir James in my next excursion, and to examine his museum of Roman antiquities, so universally known and admired by the literati.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_7a0b9fedc896d4facef9c0b3dfa49312.setContent(html_c9ca94112d9b5d1aa7cbcbb6c526f4e0);
+            
+        
+
+        marker_6e639ec8040ba94234e9f550222a67ee.bindPopup(popup_7a0b9fedc896d4facef9c0b3dfa49312)
+        ;
+
+        
+    
+    
+                marker_6e639ec8040ba94234e9f550222a67ee.setIcon(icon_7ab3d9ed0adc9af08eb42c770e7a5f0b);
+            
+    
+            var marker_cb9608de7b2e8df0b5b5658c8a93f8c2 = L.marker(
+                [54.3361, -3.0765],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_1e492441978ac36b2d0ccb0fb2bc44bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_259e4fbdc77974dfcaed09e1ab379f9b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa036f3b608b9e765c29598cbee2a6a2 = $(`<div id="html_aa036f3b608b9e765c29598cbee2a6a2" style="width: 100.0%; height: 100.0%;">                     <b>Coniston Lake</b><br>                     Order: 7<br>                     Context: Night came on so fast, and the road was sometimes so steep, that it was twilight before we reached the banks of Coniston Lake , which I lamented, as both the lake and the country round it are beautifully picturesque, and finely variegated.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_259e4fbdc77974dfcaed09e1ab379f9b.setContent(html_aa036f3b608b9e765c29598cbee2a6a2);
+            
+        
+
+        marker_cb9608de7b2e8df0b5b5658c8a93f8c2.bindPopup(popup_259e4fbdc77974dfcaed09e1ab379f9b)
+        ;
+
+        
+    
+    
+                marker_cb9608de7b2e8df0b5b5658c8a93f8c2.setIcon(icon_1e492441978ac36b2d0ccb0fb2bc44bc);
+            
+    
+            var marker_59047514e46aeaa152e4fde92dde3214 = L.marker(
+                [54.4483, -2.98],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_8c6149f25ba8a1fa32c94b99bd84471e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a5778effa437bca07abdcba2ba613df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dbcf2cad16ab82cd806ea3cd57a9d1d4 = $(`<div id="html_dbcf2cad16ab82cd806ea3cd57a9d1d4" style="width: 100.0%; height: 100.0%;">                     <b>Rydal Hall</b><br>                     Order: 8<br>                     Context: Miss F. with much solicitation, was prevailed upon to stay the evening, which was the mildest imaginable, and we set off for Rydal Hall ; the murmuring of water-falls heard at a distance, and the romantic scenes advantageously discovered by the clear light of the moon, as we passed, made our ride seem very short, and we reached home sooner than we expected.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_2a5778effa437bca07abdcba2ba613df.setContent(html_dbcf2cad16ab82cd806ea3cd57a9d1d4);
+            
+        
+
+        marker_59047514e46aeaa152e4fde92dde3214.bindPopup(popup_2a5778effa437bca07abdcba2ba613df)
+        ;
+
+        
+    
+    
+                marker_59047514e46aeaa152e4fde92dde3214.setIcon(icon_8c6149f25ba8a1fa32c94b99bd84471e);
+            
+    
+            var marker_ca2cd8cb7d1425ef54113d67a5ec8cb6 = L.marker(
+                [51.5000209, -0.192442],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_2b308914feb03507f46313a67169ce89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e7170e87c2689c9cabcdc33fc93e189 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8453f37a46123b422a572aafcc8fe4ce = $(`<div id="html_8453f37a46123b422a572aafcc8fe4ce" style="width: 100.0%; height: 100.0%;">                     <b>England</b><br>                     Order: 9<br>                     Context: Passed by Ings church, a neat, modern building, which is said to owe its foundation to the following event: A British merchant, of the name of Ings , or Innes , a native of this part of the country, having acquired a very considerable fortune at Lisbon , where he had resided many years; and from whence he had, from time to time, conveyed great part of his property to his relations in England ; at length, resolved to return to this native country, and having converted the remainder of this effects into Portugal gold, embarked with it privately, on board a vessel, bound for England ; which was scarcely got out of the harbour, when his escape was discovered, and a great outcry made from the shore to bring her back: the captain, sensible of his own danger, would have tacked about, and landed him, when his whole property would have been confiscated, and his person imprisoned; it being contrary to the laws of Portugal to carry the gold coin out of the kingdom; but, providentially, the wind blowing directly contrary, obliged the captain to continue his course, and he arrived safe in England ; and built this church in grateful remembrance of his wonderful preservation.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_6e7170e87c2689c9cabcdc33fc93e189.setContent(html_8453f37a46123b422a572aafcc8fe4ce);
+            
+        
+
+        marker_ca2cd8cb7d1425ef54113d67a5ec8cb6.bindPopup(popup_6e7170e87c2689c9cabcdc33fc93e189)
+        ;
+
+        
+    
+    
+                marker_ca2cd8cb7d1425ef54113d67a5ec8cb6.setIcon(icon_2b308914feb03507f46313a67169ce89);
+            
+    
+            var marker_bbfec9a13d1957994a330a8e3e4b9506 = L.marker(
+                [54.21368667875034, -2.672622913542797],
+                {
+}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+            var icon_e9ce92732537d036cd42e6dd450207b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_942f06ed29a8e617c960ddea6e00f6f2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7851198d25fcc205e3662e11356082fd = $(`<div id="html_7851198d25fcc205e3662e11356082fd" style="width: 100.0%; height: 100.0%;">                     <b>River Lune</b><br>                     Order: 10<br>                     Context: The country, on quitting the suburbs of Kendal , becomes very barren, being almost destitute of leaf or grass; the russet predominates, and the road is hilly and stony, which made it unpleasant riding; but soon coming in sight of Kirby Lonsdale , my eye was instantly relieved, and my ideas enlivened; for here the beautiful River Lune refreshes the vale; some hanging woods, corn fields, and good pastures, together with the pleasing appearance of the neat town of Kirby Lonsdale rendered the scene quite delightful.<br>                     Method: NLP<br>                     Author: Thomas Thornton<br>                     Year: 1804                     </div>`)[0];
+                popup_942f06ed29a8e617c960ddea6e00f6f2.setContent(html_7851198d25fcc205e3662e11356082fd);
+            
+        
+
+        marker_bbfec9a13d1957994a330a8e3e4b9506.bindPopup(popup_942f06ed29a8e617c960ddea6e00f6f2)
+        ;
+
+        
+    
+    
+                marker_bbfec9a13d1957994a330a8e3e4b9506.setIcon(icon_e9ce92732537d036cd42e6dd450207b9);
+            
+    
+            var poly_line_e45c8acc5bd2d0024ba63fc83eeddc1f = L.polyline(
+                [[53.8666204, -1.9093803], [54.60120234465001, -3.137880601359804], [53.98579406467463, -1.305390746711617], [54.43598051808319, -3.457115296600183], [54.4483, -2.98], [54.43598051808319, -3.457115296600183], [54.3361, -3.0765], [54.4483, -2.98], [51.5000209, -0.192442], [54.21368667875034, -2.672622913542797]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_92d5bb700fbcf658ea851a41c47f6a96);
+        
+    
+        var popup_debc431c6dc48ab6b2df578c8b5dacef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7b3536b840231891a5875c92c650eaf = $(`<div id="html_f7b3536b840231891a5875c92c650eaf" style="width: 100.0%; height: 100.0%;">Route: NLP – Thomas Thornton (1804)</div>`)[0];
+                popup_debc431c6dc48ab6b2df578c8b5dacef.setContent(html_f7b3536b840231891a5875c92c650eaf);
+            
+        
+
+        poly_line_e45c8acc5bd2d0024ba63fc83eeddc1f.bindPopup(popup_debc431c6dc48ab6b2df578c8b5dacef)
+        ;
+
+        
+    
+    
+            feature_group_92d5bb700fbcf658ea851a41c47f6a96.addTo(map_45b69fcbd38b6666aaa3d196431455e1);
+        
+    
+            var layer_control_983a203dd862d9819639bf356426450b_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f01403a3a671e2526005715bb2dfbb72,
+                },
+                overlays :  {
+                    "LLM \u2013 Thomas Thornton (1804)" : feature_group_0e9d3729a901fdc55784426311245121,
+                    "NLP \u2013 Thomas Thornton (1804)" : feature_group_92d5bb700fbcf658ea851a41c47f6a96,
+                },
+            };
+            let layer_control_983a203dd862d9819639bf356426450b = L.control.layers(
+                layer_control_983a203dd862d9819639bf356426450b_layers.base_layers,
+                layer_control_983a203dd862d9819639bf356426450b_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_45b69fcbd38b6666aaa3d196431455e1);
+
+        
+</script>
+</html>

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71252d408dd5171d26dc8113dd9bd02b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_71252d408dd5171d26dc8113dd9bd02b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_71252d408dd5171d26dc8113dd9bd02b = L.map(
+                "map_71252d408dd5171d26dc8113dd9bd02b",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_94a56bdd0e7978826794d4c509c27493 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_94a56bdd0e7978826794d4c509c27493.addTo(map_71252d408dd5171d26dc8113dd9bd02b);
+        
+    
+            var feature_group_4faf039aced36608e0020e9b29717568 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_fb0ec76e1ffe4a4a3b009d9b23ed7678 = L.marker(
+                [54.6639133, -2.7522047],
+                {
+}
+            ).addTo(feature_group_4faf039aced36608e0020e9b29717568);
+        
+    
+            var icon_78038273d0b9082ff93eb0641effb37e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3a5aaf6bca756668c3ce891271467f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c15d7b984ddc57aba093b07f133a5ca1 = $(`<div id="html_c15d7b984ddc57aba093b07f133a5ca1" style="width: 100.0%; height: 100.0%;">                     <b>Penrith</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_d3a5aaf6bca756668c3ce891271467f9.setContent(html_c15d7b984ddc57aba093b07f133a5ca1);
+            
+        
+
+        marker_fb0ec76e1ffe4a4a3b009d9b23ed7678.bindPopup(popup_d3a5aaf6bca756668c3ce891271467f9)
+        ;
+
+        
+    
+    
+                marker_fb0ec76e1ffe4a4a3b009d9b23ed7678.setIcon(icon_78038273d0b9082ff93eb0641effb37e);
+            
+    
+            var marker_9b09c985d32c551ff063d8631d68d015 = L.marker(
+                [54.6124079, -2.8210397],
+                {
+}
+            ).addTo(feature_group_4faf039aced36608e0020e9b29717568);
+        
+    
+            var icon_48e6a24856e971a38965adfcf386bf83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94f9df9420e5ceabd39baee6db0af374 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11b9d13f20cc9785ee37ec070654e337 = $(`<div id="html_11b9d13f20cc9785ee37ec070654e337" style="width: 100.0%; height: 100.0%;">                     <b>Pooley Bridge</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_94f9df9420e5ceabd39baee6db0af374.setContent(html_11b9d13f20cc9785ee37ec070654e337);
+            
+        
+
+        marker_9b09c985d32c551ff063d8631d68d015.bindPopup(popup_94f9df9420e5ceabd39baee6db0af374)
+        ;
+
+        
+    
+    
+                marker_9b09c985d32c551ff063d8631d68d015.setIcon(icon_48e6a24856e971a38965adfcf386bf83);
+            
+    
+            var marker_f5ecdc21e6065b77fe8c983548dbfdac = L.marker(
+                [54.5357888, -2.9369343],
+                {
+}
+            ).addTo(feature_group_4faf039aced36608e0020e9b29717568);
+        
+    
+            var icon_a94afcb3032f809a9966496d2d609399 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e002edbc3bb53f6196ffd08705e50560 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1fab7ada30989222f5ec7a95d00df8aa = $(`<div id="html_1fab7ada30989222f5ec7a95d00df8aa" style="width: 100.0%; height: 100.0%;">                     <b>Patterdale</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_e002edbc3bb53f6196ffd08705e50560.setContent(html_1fab7ada30989222f5ec7a95d00df8aa);
+            
+        
+
+        marker_f5ecdc21e6065b77fe8c983548dbfdac.bindPopup(popup_e002edbc3bb53f6196ffd08705e50560)
+        ;
+
+        
+    
+    
+                marker_f5ecdc21e6065b77fe8c983548dbfdac.setIcon(icon_a94afcb3032f809a9966496d2d609399);
+            
+    
+            var marker_7e53d72fd822f4633c7be8687297b4ff = L.marker(
+                [54.431954, -2.9630528],
+                {
+}
+            ).addTo(feature_group_4faf039aced36608e0020e9b29717568);
+        
+    
+            var icon_e189b8ef416902c0451ff0c9636e971c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5fce636d7b200a29171174cadd16ba8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c40142333cd910dac99122cd2a477f4b = $(`<div id="html_c40142333cd910dac99122cd2a477f4b" style="width: 100.0%; height: 100.0%;">                     <b>Ambleside</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_a5fce636d7b200a29171174cadd16ba8.setContent(html_c40142333cd910dac99122cd2a477f4b);
+            
+        
+
+        marker_7e53d72fd822f4633c7be8687297b4ff.bindPopup(popup_a5fce636d7b200a29171174cadd16ba8)
+        ;
+
+        
+    
+    
+                marker_7e53d72fd822f4633c7be8687297b4ff.setIcon(icon_e189b8ef416902c0451ff0c9636e971c);
+            
+    
+            var marker_3db91c7ccb81d3ffa7da36b1c1868b47 = L.marker(
+                [54.6009812, -3.1375822],
+                {
+}
+            ).addTo(feature_group_4faf039aced36608e0020e9b29717568);
+        
+    
+            var icon_cd27cea290e6670ea29feb56363b31be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15e7cebe0c9bacce074efa4c9f544fdf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1907661c9ae396ae4ba193f57cd9c1d2 = $(`<div id="html_1907661c9ae396ae4ba193f57cd9c1d2" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 5<br>                     Context: <br>                     Method: LLM<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_15e7cebe0c9bacce074efa4c9f544fdf.setContent(html_1907661c9ae396ae4ba193f57cd9c1d2);
+            
+        
+
+        marker_3db91c7ccb81d3ffa7da36b1c1868b47.bindPopup(popup_15e7cebe0c9bacce074efa4c9f544fdf)
+        ;
+
+        
+    
+    
+                marker_3db91c7ccb81d3ffa7da36b1c1868b47.setIcon(icon_cd27cea290e6670ea29feb56363b31be);
+            
+    
+            var poly_line_2cde1646cb54ae9e16cabbddbf349543 = L.polyline(
+                [[54.6639133, -2.7522047], [54.6124079, -2.8210397], [54.5357888, -2.9369343], [54.431954, -2.9630528], [54.6009812, -3.1375822]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4faf039aced36608e0020e9b29717568);
+        
+    
+        var popup_a1ba7dc932d2e62ec2bffcd09e405b8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4df2c2fc5ea7d1a8768a97201cdb873f = $(`<div id="html_4df2c2fc5ea7d1a8768a97201cdb873f" style="width: 100.0%; height: 100.0%;">Route: LLM – Anon.-Nelson (pub.) (1859)</div>`)[0];
+                popup_a1ba7dc932d2e62ec2bffcd09e405b8f.setContent(html_4df2c2fc5ea7d1a8768a97201cdb873f);
+            
+        
+
+        poly_line_2cde1646cb54ae9e16cabbddbf349543.bindPopup(popup_a1ba7dc932d2e62ec2bffcd09e405b8f)
+        ;
+
+        
+    
+    
+            feature_group_4faf039aced36608e0020e9b29717568.addTo(map_71252d408dd5171d26dc8113dd9bd02b);
+        
+    
+            var feature_group_bb6a625fcc597e655c3ee5ce5f0aae85 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_642d70cca35f3d2757a27a107b364e47 = L.marker(
+                [54.18142154182505, -2.804508842654697],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_9e790e44fe9a3044226dbf554dfa7121 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aefa7f7837935b5a26aad52991584862 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_688ea8d9e084b351eeedb0aef73ba04a = $(`<div id="html_688ea8d9e084b351eeedb0aef73ba04a" style="width: 100.0%; height: 100.0%;">                     <b>Hawes Water</b><br>                     Order: 1<br>                     Context: Fro Patterdale , also, a detour may be made on foot across the Martindale Fells to Hawes Water , Which lies between five and six miles east of the village.<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_aefa7f7837935b5a26aad52991584862.setContent(html_688ea8d9e084b351eeedb0aef73ba04a);
+            
+        
+
+        marker_642d70cca35f3d2757a27a107b364e47.bindPopup(popup_aefa7f7837935b5a26aad52991584862)
+        ;
+
+        
+    
+    
+                marker_642d70cca35f3d2757a27a107b364e47.setIcon(icon_9e790e44fe9a3044226dbf554dfa7121);
+            
+    
+            var marker_54bb9ee60f37a57066ddce23c1ea6e3e = L.marker(
+                [54.44886278925754, -3.087378732080662],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_866612d20015a7be38714fd7e6d35441 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7069e79ae4eb9238dbf4a848baf7d1e0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3335bd9522b5531e25ab13210019272e = $(`<div id="html_3335bd9522b5531e25ab13210019272e" style="width: 100.0%; height: 100.0%;">                     <b>Great Langdale</b><br>                     Order: 2<br>                     Context: A short distance farther on is Little Langdale Tarn , after which the road diverging to the right ascends into a solitary scene, in the midst of which is Blea Tarn , and thence descends into Great Langdale .<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_7069e79ae4eb9238dbf4a848baf7d1e0.setContent(html_3335bd9522b5531e25ab13210019272e);
+            
+        
+
+        marker_54bb9ee60f37a57066ddce23c1ea6e3e.bindPopup(popup_7069e79ae4eb9238dbf4a848baf7d1e0)
+        ;
+
+        
+    
+    
+                marker_54bb9ee60f37a57066ddce23c1ea6e3e.setIcon(icon_866612d20015a7be38714fd7e6d35441);
+            
+    
+            var marker_a56512c0afc14c77f9687908ad01478a = L.marker(
+                [54.4449, -2.9792],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_17d07e2a12227af1f09d887f16e36320 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a624e7b96f3866e6f1b322853dcdb1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0b32383028174070249a0840f0e02dff = $(`<div id="html_0b32383028174070249a0840f0e02dff" style="width: 100.0%; height: 100.0%;">                     <b>Pelter Bridge</b><br>                     Order: 3<br>                     Context: By this route the traveller proceeds along the road to Clappersgate , until he reaches Rothay Bridge ; crosses this, enters the first gate on the right, and proceeds thence along the river to Pelter Bridge .<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_6a624e7b96f3866e6f1b322853dcdb1d.setContent(html_0b32383028174070249a0840f0e02dff);
+            
+        
+
+        marker_a56512c0afc14c77f9687908ad01478a.bindPopup(popup_6a624e7b96f3866e6f1b322853dcdb1d)
+        ;
+
+        
+    
+    
+                marker_a56512c0afc14c77f9687908ad01478a.setIcon(icon_17d07e2a12227af1f09d887f16e36320);
+            
+    
+            var marker_919da8650b14ea447a2e9799576ac65d = L.marker(
+                [54.52319628836889, -3.152840038750234],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_7267069bda42069b14b3a0f444118f93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4ddc9c9be4b28bfca58e88e10a2dbeb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e97aa43daf0009f8a1e8c5a794fd089e = $(`<div id="html_e97aa43daf0009f8a1e8c5a794fd089e" style="width: 100.0%; height: 100.0%;">                     <b>Borrowdale</b><br>                     Order: 4<br>                     Context: Those who are fond of climbing can ascend the Pikes from this valley, or cross the Coddale Fell, into Borrowdale .<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_b4ddc9c9be4b28bfca58e88e10a2dbeb.setContent(html_e97aa43daf0009f8a1e8c5a794fd089e);
+            
+        
+
+        marker_919da8650b14ea447a2e9799576ac65d.bindPopup(popup_b4ddc9c9be4b28bfca58e88e10a2dbeb)
+        ;
+
+        
+    
+    
+                marker_919da8650b14ea447a2e9799576ac65d.setIcon(icon_7267069bda42069b14b3a0f444118f93);
+            
+    
+            var marker_83f36acd92bc416f6a1edc2f6736f082 = L.marker(
+                [54.60160037173823, -3.125370693283439],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_0b748d6f38a4ac4f7ff21e9b5ac42f41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b14b515361ccbe1e1020d468087a765d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9ab802f8f63a7c9d80642adba926245e = $(`<div id="html_9ab802f8f63a7c9d80642adba926245e" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 5<br>                     Context: Having explored Grasmere , the traveller should now proceed to Keswick .<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_b14b515361ccbe1e1020d468087a765d.setContent(html_9ab802f8f63a7c9d80642adba926245e);
+            
+        
+
+        marker_83f36acd92bc416f6a1edc2f6736f082.bindPopup(popup_b14b515361ccbe1e1020d468087a765d)
+        ;
+
+        
+    
+    
+                marker_83f36acd92bc416f6a1edc2f6736f082.setIcon(icon_0b748d6f38a4ac4f7ff21e9b5ac42f41);
+            
+    
+            var marker_7bc6735d3430b341b7e96ba5f64c4a51 = L.marker(
+                [54.6784251, -3.304002],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_1b2e9b687b585df914dbc2cd0c6353b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0fa03daaced3053a12f1ad88dbd7f67b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fead4dc64f1ea6935fcb904697d7f5bc = $(`<div id="html_fead4dc64f1ea6935fcb904697d7f5bc" style="width: 100.0%; height: 100.0%;">                     <b>Cumberland</b><br>                     Order: 6<br>                     Context: In reference to this, Wordsworth writes as follows: - " They now have reached that pile of stones, Heaped over brave King Dunmail's bones: He who once held supreme command, Last king of rocky Cumberland : His bones, and those of all his power, Slain here in a disastrous hour."<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_0fa03daaced3053a12f1ad88dbd7f67b.setContent(html_fead4dc64f1ea6935fcb904697d7f5bc);
+            
+        
+
+        marker_7bc6735d3430b341b7e96ba5f64c4a51.bindPopup(popup_0fa03daaced3053a12f1ad88dbd7f67b)
+        ;
+
+        
+    
+    
+                marker_7bc6735d3430b341b7e96ba5f64c4a51.setIcon(icon_1b2e9b687b585df914dbc2cd0c6353b5);
+            
+    
+            var marker_7557e6826fcde8da67c32b8cd1457002 = L.marker(
+                [54.52319628836889, -3.152840038750234],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_93a207ecc3de6858366b94e663e42a20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b546b8d7200c75ab2acdd4818ac2f578 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5fb146bb184426ae62937b977356f3b = $(`<div id="html_a5fb146bb184426ae62937b977356f3b" style="width: 100.0%; height: 100.0%;">                     <b>Borrowdale</b><br>                     Order: 7<br>                     Context: To reach it, proceed along the Borrowdale road, past Wallow Crag , towards Barrow House , behind which the road runs towards a pretty tarn, out of which the stream which forms Lodore waterfall issues.<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_b546b8d7200c75ab2acdd4818ac2f578.setContent(html_a5fb146bb184426ae62937b977356f3b);
+            
+        
+
+        marker_7557e6826fcde8da67c32b8cd1457002.bindPopup(popup_b546b8d7200c75ab2acdd4818ac2f578)
+        ;
+
+        
+    
+    
+                marker_7557e6826fcde8da67c32b8cd1457002.setIcon(icon_93a207ecc3de6858366b94e663e42a20);
+            
+    
+            var marker_113c60a4c389fa3376033d2289b75160 = L.marker(
+                [54.35366593329518, -3.187330149320035],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_1e684ff31ef8c6e83dc97b4a953d17cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_118ca1c482fd09d739306ae39753fe30 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_85adf16985c8fa2bd70522c2aae69199 = $(`<div id="html_85adf16985c8fa2bd70522c2aae69199" style="width: 100.0%; height: 100.0%;">                     <b>Seathwaite</b><br>                     Order: 8<br>                     Context: At Seathwaite the road ends, and a bridle path follows the stream to a little bridge, a mile farther up, which it crosses, and ascends Sty Head .<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_118ca1c482fd09d739306ae39753fe30.setContent(html_85adf16985c8fa2bd70522c2aae69199);
+            
+        
+
+        marker_113c60a4c389fa3376033d2289b75160.bindPopup(popup_118ca1c482fd09d739306ae39753fe30)
+        ;
+
+        
+    
+    
+                marker_113c60a4c389fa3376033d2289b75160.setIcon(icon_1e684ff31ef8c6e83dc97b4a953d17cf);
+            
+    
+            var marker_f6cf92f33ccc185eefd8a169e1bbdfa4 = L.marker(
+                [54.60160037173823, -3.125370693283439],
+                {
+}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+            var icon_17910c8a73802e4c133f55304b0e3179 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfa96073b6a6e1a5160e1d3b66d50360 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5866f27a45845960fccf4d8e9799d75d = $(`<div id="html_5866f27a45845960fccf4d8e9799d75d" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 9<br>                     Context: Wast Water and Ennerdale Are usually visited from Whitehaven , but they can also be reached from Keswick ; part of the way, however, has to be accomplished on foot.<br>                     Method: NLP<br>                     Author: Anon.-Nelson (pub.)<br>                     Year: 1859                     </div>`)[0];
+                popup_dfa96073b6a6e1a5160e1d3b66d50360.setContent(html_5866f27a45845960fccf4d8e9799d75d);
+            
+        
+
+        marker_f6cf92f33ccc185eefd8a169e1bbdfa4.bindPopup(popup_dfa96073b6a6e1a5160e1d3b66d50360)
+        ;
+
+        
+    
+    
+                marker_f6cf92f33ccc185eefd8a169e1bbdfa4.setIcon(icon_17910c8a73802e4c133f55304b0e3179);
+            
+    
+            var poly_line_d394400e03e4628bbc3f55770bb08317 = L.polyline(
+                [[54.18142154182505, -2.804508842654697], [54.44886278925754, -3.087378732080662], [54.4449, -2.9792], [54.52319628836889, -3.152840038750234], [54.60160037173823, -3.125370693283439], [54.6784251, -3.304002], [54.52319628836889, -3.152840038750234], [54.35366593329518, -3.187330149320035], [54.60160037173823, -3.125370693283439]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bb6a625fcc597e655c3ee5ce5f0aae85);
+        
+    
+        var popup_8263b067361c33ee783c0fb57fbfc02d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4083039cad9936fb82816fab5cec9b23 = $(`<div id="html_4083039cad9936fb82816fab5cec9b23" style="width: 100.0%; height: 100.0%;">Route: NLP – Anon.-Nelson (pub.) (1859)</div>`)[0];
+                popup_8263b067361c33ee783c0fb57fbfc02d.setContent(html_4083039cad9936fb82816fab5cec9b23);
+            
+        
+
+        poly_line_d394400e03e4628bbc3f55770bb08317.bindPopup(popup_8263b067361c33ee783c0fb57fbfc02d)
+        ;
+
+        
+    
+    
+            feature_group_bb6a625fcc597e655c3ee5ce5f0aae85.addTo(map_71252d408dd5171d26dc8113dd9bd02b);
+        
+    
+            var layer_control_f5027564fd02d9efe61ac3082404cd86_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_94a56bdd0e7978826794d4c509c27493,
+                },
+                overlays :  {
+                    "LLM \u2013 Anon.-Nelson (pub.) (1859)" : feature_group_4faf039aced36608e0020e9b29717568,
+                    "NLP \u2013 Anon.-Nelson (pub.) (1859)" : feature_group_bb6a625fcc597e655c3ee5ce5f0aae85,
+                },
+            };
+            let layer_control_f5027564fd02d9efe61ac3082404cd86 = L.control.layers(
+                layer_control_f5027564fd02d9efe61ac3082404cd86_layers.base_layers,
+                layer_control_f5027564fd02d9efe61ac3082404cd86_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_71252d408dd5171d26dc8113dd9bd02b);
+
+        
+</script>
+</html>

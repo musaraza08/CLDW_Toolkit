@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_52df2a78c122931105e2eedaa8d459f6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_52df2a78c122931105e2eedaa8d459f6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_52df2a78c122931105e2eedaa8d459f6 = L.map(
+                "map_52df2a78c122931105e2eedaa8d459f6",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7d7447847fa2439f81fb2120bf9ac597 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7d7447847fa2439f81fb2120bf9ac597.addTo(map_52df2a78c122931105e2eedaa8d459f6);
+        
+    
+            var feature_group_1be03d41eb723f313f6b8d376ce6ada7 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d000b9e0456eb8277a89d8450b98d037 = L.marker(
+                [53.5673603, -2.8859603],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_073c72c07b3a7ea54fc827c9c7a059b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b5bd52099adcad7ff14e691793efdd0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f4c8b4bbdc709bcdbb38d82e6e914a72 = $(`<div id="html_f4c8b4bbdc709bcdbb38d82e6e914a72" style="width: 100.0%; height: 100.0%;">                     <b>Ormskirk</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_1b5bd52099adcad7ff14e691793efdd0.setContent(html_f4c8b4bbdc709bcdbb38d82e6e914a72);
+            
+        
+
+        marker_d000b9e0456eb8277a89d8450b98d037.bindPopup(popup_1b5bd52099adcad7ff14e691793efdd0)
+        ;
+
+        
+    
+    
+                marker_d000b9e0456eb8277a89d8450b98d037.setIcon(icon_073c72c07b3a7ea54fc827c9c7a059b7);
+            
+    
+            var marker_6d6321fe8be265385b0c13ea1145e7d9 = L.marker(
+                [53.7593363, -2.6992717],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_38959419d16976b395a02d327c6c694e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c24d7f01925c6d57c71f49fe832bdccd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59ee68ff5008a66659f2e307cf6b5ca6 = $(`<div id="html_59ee68ff5008a66659f2e307cf6b5ca6" style="width: 100.0%; height: 100.0%;">                     <b>Preston</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_c24d7f01925c6d57c71f49fe832bdccd.setContent(html_59ee68ff5008a66659f2e307cf6b5ca6);
+            
+        
+
+        marker_6d6321fe8be265385b0c13ea1145e7d9.bindPopup(popup_c24d7f01925c6d57c71f49fe832bdccd)
+        ;
+
+        
+    
+    
+                marker_6d6321fe8be265385b0c13ea1145e7d9.setIcon(icon_38959419d16976b395a02d327c6c694e);
+            
+    
+            var marker_d44a9075593052c28c61be98564bfff6 = L.marker(
+                [53.9015756, -2.7734763],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_4dd54f0f965b96faf58464db0af995d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4a6a0f9aab595e0b304784d29429499 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8741b1b26045438bece7490386ed3746 = $(`<div id="html_8741b1b26045438bece7490386ed3746" style="width: 100.0%; height: 100.0%;">                     <b>Garstang</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_f4a6a0f9aab595e0b304784d29429499.setContent(html_8741b1b26045438bece7490386ed3746);
+            
+        
+
+        marker_d44a9075593052c28c61be98564bfff6.bindPopup(popup_f4a6a0f9aab595e0b304784d29429499)
+        ;
+
+        
+    
+    
+                marker_d44a9075593052c28c61be98564bfff6.setIcon(icon_4dd54f0f965b96faf58464db0af995d2);
+            
+    
+            var marker_5e82c567878dc6bd152182bd2e720068 = L.marker(
+                [54.0488219, -2.8013499],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_4f24335bbabe8f970b4b556c1c03f0bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da731b18e4b1d34d1031b07f9a414538 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd3be8fd53e1eabfba729fcf08ab0df2 = $(`<div id="html_bd3be8fd53e1eabfba729fcf08ab0df2" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_da731b18e4b1d34d1031b07f9a414538.setContent(html_bd3be8fd53e1eabfba729fcf08ab0df2);
+            
+        
+
+        marker_5e82c567878dc6bd152182bd2e720068.bindPopup(popup_da731b18e4b1d34d1031b07f9a414538)
+        ;
+
+        
+    
+    
+                marker_5e82c567878dc6bd152182bd2e720068.setIcon(icon_4f24335bbabe8f970b4b556c1c03f0bc);
+            
+    
+            var marker_d978e35c936b0e510978c298c761d8f7 = L.marker(
+                [54.4443469, -1.4408688],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_c96fe6071e9b2f8cdeee55a3b3aeb5e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_132d6313f4d70fe423788af830aec0a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22c0f89e843df294a7beb78bbd96055c = $(`<div id="html_22c0f89e843df294a7beb78bbd96055c" style="width: 100.0%; height: 100.0%;">                     <b>Hornby</b><br>                     Order: 5<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_132d6313f4d70fe423788af830aec0a6.setContent(html_22c0f89e843df294a7beb78bbd96055c);
+            
+        
+
+        marker_d978e35c936b0e510978c298c761d8f7.bindPopup(popup_132d6313f4d70fe423788af830aec0a6)
+        ;
+
+        
+    
+    
+                marker_d978e35c936b0e510978c298c761d8f7.setIcon(icon_c96fe6071e9b2f8cdeee55a3b3aeb5e7);
+            
+    
+            var marker_017cdd631765378da8730b27f8ffd1b0 = L.marker(
+                [54.3289795, -2.747183],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_b05ea41ec596523d4a4556add4806f7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10b304fe0533efc5904a885572eacee6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_469074a5670410a3d0be40707f409d3d = $(`<div id="html_469074a5670410a3d0be40707f409d3d" style="width: 100.0%; height: 100.0%;">                     <b>Kendal</b><br>                     Order: 7<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_10b304fe0533efc5904a885572eacee6.setContent(html_469074a5670410a3d0be40707f409d3d);
+            
+        
+
+        marker_017cdd631765378da8730b27f8ffd1b0.bindPopup(popup_10b304fe0533efc5904a885572eacee6)
+        ;
+
+        
+    
+    
+                marker_017cdd631765378da8730b27f8ffd1b0.setIcon(icon_b05ea41ec596523d4a4556add4806f7f);
+            
+    
+            var marker_657671aca2965f79c896956414199484 = L.marker(
+                [54.9284336, -3.2242576],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_3efc2d96603ad8ec320312003b3cf17a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0873d95eb96b3919594ab88e3812a56e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bda4a225e9361607432a46872aa5a637 = $(`<div id="html_bda4a225e9361607432a46872aa5a637" style="width: 100.0%; height: 100.0%;">                     <b>Bowness</b><br>                     Order: 8<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_0873d95eb96b3919594ab88e3812a56e.setContent(html_bda4a225e9361607432a46872aa5a637);
+            
+        
+
+        marker_657671aca2965f79c896956414199484.bindPopup(popup_0873d95eb96b3919594ab88e3812a56e)
+        ;
+
+        
+    
+    
+                marker_657671aca2965f79c896956414199484.setIcon(icon_3efc2d96603ad8ec320312003b3cf17a);
+            
+    
+            var marker_db30d3ae8b8a8b9d557b2033e96039f3 = L.marker(
+                [-27.7890368, 114.4682073],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_5ae68d2a580c599a7991918295983aea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5751649159482147ccb64f0732df4fb6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_629aa2ef28d93c493b894e76c45b4067 = $(`<div id="html_629aa2ef28d93c493b894e76c45b4067" style="width: 100.0%; height: 100.0%;">                     <b>Hawks Head</b><br>                     Order: 9<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_5751649159482147ccb64f0732df4fb6.setContent(html_629aa2ef28d93c493b894e76c45b4067);
+            
+        
+
+        marker_db30d3ae8b8a8b9d557b2033e96039f3.bindPopup(popup_5751649159482147ccb64f0732df4fb6)
+        ;
+
+        
+    
+    
+                marker_db30d3ae8b8a8b9d557b2033e96039f3.setIcon(icon_5ae68d2a580c599a7991918295983aea);
+            
+    
+            var marker_bc710352614e3b596f5331919e9f1fef = L.marker(
+                [54.3689253, -3.0755427],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_975c3ff61084696393ce969a74480b3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54a81906aa4a6b4b07579ace59f16911 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d0d825702c47193dd7648ba03ea574b8 = $(`<div id="html_d0d825702c47193dd7648ba03ea574b8" style="width: 100.0%; height: 100.0%;">                     <b>Coniston</b><br>                     Order: 10<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_54a81906aa4a6b4b07579ace59f16911.setContent(html_d0d825702c47193dd7648ba03ea574b8);
+            
+        
+
+        marker_bc710352614e3b596f5331919e9f1fef.bindPopup(popup_54a81906aa4a6b4b07579ace59f16911)
+        ;
+
+        
+    
+    
+                marker_bc710352614e3b596f5331919e9f1fef.setIcon(icon_975c3ff61084696393ce969a74480b3f);
+            
+    
+            var marker_06517820fca451cefc168748323af89e = L.marker(
+                [54.2445118, -3.0042123],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_3299dee09658ea60a21ef4a81fe5476d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7e2058d8823ccbc909280a338c16e73 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_518e0a02914a9c7dbe5677dfeb6de960 = $(`<div id="html_518e0a02914a9c7dbe5677dfeb6de960" style="width: 100.0%; height: 100.0%;">                     <b>Low Wood</b><br>                     Order: 11<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_a7e2058d8823ccbc909280a338c16e73.setContent(html_518e0a02914a9c7dbe5677dfeb6de960);
+            
+        
+
+        marker_06517820fca451cefc168748323af89e.bindPopup(popup_a7e2058d8823ccbc909280a338c16e73)
+        ;
+
+        
+    
+    
+                marker_06517820fca451cefc168748323af89e.setIcon(icon_3299dee09658ea60a21ef4a81fe5476d);
+            
+    
+            var marker_076a82b052307c81073de408729ed8b0 = L.marker(
+                [54.431954, -2.9630528],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_2b796766126859fde7726f56ae59bf6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c84936452b0823f165ac641a30cda78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df12d156436e6b8ac641a325a268e5a8 = $(`<div id="html_df12d156436e6b8ac641a325a268e5a8" style="width: 100.0%; height: 100.0%;">                     <b>Ambleside</b><br>                     Order: 12<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_3c84936452b0823f165ac641a30cda78.setContent(html_df12d156436e6b8ac641a325a268e5a8);
+            
+        
+
+        marker_076a82b052307c81073de408729ed8b0.bindPopup(popup_3c84936452b0823f165ac641a30cda78)
+        ;
+
+        
+    
+    
+                marker_076a82b052307c81073de408729ed8b0.setIcon(icon_2b796766126859fde7726f56ae59bf6c);
+            
+    
+            var marker_6251e1ff68cf8d6a08aa838e89d66a78 = L.marker(
+                [54.6009812, -3.1375822],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_2e65d6d9355aaff5edd9eb9e19301d93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56f74b1f27eede50aab950ab99dc528a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3928e70ee2e1039bf292f1917e3bc5ac = $(`<div id="html_3928e70ee2e1039bf292f1917e3bc5ac" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 13<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_56f74b1f27eede50aab950ab99dc528a.setContent(html_3928e70ee2e1039bf292f1917e3bc5ac);
+            
+        
+
+        marker_6251e1ff68cf8d6a08aa838e89d66a78.bindPopup(popup_56f74b1f27eede50aab950ab99dc528a)
+        ;
+
+        
+    
+    
+                marker_6251e1ff68cf8d6a08aa838e89d66a78.setIcon(icon_2e65d6d9355aaff5edd9eb9e19301d93);
+            
+    
+            var marker_1cc57835c4fa25a22832c31ae13d3e62 = L.marker(
+                [54.6639133, -2.7522047],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_82c710ff519f3fcb5e277f677c4a7802 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1922f0d32f69ec4c0f4130fb88a7904 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa6434fdafaf343a74fb505dbd138085 = $(`<div id="html_aa6434fdafaf343a74fb505dbd138085" style="width: 100.0%; height: 100.0%;">                     <b>Penrith</b><br>                     Order: 15<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_f1922f0d32f69ec4c0f4130fb88a7904.setContent(html_aa6434fdafaf343a74fb505dbd138085);
+            
+        
+
+        marker_1cc57835c4fa25a22832c31ae13d3e62.bindPopup(popup_f1922f0d32f69ec4c0f4130fb88a7904)
+        ;
+
+        
+    
+    
+                marker_1cc57835c4fa25a22832c31ae13d3e62.setIcon(icon_82c710ff519f3fcb5e277f677c4a7802);
+            
+    
+            var marker_6c51b533437843369b0dfb936020a1bc = L.marker(
+                [54.8948478, -2.9362311],
+                {
+}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+            var icon_1a1dac0645274d4f6cda91b2ca05e1de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c51c7bb8453bb1db3e953debd05364d4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df7d512b6da8714b90846a4a8d031c02 = $(`<div id="html_df7d512b6da8714b90846a4a8d031c02" style="width: 100.0%; height: 100.0%;">                     <b>Carlisle</b><br>                     Order: 16<br>                     Context: <br>                     Method: LLM<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_c51c7bb8453bb1db3e953debd05364d4.setContent(html_df7d512b6da8714b90846a4a8d031c02);
+            
+        
+
+        marker_6c51b533437843369b0dfb936020a1bc.bindPopup(popup_c51c7bb8453bb1db3e953debd05364d4)
+        ;
+
+        
+    
+    
+                marker_6c51b533437843369b0dfb936020a1bc.setIcon(icon_1a1dac0645274d4f6cda91b2ca05e1de);
+            
+    
+            var poly_line_16b331f9cf6b4b356625938b946d477b = L.polyline(
+                [[53.5673603, -2.8859603], [53.7593363, -2.6992717], [53.9015756, -2.7734763], [54.0488219, -2.8013499], [54.4443469, -1.4408688], [54.3289795, -2.747183], [54.9284336, -3.2242576], [-27.7890368, 114.4682073], [54.3689253, -3.0755427], [54.2445118, -3.0042123], [54.431954, -2.9630528], [54.6009812, -3.1375822], [54.6639133, -2.7522047], [54.8948478, -2.9362311]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1be03d41eb723f313f6b8d376ce6ada7);
+        
+    
+        var popup_c9a074cdbae9bf0070170ebb5d49821f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6841171dae3b3369eeaf569466165296 = $(`<div id="html_6841171dae3b3369eeaf569466165296" style="width: 100.0%; height: 100.0%;">Route: LLM – Thomas Newte (1788)</div>`)[0];
+                popup_c9a074cdbae9bf0070170ebb5d49821f.setContent(html_6841171dae3b3369eeaf569466165296);
+            
+        
+
+        poly_line_16b331f9cf6b4b356625938b946d477b.bindPopup(popup_c9a074cdbae9bf0070170ebb5d49821f)
+        ;
+
+        
+    
+    
+            feature_group_1be03d41eb723f313f6b8d376ce6ada7.addTo(map_52df2a78c122931105e2eedaa8d459f6);
+        
+    
+            var feature_group_d1ccfe7bfc2d4c419146936ab93e6db4 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_96567785039eb71aa8a9132e78db26ed = L.marker(
+                [54.60160037173823, -3.125370693283439],
+                {
+}
+            ).addTo(feature_group_d1ccfe7bfc2d4c419146936ab93e6db4);
+        
+    
+            var icon_6f66288539b4204fec12708ca2a4a6e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc6a555d891688af55ed5991729862fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e04ba8b1c1d6edef29c3c21441025468 = $(`<div id="html_e04ba8b1c1d6edef29c3c21441025468" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 1<br>                     Context: Leave Low Wood Inn, and ride through Ambleside to Keswick , a small village, at the head of Windermere Water .<br>                     Method: NLP<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_dc6a555d891688af55ed5991729862fb.setContent(html_e04ba8b1c1d6edef29c3c21441025468);
+            
+        
+
+        marker_96567785039eb71aa8a9132e78db26ed.bindPopup(popup_dc6a555d891688af55ed5991729862fb)
+        ;
+
+        
+    
+    
+                marker_96567785039eb71aa8a9132e78db26ed.setIcon(icon_6f66288539b4204fec12708ca2a4a6e3);
+            
+    
+            var marker_3e4def96457eb943ca3b9d5763e8baf7 = L.marker(
+                [54.89435005187988, -2.923743724822998],
+                {
+}
+            ).addTo(feature_group_d1ccfe7bfc2d4c419146936ab93e6db4);
+        
+    
+            var icon_0d7cb9aa8499660dce97d1cf5619be13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_138b60e78ccf19e4c4cf58e5e0ab125e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a6c351d9b174af047457037601e021c = $(`<div id="html_2a6c351d9b174af047457037601e021c" style="width: 100.0%; height: 100.0%;">                     <b>Carlisle</b><br>                     Order: 2<br>                     Context: Dine at Penrith , and ride to Carlisle in the evening.<br>                     Method: NLP<br>                     Author: Thomas Newte<br>                     Year: 1788                     </div>`)[0];
+                popup_138b60e78ccf19e4c4cf58e5e0ab125e.setContent(html_2a6c351d9b174af047457037601e021c);
+            
+        
+
+        marker_3e4def96457eb943ca3b9d5763e8baf7.bindPopup(popup_138b60e78ccf19e4c4cf58e5e0ab125e)
+        ;
+
+        
+    
+    
+                marker_3e4def96457eb943ca3b9d5763e8baf7.setIcon(icon_0d7cb9aa8499660dce97d1cf5619be13);
+            
+    
+            var poly_line_44a735d1644f6fa4ad56ae2f3adcea22 = L.polyline(
+                [[54.60160037173823, -3.125370693283439], [54.89435005187988, -2.923743724822998]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d1ccfe7bfc2d4c419146936ab93e6db4);
+        
+    
+        var popup_6fb86e8977edf8d24cffae0013bccbc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b20ce1c91b880d1e906e14cb21b5e416 = $(`<div id="html_b20ce1c91b880d1e906e14cb21b5e416" style="width: 100.0%; height: 100.0%;">Route: NLP – Thomas Newte (1788)</div>`)[0];
+                popup_6fb86e8977edf8d24cffae0013bccbc9.setContent(html_b20ce1c91b880d1e906e14cb21b5e416);
+            
+        
+
+        poly_line_44a735d1644f6fa4ad56ae2f3adcea22.bindPopup(popup_6fb86e8977edf8d24cffae0013bccbc9)
+        ;
+
+        
+    
+    
+            feature_group_d1ccfe7bfc2d4c419146936ab93e6db4.addTo(map_52df2a78c122931105e2eedaa8d459f6);
+        
+    
+            var layer_control_1e4ee0c4f0495f3aef82a2b394be575a_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_7d7447847fa2439f81fb2120bf9ac597,
+                },
+                overlays :  {
+                    "LLM \u2013 Thomas Newte (1788)" : feature_group_1be03d41eb723f313f6b8d376ce6ada7,
+                    "NLP \u2013 Thomas Newte (1788)" : feature_group_d1ccfe7bfc2d4c419146936ab93e6db4,
+                },
+            };
+            let layer_control_1e4ee0c4f0495f3aef82a2b394be575a = L.control.layers(
+                layer_control_1e4ee0c4f0495f3aef82a2b394be575a_layers.base_layers,
+                layer_control_1e4ee0c4f0495f3aef82a2b394be575a_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_52df2a78c122931105e2eedaa8d459f6);
+
+        
+</script>
+</html>

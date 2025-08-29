@@ -1,0 +1,30 @@
+{
+  "trajectory": [
+    {
+      "place": "Hagley",
+      "order": 1,
+      "mention": "in my way to the north from Hagley",
+      "note": "departure point"
+    },
+    {
+      "place": "Dovedale",
+      "order": 2,
+      "mention": "I passed through Dovedale",
+      "note": "travel through"
+    },
+    {
+      "place": "Buxton",
+      "order": 3,
+      "mention": "When I came to Buxton",
+      "note": "arrival"
+    },
+    {
+      "place": "Keswick",
+      "order": 4,
+      "mention": "you have at Keswick",
+      "note": "arrival and description"
+    }
+  ],
+  "route_summary": "Hagley → Dovedale → Buxton → Keswick",
+  "confidence": "high"
+}

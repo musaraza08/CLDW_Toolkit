@@ -1,0 +1,48 @@
+{
+  "trajectory": [
+    {
+      "place": "Norwich",
+      "order": 1,
+      "mention": "begun at the City of Norwich",
+      "note": "starting point of the journey"
+    },
+    {
+      "place": "Carlisle",
+      "order": 2,
+      "mention": "hastned away for Carlile",
+      "note": "travel towards Carlisle"
+    },
+    {
+      "place": "Corby Castle",
+      "order": 3,
+      "mention": "dinner at Corby Castle",
+      "note": "visited for a meal"
+    },
+    {
+      "place": "Greystoke Castle",
+      "order": 4,
+      "mention": "to Graystocke Castle",
+      "note": "next destination after Corby Castle"
+    },
+    {
+      "place": "Penrith",
+      "order": 5,
+      "mention": "to our Inne at Perith",
+      "note": "stayed overnight"
+    },
+    {
+      "place": "Kendal",
+      "order": 6,
+      "mention": "journeyed to Kendall",
+      "note": "next travel destination"
+    },
+    {
+      "place": "Lancaster",
+      "order": 7,
+      "mention": "for the George in Lancaster",
+      "note": "entered Lancaster"
+    }
+  ],
+  "route_summary": "Norwich → Carlisle → Corby Castle → Greystoke Castle → Penrith → Kendal → Lancaster",
+  "confidence": "high"
+}

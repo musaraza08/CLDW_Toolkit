@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dd75a152185918e0adcd1fd3ef0a1f97 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dd75a152185918e0adcd1fd3ef0a1f97" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dd75a152185918e0adcd1fd3ef0a1f97 = L.map(
+                "map_dd75a152185918e0adcd1fd3ef0a1f97",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3489e373c1b1619777b1e0c0bb59e50f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3489e373c1b1619777b1e0c0bb59e50f.addTo(map_dd75a152185918e0adcd1fd3ef0a1f97);
+        
+    
+            var feature_group_2500004c1a571254db7ec8b36282d557 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_c62b7700998f30ebd81275c81dbd377b = L.marker(
+                [53.9161297, -1.4941384],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_3de307713104ec417f74ffb2424b44ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47d872de1c43420cecacd03325f06387 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d8c5d60d88e6c9166cab8429fcfd293 = $(`<div id="html_1d8c5d60d88e6c9166cab8429fcfd293" style="width: 100.0%; height: 100.0%;">                     <b>Netherby</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_47d872de1c43420cecacd03325f06387.setContent(html_1d8c5d60d88e6c9166cab8429fcfd293);
+            
+        
+
+        marker_c62b7700998f30ebd81275c81dbd377b.bindPopup(popup_47d872de1c43420cecacd03325f06387)
+        ;
+
+        
+    
+    
+                marker_c62b7700998f30ebd81275c81dbd377b.setIcon(icon_3de307713104ec417f74ffb2424b44ed);
+            
+    
+            var marker_4662f8010b781957c239be5fc0c08aa1 = L.marker(
+                [53.8407354, -2.8350019],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_a9e6510ea5ae11ec5c11aaaa6df34280 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1daf9375beaad403431c8ae3479244c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_be17e0f0e0db65be20b2ab99771de4ad = $(`<div id="html_be17e0f0e0db65be20b2ab99771de4ad" style="width: 100.0%; height: 100.0%;">                     <b>Long Town</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_1daf9375beaad403431c8ae3479244c8.setContent(html_be17e0f0e0db65be20b2ab99771de4ad);
+            
+        
+
+        marker_4662f8010b781957c239be5fc0c08aa1.bindPopup(popup_1daf9375beaad403431c8ae3479244c8)
+        ;
+
+        
+    
+    
+                marker_4662f8010b781957c239be5fc0c08aa1.setIcon(icon_a9e6510ea5ae11ec5c11aaaa6df34280);
+            
+    
+            var marker_e6338110f0a4552345a59022b68a9544 = L.marker(
+                [54.8948478, -2.9362311],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_0d78f2ad9998b579e1370ca8725f1bde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5738c4039eacad05f3b029ba093bd04 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcaaf68dfa6ba0d2ed761e6cc7d0a1ec = $(`<div id="html_fcaaf68dfa6ba0d2ed761e6cc7d0a1ec" style="width: 100.0%; height: 100.0%;">                     <b>Carlisle</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_a5738c4039eacad05f3b029ba093bd04.setContent(html_fcaaf68dfa6ba0d2ed761e6cc7d0a1ec);
+            
+        
+
+        marker_e6338110f0a4552345a59022b68a9544.bindPopup(popup_a5738c4039eacad05f3b029ba093bd04)
+        ;
+
+        
+    
+    
+                marker_e6338110f0a4552345a59022b68a9544.setIcon(icon_0d78f2ad9998b579e1370ca8725f1bde);
+            
+    
+            var marker_6f681853339d960832cad6ba18a90e13 = L.marker(
+                [54.6639133, -2.7522047],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_a1b95f1f66f460300050de424e9b3d29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75f6e23049bea988cff13328be1b42c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_210437ea823b058f7538c73450d0342d = $(`<div id="html_210437ea823b058f7538c73450d0342d" style="width: 100.0%; height: 100.0%;">                     <b>Penrith</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_75f6e23049bea988cff13328be1b42c6.setContent(html_210437ea823b058f7538c73450d0342d);
+            
+        
+
+        marker_6f681853339d960832cad6ba18a90e13.bindPopup(popup_75f6e23049bea988cff13328be1b42c6)
+        ;
+
+        
+    
+    
+                marker_6f681853339d960832cad6ba18a90e13.setIcon(icon_a1b95f1f66f460300050de424e9b3d29);
+            
+    
+            var marker_7e02cf53bce88ee9c73b032a0f117049 = L.marker(
+                [39.9496427, -86.2194615],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_765e34cab764eebd235d98ca3b0e2cef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a98573b342ef1a726fbe7e3df1d2476f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e8da946546ad7856c7a1a780700ae51f = $(`<div id="html_e8da946546ad7856c7a1a780700ae51f" style="width: 100.0%; height: 100.0%;">                     <b>Ullswater Lake</b><br>                     Order: 5<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_a98573b342ef1a726fbe7e3df1d2476f.setContent(html_e8da946546ad7856c7a1a780700ae51f);
+            
+        
+
+        marker_7e02cf53bce88ee9c73b032a0f117049.bindPopup(popup_a98573b342ef1a726fbe7e3df1d2476f)
+        ;
+
+        
+    
+    
+                marker_7e02cf53bce88ee9c73b032a0f117049.setIcon(icon_765e34cab764eebd235d98ca3b0e2cef);
+            
+    
+            var marker_dad4169fb04e54d939c92916435f9613 = L.marker(
+                [54.6009812, -3.1375822],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_8070444474799062ffad8e7175aa23b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_964e462ef591e3f7999466182a2c6400 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c08a578f0788e01ea00e62f0c895e896 = $(`<div id="html_c08a578f0788e01ea00e62f0c895e896" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 6<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_964e462ef591e3f7999466182a2c6400.setContent(html_c08a578f0788e01ea00e62f0c895e896);
+            
+        
+
+        marker_dad4169fb04e54d939c92916435f9613.bindPopup(popup_964e462ef591e3f7999466182a2c6400)
+        ;
+
+        
+    
+    
+                marker_dad4169fb04e54d939c92916435f9613.setIcon(icon_8070444474799062ffad8e7175aa23b1);
+            
+    
+            var marker_38ff2b7ede6a4b1070b61250f38b0886 = L.marker(
+                [54.431954, -2.9630528],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_0a11d52b0c8034ea00b0bc5c95cd869d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ade2c6f4e459f23e2026147e35e3a462 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_228a7c9cf47f99d12950654ab2b1df46 = $(`<div id="html_228a7c9cf47f99d12950654ab2b1df46" style="width: 100.0%; height: 100.0%;">                     <b>Ambleside</b><br>                     Order: 7<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_ade2c6f4e459f23e2026147e35e3a462.setContent(html_228a7c9cf47f99d12950654ab2b1df46);
+            
+        
+
+        marker_38ff2b7ede6a4b1070b61250f38b0886.bindPopup(popup_ade2c6f4e459f23e2026147e35e3a462)
+        ;
+
+        
+    
+    
+                marker_38ff2b7ede6a4b1070b61250f38b0886.setIcon(icon_0a11d52b0c8034ea00b0bc5c95cd869d);
+            
+    
+            var marker_49bf414e14339cc2f4cecaa8d528fabf = L.marker(
+                [54.2445118, -3.0042123],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_ab7b640ce011153ee375c7fb2aabbacc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3adb6502eb13e30a9a063e3c181c8b51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c92ea7f7a36fd2cc6893a6a6b622573c = $(`<div id="html_c92ea7f7a36fd2cc6893a6a6b622573c" style="width: 100.0%; height: 100.0%;">                     <b>Low Wood</b><br>                     Order: 8<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_3adb6502eb13e30a9a063e3c181c8b51.setContent(html_c92ea7f7a36fd2cc6893a6a6b622573c);
+            
+        
+
+        marker_49bf414e14339cc2f4cecaa8d528fabf.bindPopup(popup_3adb6502eb13e30a9a063e3c181c8b51)
+        ;
+
+        
+    
+    
+                marker_49bf414e14339cc2f4cecaa8d528fabf.setIcon(icon_ab7b640ce011153ee375c7fb2aabbacc);
+            
+    
+            var marker_ce31d6a9747fc00831bd680550df67ba = L.marker(
+                [54.3934874, -2.9297923],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_bf0b253f4ceb7345de5b1c7018ef36a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac4f8db1d5f6a7804b65eb3a4b059493 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_23397646011a3ad29e4e76eaa8ab2757 = $(`<div id="html_23397646011a3ad29e4e76eaa8ab2757" style="width: 100.0%; height: 100.0%;">                     <b>Calgarth Park</b><br>                     Order: 9<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_ac4f8db1d5f6a7804b65eb3a4b059493.setContent(html_23397646011a3ad29e4e76eaa8ab2757);
+            
+        
+
+        marker_ce31d6a9747fc00831bd680550df67ba.bindPopup(popup_ac4f8db1d5f6a7804b65eb3a4b059493)
+        ;
+
+        
+    
+    
+                marker_ce31d6a9747fc00831bd680550df67ba.setIcon(icon_bf0b253f4ceb7345de5b1c7018ef36a4);
+            
+    
+            var marker_761ade7e1459f827afe46a1cca239633 = L.marker(
+                [54.9284336, -3.2242576],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_671a06bd8a64d3c03e38368a4fcc0631 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_467a8ddf474f175853c19b79ee601bc9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d48140eee509644ea366b21067960506 = $(`<div id="html_d48140eee509644ea366b21067960506" style="width: 100.0%; height: 100.0%;">                     <b>Bowness</b><br>                     Order: 10<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_467a8ddf474f175853c19b79ee601bc9.setContent(html_d48140eee509644ea366b21067960506);
+            
+        
+
+        marker_761ade7e1459f827afe46a1cca239633.bindPopup(popup_467a8ddf474f175853c19b79ee601bc9)
+        ;
+
+        
+    
+    
+                marker_761ade7e1459f827afe46a1cca239633.setIcon(icon_671a06bd8a64d3c03e38368a4fcc0631);
+            
+    
+            var marker_e8ec9b42c631982f4da9376a6d7d8e56 = L.marker(
+                [54.3289795, -2.747183],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_9d6769465ac9521b7e2058683ca3f43c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_776b873025cc5fedae1a5a131daa2400 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_114fbcbe45090c5e1fc8d4565120eeaa = $(`<div id="html_114fbcbe45090c5e1fc8d4565120eeaa" style="width: 100.0%; height: 100.0%;">                     <b>Kendal</b><br>                     Order: 11<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_776b873025cc5fedae1a5a131daa2400.setContent(html_114fbcbe45090c5e1fc8d4565120eeaa);
+            
+        
+
+        marker_e8ec9b42c631982f4da9376a6d7d8e56.bindPopup(popup_776b873025cc5fedae1a5a131daa2400)
+        ;
+
+        
+    
+    
+                marker_e8ec9b42c631982f4da9376a6d7d8e56.setIcon(icon_9d6769465ac9521b7e2058683ca3f43c);
+            
+    
+            var marker_7d55f4921bfbe059ec7c585d5a1452ad = L.marker(
+                [54.0488219, -2.8013499],
+                {
+}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+            var icon_dc89745a004feeaa4adb2ba8934b6bc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99f0b1cbe87bc754d2a3f8ef43616292 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b7b8514e87587edc1506b700b0f9455e = $(`<div id="html_b7b8514e87587edc1506b700b0f9455e" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 12<br>                     Context: <br>                     Method: LLM<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_99f0b1cbe87bc754d2a3f8ef43616292.setContent(html_b7b8514e87587edc1506b700b0f9455e);
+            
+        
+
+        marker_7d55f4921bfbe059ec7c585d5a1452ad.bindPopup(popup_99f0b1cbe87bc754d2a3f8ef43616292)
+        ;
+
+        
+    
+    
+                marker_7d55f4921bfbe059ec7c585d5a1452ad.setIcon(icon_dc89745a004feeaa4adb2ba8934b6bc2);
+            
+    
+            var poly_line_f3c376f9098c9e28c3b40368015e7703 = L.polyline(
+                [[53.9161297, -1.4941384], [53.8407354, -2.8350019], [54.8948478, -2.9362311], [54.6639133, -2.7522047], [39.9496427, -86.2194615], [54.6009812, -3.1375822], [54.431954, -2.9630528], [54.2445118, -3.0042123], [54.3934874, -2.9297923], [54.9284336, -3.2242576], [54.3289795, -2.747183], [54.0488219, -2.8013499]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2500004c1a571254db7ec8b36282d557);
+        
+    
+        var popup_0e9c25f3880841d2dcaf6f9bd57a4271 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_190bd08736241170788cfcbae84bc9a1 = $(`<div id="html_190bd08736241170788cfcbae84bc9a1" style="width: 100.0%; height: 100.0%;">Route: LLM – Duke of Rutland [John Henry Manners] (1813)</div>`)[0];
+                popup_0e9c25f3880841d2dcaf6f9bd57a4271.setContent(html_190bd08736241170788cfcbae84bc9a1);
+            
+        
+
+        poly_line_f3c376f9098c9e28c3b40368015e7703.bindPopup(popup_0e9c25f3880841d2dcaf6f9bd57a4271)
+        ;
+
+        
+    
+    
+            feature_group_2500004c1a571254db7ec8b36282d557.addTo(map_dd75a152185918e0adcd1fd3ef0a1f97);
+        
+    
+            var feature_group_f42841b20df5ef3778b54a5804f7f43b = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_930a5e48f25f3ff3e8bd6742c3adeafc = L.marker(
+                [55.03426776775118, -2.946690997669673],
+                {
+}
+            ).addTo(feature_group_f42841b20df5ef3778b54a5804f7f43b);
+        
+    
+            var icon_7844df1fae05d5ccbddd5d6036d40aff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10d2f354397c3bdeee1307ac0992457f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97124fb71cc8a168396671f038bc53cc = $(`<div id="html_97124fb71cc8a168396671f038bc53cc" style="width: 100.0%; height: 100.0%;">                     <b>Netherby</b><br>                     Order: 1<br>                     Context: Wednesday We took leave of our respectable host this morning, and set out for Carlisle , which is 12 miles distant from Netherby .<br>                     Method: NLP<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_10d2f354397c3bdeee1307ac0992457f.setContent(html_97124fb71cc8a168396671f038bc53cc);
+            
+        
+
+        marker_930a5e48f25f3ff3e8bd6742c3adeafc.bindPopup(popup_10d2f354397c3bdeee1307ac0992457f)
+        ;
+
+        
+    
+    
+                marker_930a5e48f25f3ff3e8bd6742c3adeafc.setIcon(icon_7844df1fae05d5ccbddd5d6036d40aff);
+            
+    
+            var marker_ece4ff6fd4a74a786ed7ddaaf95e0604 = L.marker(
+                [54.60160037173823, -3.125370693283439],
+                {
+}
+            ).addTo(feature_group_f42841b20df5ef3778b54a5804f7f43b);
+        
+    
+            var icon_097eee15da14e7f3605df7d702fab193 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03727786c8a49176de1049925052dacf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cb28c13427c82c8bf728ff8858761c88 = $(`<div id="html_cb28c13427c82c8bf728ff8858761c88" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 2<br>                     Context: We passed a most agreeable day in visiting its different parts, and continued our journey afterwards to Keswick , a distance of 10 miles from the point where where we quitted Ulleswater Lake.<br>                     Method: NLP<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_03727786c8a49176de1049925052dacf.setContent(html_cb28c13427c82c8bf728ff8858761c88);
+            
+        
+
+        marker_ece4ff6fd4a74a786ed7ddaaf95e0604.bindPopup(popup_03727786c8a49176de1049925052dacf)
+        ;
+
+        
+    
+    
+                marker_ece4ff6fd4a74a786ed7ddaaf95e0604.setIcon(icon_097eee15da14e7f3605df7d702fab193);
+            
+    
+            var marker_4a7dd929b87200e863322ceb85adfe89 = L.marker(
+                [54.38830822, -2.928529867],
+                {
+}
+            ).addTo(feature_group_f42841b20df5ef3778b54a5804f7f43b);
+        
+    
+            var icon_11439c4aa76154327a5936ca564f5178 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a9a674ef20374d8a01d7141124f6667 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f63013cd1dee9a5aef38099ae5e45d7 = $(`<div id="html_5f63013cd1dee9a5aef38099ae5e45d7" style="width: 100.0%; height: 100.0%;">                     <b>Calgarth Park</b><br>                     Order: 3<br>                     Context: On our return to Low Wood , we dressed, and afterwards moved our quarters to Calgarth Park , where we dined and passed a most agreeable evening, under the hospitable roof of our worthy friend, the Bishop and his numerous family.<br>                     Method: NLP<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_4a9a674ef20374d8a01d7141124f6667.setContent(html_5f63013cd1dee9a5aef38099ae5e45d7);
+            
+        
+
+        marker_4a7dd929b87200e863322ceb85adfe89.bindPopup(popup_4a9a674ef20374d8a01d7141124f6667)
+        ;
+
+        
+    
+    
+                marker_4a7dd929b87200e863322ceb85adfe89.setIcon(icon_11439c4aa76154327a5936ca564f5178);
+            
+    
+            var marker_162d89f2ac2578e56dac5847cbd0ad8d = L.marker(
+                [54.04660667916625, -2.801902525771824],
+                {
+}
+            ).addTo(feature_group_f42841b20df5ef3778b54a5804f7f43b);
+        
+    
+            var icon_f5fc85e2f72315f982b985ed1ef2b95e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9390bbafee90872d6006c71a13ace62f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d3e0214c6a5dbdbc467797ff0105746e = $(`<div id="html_d3e0214c6a5dbdbc467797ff0105746e" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 4<br>                     Context: There is but little worthy of observation here, and we passed on through a very long stage of twenty - one miles, to Lancaster .<br>                     Method: NLP<br>                     Author: Duke of Rutland [John Henry Manners]<br>                     Year: 1813                     </div>`)[0];
+                popup_9390bbafee90872d6006c71a13ace62f.setContent(html_d3e0214c6a5dbdbc467797ff0105746e);
+            
+        
+
+        marker_162d89f2ac2578e56dac5847cbd0ad8d.bindPopup(popup_9390bbafee90872d6006c71a13ace62f)
+        ;
+
+        
+    
+    
+                marker_162d89f2ac2578e56dac5847cbd0ad8d.setIcon(icon_f5fc85e2f72315f982b985ed1ef2b95e);
+            
+    
+            var poly_line_3528950b23a264b9196d02256e785278 = L.polyline(
+                [[55.03426776775118, -2.946690997669673], [54.60160037173823, -3.125370693283439], [54.38830822, -2.928529867], [54.04660667916625, -2.801902525771824]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f42841b20df5ef3778b54a5804f7f43b);
+        
+    
+        var popup_21626e0f018ff4fbfcfeddc9a38d7e32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ef68648192d327111a2b292572f6ae3 = $(`<div id="html_5ef68648192d327111a2b292572f6ae3" style="width: 100.0%; height: 100.0%;">Route: NLP – Duke of Rutland [John Henry Manners] (1813)</div>`)[0];
+                popup_21626e0f018ff4fbfcfeddc9a38d7e32.setContent(html_5ef68648192d327111a2b292572f6ae3);
+            
+        
+
+        poly_line_3528950b23a264b9196d02256e785278.bindPopup(popup_21626e0f018ff4fbfcfeddc9a38d7e32)
+        ;
+
+        
+    
+    
+            feature_group_f42841b20df5ef3778b54a5804f7f43b.addTo(map_dd75a152185918e0adcd1fd3ef0a1f97);
+        
+    
+            var layer_control_dde76dfa91bb047e4af994dfe8a5653d_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3489e373c1b1619777b1e0c0bb59e50f,
+                },
+                overlays :  {
+                    "LLM \u2013 Duke of Rutland [John Henry Manners] (1813)" : feature_group_2500004c1a571254db7ec8b36282d557,
+                    "NLP \u2013 Duke of Rutland [John Henry Manners] (1813)" : feature_group_f42841b20df5ef3778b54a5804f7f43b,
+                },
+            };
+            let layer_control_dde76dfa91bb047e4af994dfe8a5653d = L.control.layers(
+                layer_control_dde76dfa91bb047e4af994dfe8a5653d_layers.base_layers,
+                layer_control_dde76dfa91bb047e4af994dfe8a5653d_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_dd75a152185918e0adcd1fd3ef0a1f97);
+
+        
+</script>
+</html>

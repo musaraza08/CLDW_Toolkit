@@ -1,0 +1,78 @@
+{
+  "trajectory": [
+    {
+      "place": "Hawes Water",
+      "order": 1,
+      "context": "Fro Patterdale , also, a detour may be made on foot across the Martindale Fells to Hawes Water , Which lies between five and six miles east of the village.",
+      "lat": "54.18142154182505",
+      "lon": "-2.804508842654697",
+      "type": "water"
+    },
+    {
+      "place": "Great Langdale",
+      "order": 2,
+      "context": "A short distance farther on is Little Langdale Tarn , after which the road diverging to the right ascends into a solitary scene, in the midst of which is Blea Tarn , and thence descends into Great Langdale .",
+      "lat": "54.44886278925754",
+      "lon": "-3.087378732080662",
+      "type": "water"
+    },
+    {
+      "place": "Pelter Bridge",
+      "order": 3,
+      "context": "By this route the traveller proceeds along the road to Clappersgate , until he reaches Rothay Bridge ; crosses this, enters the first gate on the right, and proceeds thence along the river to Pelter Bridge .",
+      "lat": "54.4449",
+      "lon": "-2.9792",
+      "type": "manual update"
+    },
+    {
+      "place": "Borrowdale",
+      "order": 4,
+      "context": "Those who are fond of climbing can ascend the Pikes from this valley, or cross the Coddale Fell, into Borrowdale .",
+      "lat": "54.52319628836889",
+      "lon": "-3.152840038750234",
+      "type": "civil"
+    },
+    {
+      "place": "Keswick",
+      "order": 5,
+      "context": "Having explored Grasmere , the traveller should now proceed to Keswick .",
+      "lat": "54.60160037173823",
+      "lon": "-3.125370693283439",
+      "type": "ppl"
+    },
+    {
+      "place": "Cumberland",
+      "order": 6,
+      "context": "In reference to this, Wordsworth writes as follows: - \" They now have reached that pile of stones, Heaped over brave King Dunmail's bones: He who once held supreme command, Last king of rocky Cumberland : His bones, and those of all his power, Slain here in a disastrous hour.\"",
+      "lat": null,
+      "lon": null,
+      "type": null
+    },
+    {
+      "place": "Borrowdale",
+      "order": 7,
+      "context": "To reach it, proceed along the Borrowdale road, past Wallow Crag , towards Barrow House , behind which the road runs towards a pretty tarn, out of which the stream which forms Lodore waterfall issues.",
+      "lat": "54.52319628836889",
+      "lon": "-3.152840038750234",
+      "type": "civil"
+    },
+    {
+      "place": "Seathwaite",
+      "order": 8,
+      "context": "At Seathwaite the road ends, and a bridle path follows the stream to a little bridge, a mile farther up, which it crosses, and ascends Sty Head .",
+      "lat": "54.35366593329518",
+      "lon": "-3.187330149320035",
+      "type": "ppl"
+    },
+    {
+      "place": "Keswick",
+      "order": 9,
+      "context": "Wast Water and Ennerdale Are usually visited from Whitehaven , but they can also be reached from Keswick ; part of the way, however, has to be accomplished on foot.",
+      "lat": "54.60160037173823",
+      "lon": "-3.125370693283439",
+      "type": "ppl"
+    }
+  ],
+  "route_summary": "Hawes Water → Great Langdale → Pelter Bridge → Borrowdale → Keswick → Cumberland → Borrowdale → Seathwaite → Keswick",
+  "confidence": "medium"
+}

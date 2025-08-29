@@ -1,0 +1,22 @@
+{
+  "trajectory": [
+    {
+      "place": "Dallam Tower",
+      "order": 1,
+      "context": "As I was examining the bridge two chimney sweepers who had sheltered themselves under it from the rain told me with grave faces that the Devil was the builder of it... proceeded to Dallam Tower , seat of Mr Wilson.",
+      "lat": "54.22255",
+      "lon": "-2.78247",
+      "type": "other"
+    },
+    {
+      "place": "Kirkoswald",
+      "order": 2,
+      "context": "I returned to Kirkoswald , refreshed my horses and proceeded to Little Salkeld .",
+      "lat": "54.76558880363854",
+      "lon": "-2.690698999950506",
+      "type": "ppl"
+    }
+  ],
+  "route_summary": "Dallam Tower → Kirkoswald",
+  "confidence": "medium"
+}

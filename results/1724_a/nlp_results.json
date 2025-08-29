@@ -1,0 +1,46 @@
+{
+  "trajectory": [
+    {
+      "place": "Leeming Lane",
+      "order": 1,
+      "context": "The Roman highway, which I have so often mentioned, And which, in my last letter, I left at Leeming Lane , enters this county from Rear Cross upon Stanmore , and crossing it almost due east and west, goes through Appleby , passing the Eden a little north from Perith , at an ancient Roman station called Brovoniacam, where there was a large and stately stone bridge; but now the great road leads to the left-hand to Perith .",
+      "lat": null,
+      "lon": null,
+      "type": null
+    },
+    {
+      "place": "Newcastle",
+      "order": 2,
+      "context": "house is a castle, we came to Carlisle , a small but well fortified city, the frontier place and key of England on the west sea, as Berwick upon Tweed is on the east; and in both which there have, for many years, I might say ages, been strong garrisons kept to check the invading Scots; from below this town the famous Picts Wall began, which crossed the whole island to Newcastle upon Tyne , where I have mentioned it already.",
+      "lat": "55",
+      "lon": "-1.66667",
+      "type": "manual_update"
+    },
+    {
+      "place": "Lancashire",
+      "order": 3,
+      "context": "But before I go on to speak of this town, I must go back, as we did for our particular satisfaction, to the sea coast, which, in this northern county, is more remarkable than that of Lancashire , though the other is extended much farther in length; for here are some towns of good trade.",
+      "lat": null,
+      "lon": null,
+      "type": null
+    },
+    {
+      "place": "London",
+      "order": 4,
+      "context": "This is performed with horses, which, changing often, go night and day without intermission, and as they say, very much out-go the post; so that the fish come very sweet and good to London , where the extraordinary price they yield, being often sold at two shillings and sixpence to four shillings per pound, pay very well for the carriage.",
+      "lat": "51.47267150878906",
+      "lon": "-0.1193526387214661",
+      "type": "ppla"
+    },
+    {
+      "place": "England",
+      "order": 5,
+      "context": "The south part of Scotland on this side, coming at least fifty miles farther into England , than at Berwick .",
+      "lat": null,
+      "lon": null,
+      "type": null
+    }
+  ],
+  "route_summary": "Leeming Lane → Newcastle → Lancashire → London → England",
+  "confidence": "medium"
+}

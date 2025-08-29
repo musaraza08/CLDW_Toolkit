@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_45635e0780de089008bf7778b941a5d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_45635e0780de089008bf7778b941a5d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_45635e0780de089008bf7778b941a5d4 = L.map(
+                "map_45635e0780de089008bf7778b941a5d4",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f61fa797ccff1edc1a4d340a40ef79e8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f61fa797ccff1edc1a4d340a40ef79e8.addTo(map_45635e0780de089008bf7778b941a5d4);
+        
+    
+            var feature_group_918f17f08606f944c2a75f8b7d9aea49 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_a2cf1fd95e0aa93175ee613fa8ca1fdd = L.marker(
+                [52.4229627, -2.1416743],
+                {
+}
+            ).addTo(feature_group_918f17f08606f944c2a75f8b7d9aea49);
+        
+    
+            var icon_2e1e8ade2fada9a62a3976dc39015b75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ad450ab1a7c92ba7a5a6b36eb263a94 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7c38bb0a65f1e5cc2860067cd4679c68 = $(`<div id="html_7c38bb0a65f1e5cc2860067cd4679c68" style="width: 100.0%; height: 100.0%;">                     <b>Hagley</b><br>                     Order: 1<br>                     Context: <br>                     Method: LLM<br>                     Author: John Brown<br>                     Year: 1767                     </div>`)[0];
+                popup_3ad450ab1a7c92ba7a5a6b36eb263a94.setContent(html_7c38bb0a65f1e5cc2860067cd4679c68);
+            
+        
+
+        marker_a2cf1fd95e0aa93175ee613fa8ca1fdd.bindPopup(popup_3ad450ab1a7c92ba7a5a6b36eb263a94)
+        ;
+
+        
+    
+    
+                marker_a2cf1fd95e0aa93175ee613fa8ca1fdd.setIcon(icon_2e1e8ade2fada9a62a3976dc39015b75);
+            
+    
+            var marker_db64ac34f3043fdde074efacef745677 = L.marker(
+                [53.0558448, -1.7826622],
+                {
+}
+            ).addTo(feature_group_918f17f08606f944c2a75f8b7d9aea49);
+        
+    
+            var icon_5a487d63636bb456bbf33f39582bcda4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc69673118686bcf2a0119f015482efa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f2e652cd8e097eb79ba26b4cf420f40 = $(`<div id="html_1f2e652cd8e097eb79ba26b4cf420f40" style="width: 100.0%; height: 100.0%;">                     <b>Dovedale</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: John Brown<br>                     Year: 1767                     </div>`)[0];
+                popup_dc69673118686bcf2a0119f015482efa.setContent(html_1f2e652cd8e097eb79ba26b4cf420f40);
+            
+        
+
+        marker_db64ac34f3043fdde074efacef745677.bindPopup(popup_dc69673118686bcf2a0119f015482efa)
+        ;
+
+        
+    
+    
+                marker_db64ac34f3043fdde074efacef745677.setIcon(icon_5a487d63636bb456bbf33f39582bcda4);
+            
+    
+            var marker_2498f425ba1733a3e86047e9333dfd35 = L.marker(
+                [53.2593422, -1.9100768],
+                {
+}
+            ).addTo(feature_group_918f17f08606f944c2a75f8b7d9aea49);
+        
+    
+            var icon_69d9371b7b5455057e2a5ff707a2074d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6ccbfd942a3fd68aa5a866f10f6f8dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_393c790a84b24dc28acf1f6de60a58b0 = $(`<div id="html_393c790a84b24dc28acf1f6de60a58b0" style="width: 100.0%; height: 100.0%;">                     <b>Buxton</b><br>                     Order: 3<br>                     Context: <br>                     Method: LLM<br>                     Author: John Brown<br>                     Year: 1767                     </div>`)[0];
+                popup_f6ccbfd942a3fd68aa5a866f10f6f8dc.setContent(html_393c790a84b24dc28acf1f6de60a58b0);
+            
+        
+
+        marker_2498f425ba1733a3e86047e9333dfd35.bindPopup(popup_f6ccbfd942a3fd68aa5a866f10f6f8dc)
+        ;
+
+        
+    
+    
+                marker_2498f425ba1733a3e86047e9333dfd35.setIcon(icon_69d9371b7b5455057e2a5ff707a2074d);
+            
+    
+            var marker_049caf82e554a45af94ad6f22858795e = L.marker(
+                [54.6009812, -3.1375822],
+                {
+}
+            ).addTo(feature_group_918f17f08606f944c2a75f8b7d9aea49);
+        
+    
+            var icon_ed78bd9f274ee1048f0c020b36d27d71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c91fe4ca75159049197ebc507a2c1c08 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_50655640ed54066f38cdafa39690feb9 = $(`<div id="html_50655640ed54066f38cdafa39690feb9" style="width: 100.0%; height: 100.0%;">                     <b>Keswick</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: John Brown<br>                     Year: 1767                     </div>`)[0];
+                popup_c91fe4ca75159049197ebc507a2c1c08.setContent(html_50655640ed54066f38cdafa39690feb9);
+            
+        
+
+        marker_049caf82e554a45af94ad6f22858795e.bindPopup(popup_c91fe4ca75159049197ebc507a2c1c08)
+        ;
+
+        
+    
+    
+                marker_049caf82e554a45af94ad6f22858795e.setIcon(icon_ed78bd9f274ee1048f0c020b36d27d71);
+            
+    
+            var poly_line_8617a13e974aa74764f20b871afa763f = L.polyline(
+                [[52.4229627, -2.1416743], [53.0558448, -1.7826622], [53.2593422, -1.9100768], [54.6009812, -3.1375822]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_918f17f08606f944c2a75f8b7d9aea49);
+        
+    
+        var popup_15eb39923099dbcdcaded734b853db4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad5be9cbf85458a9bd6f6f9a02bb1ab9 = $(`<div id="html_ad5be9cbf85458a9bd6f6f9a02bb1ab9" style="width: 100.0%; height: 100.0%;">Route: LLM – John Brown (1767)</div>`)[0];
+                popup_15eb39923099dbcdcaded734b853db4d.setContent(html_ad5be9cbf85458a9bd6f6f9a02bb1ab9);
+            
+        
+
+        poly_line_8617a13e974aa74764f20b871afa763f.bindPopup(popup_15eb39923099dbcdcaded734b853db4d)
+        ;
+
+        
+    
+    
+            feature_group_918f17f08606f944c2a75f8b7d9aea49.addTo(map_45635e0780de089008bf7778b941a5d4);
+        
+    
+            var layer_control_51cb60c8e4ea4259f4b9b916d44859b3_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f61fa797ccff1edc1a4d340a40ef79e8,
+                },
+                overlays :  {
+                    "LLM \u2013 John Brown (1767)" : feature_group_918f17f08606f944c2a75f8b7d9aea49,
+                },
+            };
+            let layer_control_51cb60c8e4ea4259f4b9b916d44859b3 = L.control.layers(
+                layer_control_51cb60c8e4ea4259f4b9b916d44859b3_layers.base_layers,
+                layer_control_51cb60c8e4ea4259f4b9b916d44859b3_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_45635e0780de089008bf7778b941a5d4);
+
+        
+</script>
+</html>

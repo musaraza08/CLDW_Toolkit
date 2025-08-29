@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "place": "Lancaster",
+      "order": 1,
+      "mention": "Lancaster is the next, the county town",
+      "note": "starting point of the described journey"
+    },
+    {
+      "place": "Winander Meer",
+      "order": 2,
+      "mention": "I must not forget Winander Meer",
+      "note": "northern boundary of the shire"
+    },
+    {
+      "place": "Westmoreland",
+      "order": 3,
+      "mention": "Here we entered Westmoreland",
+      "note": "entry into a new county"
+    },
+    {
+      "place": "Kendal",
+      "order": 4,
+      "mention": "having passed by Kendal",
+      "note": "passing through Kendal"
+    },
+    {
+      "place": "Appleby",
+      "order": 5,
+      "mention": "stands Appleby",
+      "note": "notable town in the journey"
+    },
+    {
+      "place": "Penrith",
+      "order": 6,
+      "mention": "the great road leads to the left-hand to Perith",
+      "note": "movement towards Penrith"
+    },
+    {
+      "place": "Carlisle",
+      "order": 7,
+      "mention": "we came to Carlisle",
+      "note": "arrival at Carlisle"
+    },
+    {
+      "place": "Burgh upon the Sands",
+      "order": 8,
+      "mention": "step aside to see the monument of King Edward I at Burgh upon the Sands",
+      "note": "side trip to a historical site"
+    }
+  ],
+  "route_summary": "Lancaster → Winander Meer → Westmoreland → Kendal → Appleby → Penrith → Carlisle → Burgh upon the Sands",
+  "confidence": "high"
+}

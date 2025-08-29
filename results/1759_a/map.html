@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1d6aa292feb07966f946c544c04035d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1d6aa292feb07966f946c544c04035d2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1d6aa292feb07966f946c544c04035d2 = L.map(
+                "map_1d6aa292feb07966f946c544c04035d2",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9e6c665b75d1aa6a1c48a2db55876f24 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9e6c665b75d1aa6a1c48a2db55876f24.addTo(map_1d6aa292feb07966f946c544c04035d2);
+        
+    
+            var feature_group_4e309ded54dbf00a7e17ae3f086b94c6 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d78a0418ec04f9f84afc51b35cc6d26a = L.marker(
+                [53.5782863, -2.4300367],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_498f71512198c521fbd582027e08104f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7040d3b9c6795737ef7ba2ca0155b752 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eba898deb3956985e9765ecec90ffe4f = $(`<div id="html_eba898deb3956985e9765ecec90ffe4f" style="width: 100.0%; height: 100.0%;">                     <b>Bolton</b><br>                     Order: 2<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_7040d3b9c6795737ef7ba2ca0155b752.setContent(html_eba898deb3956985e9765ecec90ffe4f);
+            
+        
+
+        marker_d78a0418ec04f9f84afc51b35cc6d26a.bindPopup(popup_7040d3b9c6795737ef7ba2ca0155b752)
+        ;
+
+        
+    
+    
+                marker_d78a0418ec04f9f84afc51b35cc6d26a.setIcon(icon_498f71512198c521fbd582027e08104f);
+            
+    
+            var marker_ab1983eab9d40aa1a43250a8b15ef722 = L.marker(
+                [54.0488219, -2.8013499],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_eca3be8edae9ee6ccba91928fb83cc21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4cf81e1fcaf323ca175a53c09b14a75 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d81997633a39e3cd35202de8e9277ace = $(`<div id="html_d81997633a39e3cd35202de8e9277ace" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 4<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_e4cf81e1fcaf323ca175a53c09b14a75.setContent(html_d81997633a39e3cd35202de8e9277ace);
+            
+        
+
+        marker_ab1983eab9d40aa1a43250a8b15ef722.bindPopup(popup_e4cf81e1fcaf323ca175a53c09b14a75)
+        ;
+
+        
+    
+    
+                marker_ab1983eab9d40aa1a43250a8b15ef722.setIcon(icon_eca3be8edae9ee6ccba91928fb83cc21);
+            
+    
+            var marker_036d03fc060110a81fee0a1edfb6743b = L.marker(
+                [53.4229567, -2.184784],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_0fafd1517f96b0a9db4b2d00cda9dd55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9610154f8f24131b511c27ed5ee3b6d7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af886485214766d664d9b44454f0ec1b = $(`<div id="html_af886485214766d664d9b44454f0ec1b" style="width: 100.0%; height: 100.0%;">                     <b>Bottle</b><br>                     Order: 6<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_9610154f8f24131b511c27ed5ee3b6d7.setContent(html_af886485214766d664d9b44454f0ec1b);
+            
+        
+
+        marker_036d03fc060110a81fee0a1edfb6743b.bindPopup(popup_9610154f8f24131b511c27ed5ee3b6d7)
+        ;
+
+        
+    
+    
+                marker_036d03fc060110a81fee0a1edfb6743b.setIcon(icon_0fafd1517f96b0a9db4b2d00cda9dd55);
+            
+    
+            var marker_9b8226e0a08c64a20f3bfc9acd6fee34 = L.marker(
+                [54.5474199, -3.5885335],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_7e02ed8466ce7d2c9914e51d41e72b23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_993b262e3c5831b84955e96d5d45bd09 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0fe30d83d0a0c597b7ccc1d46b25c1db = $(`<div id="html_0fe30d83d0a0c597b7ccc1d46b25c1db" style="width: 100.0%; height: 100.0%;">                     <b>Whitehaven</b><br>                     Order: 7<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_993b262e3c5831b84955e96d5d45bd09.setContent(html_0fe30d83d0a0c597b7ccc1d46b25c1db);
+            
+        
+
+        marker_9b8226e0a08c64a20f3bfc9acd6fee34.bindPopup(popup_993b262e3c5831b84955e96d5d45bd09)
+        ;
+
+        
+    
+    
+                marker_9b8226e0a08c64a20f3bfc9acd6fee34.setIcon(icon_7e02ed8466ce7d2c9914e51d41e72b23);
+            
+    
+            var marker_590c11c08393e4eba0e9576902e17cee = L.marker(
+                [54.6614392, -3.3590111],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_1bfb8ada92b49265d224073a2bf8dd8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_571ec70bec319cf7c7cde6ba08d76342 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3e81aa9a9e2cea30f6e7d5af1a3e46a9 = $(`<div id="html_3e81aa9a9e2cea30f6e7d5af1a3e46a9" style="width: 100.0%; height: 100.0%;">                     <b>Cockermouth</b><br>                     Order: 8<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_571ec70bec319cf7c7cde6ba08d76342.setContent(html_3e81aa9a9e2cea30f6e7d5af1a3e46a9);
+            
+        
+
+        marker_590c11c08393e4eba0e9576902e17cee.bindPopup(popup_571ec70bec319cf7c7cde6ba08d76342)
+        ;
+
+        
+    
+    
+                marker_590c11c08393e4eba0e9576902e17cee.setIcon(icon_1bfb8ada92b49265d224073a2bf8dd8e);
+            
+    
+            var marker_24b5e3e9a8b1a9ad458504fa2866a6d5 = L.marker(
+                [54.8246802, -3.1610942],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_efdada3732c0520976d5a4acaea6e63b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c6427acb6ea443f389a5156f4d96b1e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b7cd39a86d1d86750b07e1e0e04b02b = $(`<div id="html_4b7cd39a86d1d86750b07e1e0e04b02b" style="width: 100.0%; height: 100.0%;">                     <b>Wigton</b><br>                     Order: 9<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_3c6427acb6ea443f389a5156f4d96b1e.setContent(html_4b7cd39a86d1d86750b07e1e0e04b02b);
+            
+        
+
+        marker_24b5e3e9a8b1a9ad458504fa2866a6d5.bindPopup(popup_3c6427acb6ea443f389a5156f4d96b1e)
+        ;
+
+        
+    
+    
+                marker_24b5e3e9a8b1a9ad458504fa2866a6d5.setIcon(icon_efdada3732c0520976d5a4acaea6e63b);
+            
+    
+            var marker_e5c9cac67384450bef8911fdea2ce802 = L.marker(
+                [51.9255215, 1.1009341],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_e794563955454c3bac978ba829751ea7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a430824105ae52a005b91719f4b30bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10964004619411644f5a37fe75976ca9 = $(`<div id="html_10964004619411644f5a37fe75976ca9" style="width: 100.0%; height: 100.0%;">                     <b>Dumfries</b><br>                     Order: 11<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_4a430824105ae52a005b91719f4b30bc.setContent(html_10964004619411644f5a37fe75976ca9);
+            
+        
+
+        marker_e5c9cac67384450bef8911fdea2ce802.bindPopup(popup_4a430824105ae52a005b91719f4b30bc)
+        ;
+
+        
+    
+    
+                marker_e5c9cac67384450bef8911fdea2ce802.setIcon(icon_e794563955454c3bac978ba829751ea7);
+            
+    
+            var marker_96f8b660feeafc5ade1080fee664ba71 = L.marker(
+                [54.5226428, -2.3508878],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_d2361a93114bbc35d2a0abec8efbdd48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91e1572c181fa2d67cee121ca7a5cc56 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_118e86d93b0b258d4faca5413589c990 = $(`<div id="html_118e86d93b0b258d4faca5413589c990" style="width: 100.0%; height: 100.0%;">                     <b>Thorny Hill</b><br>                     Order: 12<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_91e1572c181fa2d67cee121ca7a5cc56.setContent(html_118e86d93b0b258d4faca5413589c990);
+            
+        
+
+        marker_96f8b660feeafc5ade1080fee664ba71.bindPopup(popup_91e1572c181fa2d67cee121ca7a5cc56)
+        ;
+
+        
+    
+    
+                marker_96f8b660feeafc5ade1080fee664ba71.setIcon(icon_d2361a93114bbc35d2a0abec8efbdd48);
+            
+    
+            var marker_eecf52094a26329ec2f69b992ed74d49 = L.marker(
+                [-40.893092, 172.548938],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_9433de9c0996075f5ad3680b16db6472 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16e77be0601e0ffb32f1842de1fdbac8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15bf739decbf2619016416a2b4863c15 = $(`<div id="html_15bf739decbf2619016416a2b4863c15" style="width: 100.0%; height: 100.0%;">                     <b>Lead Hills</b><br>                     Order: 13<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_16e77be0601e0ffb32f1842de1fdbac8.setContent(html_15bf739decbf2619016416a2b4863c15);
+            
+        
+
+        marker_eecf52094a26329ec2f69b992ed74d49.bindPopup(popup_16e77be0601e0ffb32f1842de1fdbac8)
+        ;
+
+        
+    
+    
+                marker_eecf52094a26329ec2f69b992ed74d49.setIcon(icon_9433de9c0996075f5ad3680b16db6472);
+            
+    
+            var marker_71563f304566795ac3ca62f890c1ce95 = L.marker(
+                [54.5178282, -2.1252562],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_37cd9d1674639e46b582eb335c28365e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0142b59e361d2d4ee48a3ec38d905556 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b25a1af082c6ab77e6999974c13408b = $(`<div id="html_1b25a1af082c6ab77e6999974c13408b" style="width: 100.0%; height: 100.0%;">                     <b>Glasgow</b><br>                     Order: 15<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_0142b59e361d2d4ee48a3ec38d905556.setContent(html_1b25a1af082c6ab77e6999974c13408b);
+            
+        
+
+        marker_71563f304566795ac3ca62f890c1ce95.bindPopup(popup_0142b59e361d2d4ee48a3ec38d905556)
+        ;
+
+        
+    
+    
+                marker_71563f304566795ac3ca62f890c1ce95.setIcon(icon_37cd9d1674639e46b582eb335c28365e);
+            
+    
+            var marker_aa16abadf93c67d09ac3e7285f8c19bc = L.marker(
+                [51.4632779, -0.1200221],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_67c4a2ee02f99a887a05960e0cb916b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9873481a5f93706bc550ded98975109a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91fbad371482a69fd29b1bc43f9a99d1 = $(`<div id="html_91fbad371482a69fd29b1bc43f9a99d1" style="width: 100.0%; height: 100.0%;">                     <b>Edinburgh</b><br>                     Order: 16<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_9873481a5f93706bc550ded98975109a.setContent(html_91fbad371482a69fd29b1bc43f9a99d1);
+            
+        
+
+        marker_aa16abadf93c67d09ac3e7285f8c19bc.bindPopup(popup_9873481a5f93706bc550ded98975109a)
+        ;
+
+        
+    
+    
+                marker_aa16abadf93c67d09ac3e7285f8c19bc.setIcon(icon_67c4a2ee02f99a887a05960e0cb916b8);
+            
+    
+            var marker_0134e02d75e8eadc30c7ddc3da5f5695 = L.marker(
+                [52.7400545, -2.7420665],
+                {
+}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+            var icon_87205bbb85663f8d4815b0ad272b3c6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab2754b3fcdd645527b7cb44c9bf0753 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1be52d397f928267fe3796d776890de7 = $(`<div id="html_1be52d397f928267fe3796d776890de7" style="width: 100.0%; height: 100.0%;">                     <b>Dunbar</b><br>                     Order: 18<br>                     Context: <br>                     Method: LLM<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_ab2754b3fcdd645527b7cb44c9bf0753.setContent(html_1be52d397f928267fe3796d776890de7);
+            
+        
+
+        marker_0134e02d75e8eadc30c7ddc3da5f5695.bindPopup(popup_ab2754b3fcdd645527b7cb44c9bf0753)
+        ;
+
+        
+    
+    
+                marker_0134e02d75e8eadc30c7ddc3da5f5695.setIcon(icon_87205bbb85663f8d4815b0ad272b3c6c);
+            
+    
+            var poly_line_a260f721ca6d5f547b9785a1e3f4be26 = L.polyline(
+                [[53.5782863, -2.4300367], [54.0488219, -2.8013499], [53.4229567, -2.184784], [54.5474199, -3.5885335], [54.6614392, -3.3590111], [54.8246802, -3.1610942], [51.9255215, 1.1009341], [54.5226428, -2.3508878], [-40.893092, 172.548938], [54.5178282, -2.1252562], [51.4632779, -0.1200221], [52.7400545, -2.7420665]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e309ded54dbf00a7e17ae3f086b94c6);
+        
+    
+        var popup_fa62053d04e13092d256ae006cb6ba71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4456585951abdafac9e8acce655e4004 = $(`<div id="html_4456585951abdafac9e8acce655e4004" style="width: 100.0%; height: 100.0%;">Route: LLM – John Wesley (1764)</div>`)[0];
+                popup_fa62053d04e13092d256ae006cb6ba71.setContent(html_4456585951abdafac9e8acce655e4004);
+            
+        
+
+        poly_line_a260f721ca6d5f547b9785a1e3f4be26.bindPopup(popup_fa62053d04e13092d256ae006cb6ba71)
+        ;
+
+        
+    
+    
+            feature_group_4e309ded54dbf00a7e17ae3f086b94c6.addTo(map_1d6aa292feb07966f946c544c04035d2);
+        
+    
+            var feature_group_8df17a57caf459f541ddcd49aa782c2a = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_239118c39f3febced502bc6896fe1d3c = L.marker(
+                [54.04660667916625, -2.801902525771824],
+                {
+}
+            ).addTo(feature_group_8df17a57caf459f541ddcd49aa782c2a);
+        
+    
+            var icon_9370fc1137f4a03c012ab701b96dd7fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3c67aec5e1d3ad53e01cd442dabfdaa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26024c20121b4ec9619416b0c2b33a24 = $(`<div id="html_26024c20121b4ec9619416b0c2b33a24" style="width: 100.0%; height: 100.0%;">                     <b>Lancaster</b><br>                     Order: 1<br>                     Context: At Lancaster we were informed, it was too late to cross the Sands.<br>                     Method: NLP<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_a3c67aec5e1d3ad53e01cd442dabfdaa.setContent(html_26024c20121b4ec9619416b0c2b33a24);
+            
+        
+
+        marker_239118c39f3febced502bc6896fe1d3c.bindPopup(popup_a3c67aec5e1d3ad53e01cd442dabfdaa)
+        ;
+
+        
+    
+    
+                marker_239118c39f3febced502bc6896fe1d3c.setIcon(icon_9370fc1137f4a03c012ab701b96dd7fa);
+            
+    
+            var marker_6ac87b99725478d48523883d4d048347 = L.marker(
+                [54.54261524067765, -3.574638671553102],
+                {
+}
+            ).addTo(feature_group_8df17a57caf459f541ddcd49aa782c2a);
+        
+    
+            var icon_3a1c48fcba5e27dcdb2546ccc3661830 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5fb4bfdfabeae09c4aabe4ef9a37309 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ff824145a7765c778a7d81a889d543d = $(`<div id="html_0ff824145a7765c778a7d81a889d543d" style="width: 100.0%; height: 100.0%;">                     <b>Whitehaven</b><br>                     Order: 2<br>                     Context: However, we reached Whitehaven before Night.<br>                     Method: NLP<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_a5fb4bfdfabeae09c4aabe4ef9a37309.setContent(html_0ff824145a7765c778a7d81a889d543d);
+            
+        
+
+        marker_6ac87b99725478d48523883d4d048347.bindPopup(popup_a5fb4bfdfabeae09c4aabe4ef9a37309)
+        ;
+
+        
+    
+    
+                marker_6ac87b99725478d48523883d4d048347.setIcon(icon_3a1c48fcba5e27dcdb2546ccc3661830);
+            
+    
+            var marker_68d190f2422212bf4feedcdc240eff93 = L.marker(
+                [54.61745318512404, -3.308706047209322],
+                {
+}
+            ).addTo(feature_group_8df17a57caf459f541ddcd49aa782c2a);
+        
+    
+            var icon_f09fd6ff32e72eb329695ea4a0724652 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f9076830e7cd647ef6ba8d5552221b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6407a07edb5b7673ec37393970af5cba = $(`<div id="html_6407a07edb5b7673ec37393970af5cba" style="width: 100.0%; height: 100.0%;">                     <b>Lorton</b><br>                     Order: 3<br>                     Context: I rode over to Lorton , a little Village at the Foot of a high Mountain.<br>                     Method: NLP<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_9f9076830e7cd647ef6ba8d5552221b1.setContent(html_6407a07edb5b7673ec37393970af5cba);
+            
+        
+
+        marker_68d190f2422212bf4feedcdc240eff93.bindPopup(popup_9f9076830e7cd647ef6ba8d5552221b1)
+        ;
+
+        
+    
+    
+                marker_68d190f2422212bf4feedcdc240eff93.setIcon(icon_f09fd6ff32e72eb329695ea4a0724652);
+            
+    
+            var marker_c5843256d91d7f0fb0e0d7185fbe31ec = L.marker(
+                [53.967975269708, -2.312531460550741],
+                {
+}
+            ).addTo(feature_group_8df17a57caf459f541ddcd49aa782c2a);
+        
+    
+            var icon_0cbc6a67a2686a242df5b3b8a685cb25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71ca2bcb75399287688fc6a0c56064ae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc09094e61178f6ab2ba2bc623f4fe7c = $(`<div id="html_dc09094e61178f6ab2ba2bc623f4fe7c" style="width: 100.0%; height: 100.0%;">                     <b>Thorny hill</b><br>                     Order: 4<br>                     Context: We rode through a pleasant Country, to Thorny hill , near which is the grand Seat of the Duke of Queensborough.<br>                     Method: NLP<br>                     Author: John Wesley<br>                     Year: 1764                     </div>`)[0];
+                popup_71ca2bcb75399287688fc6a0c56064ae.setContent(html_dc09094e61178f6ab2ba2bc623f4fe7c);
+            
+        
+
+        marker_c5843256d91d7f0fb0e0d7185fbe31ec.bindPopup(popup_71ca2bcb75399287688fc6a0c56064ae)
+        ;
+
+        
+    
+    
+                marker_c5843256d91d7f0fb0e0d7185fbe31ec.setIcon(icon_0cbc6a67a2686a242df5b3b8a685cb25);
+            
+    
+            var poly_line_c4a39c1806ad5c3038ecd9cd37ef6111 = L.polyline(
+                [[54.04660667916625, -2.801902525771824], [54.54261524067765, -3.574638671553102], [54.61745318512404, -3.308706047209322], [53.967975269708, -2.312531460550741]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8df17a57caf459f541ddcd49aa782c2a);
+        
+    
+        var popup_d9ea30f268cfe7d6efd58613d2cc23c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6939b43ed223939ca199c0e673ee6b2 = $(`<div id="html_a6939b43ed223939ca199c0e673ee6b2" style="width: 100.0%; height: 100.0%;">Route: NLP – John Wesley (1764)</div>`)[0];
+                popup_d9ea30f268cfe7d6efd58613d2cc23c3.setContent(html_a6939b43ed223939ca199c0e673ee6b2);
+            
+        
+
+        poly_line_c4a39c1806ad5c3038ecd9cd37ef6111.bindPopup(popup_d9ea30f268cfe7d6efd58613d2cc23c3)
+        ;
+
+        
+    
+    
+            feature_group_8df17a57caf459f541ddcd49aa782c2a.addTo(map_1d6aa292feb07966f946c544c04035d2);
+        
+    
+            var layer_control_13d5ebc32875e5aa4eed648c9050f522_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_9e6c665b75d1aa6a1c48a2db55876f24,
+                },
+                overlays :  {
+                    "LLM \u2013 John Wesley (1764)" : feature_group_4e309ded54dbf00a7e17ae3f086b94c6,
+                    "NLP \u2013 John Wesley (1764)" : feature_group_8df17a57caf459f541ddcd49aa782c2a,
+                },
+            };
+            let layer_control_13d5ebc32875e5aa4eed648c9050f522 = L.control.layers(
+                layer_control_13d5ebc32875e5aa4eed648c9050f522_layers.base_layers,
+                layer_control_13d5ebc32875e5aa4eed648c9050f522_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_1d6aa292feb07966f946c544c04035d2);
+
+        
+</script>
+</html>

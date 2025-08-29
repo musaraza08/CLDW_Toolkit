@@ -1,0 +1,114 @@
+{
+  "trajectory": [
+    {
+      "place": "Downam Green",
+      "order": 1,
+      "mention": "I rode to Downam Green",
+      "note": "arrival near Wigan"
+    },
+    {
+      "place": "Bolton",
+      "order": 2,
+      "mention": "In the Evening I preached at Bolton",
+      "note": "preaching event"
+    },
+    {
+      "place": "Lower Darwent",
+      "order": 3,
+      "mention": "about Nine at Lower Darwent",
+      "note": "preaching event near Blackburn"
+    },
+    {
+      "place": "Lancaster",
+      "order": 4,
+      "mention": "At Lancaster we were informed",
+      "note": "information about crossing the Sands"
+    },
+    {
+      "place": "Fluckborough",
+      "order": 5,
+      "mention": "reached Fluckborough about Sunset",
+      "note": "arrival after crossing the Sands"
+    },
+    {
+      "place": "Bottle",
+      "order": 6,
+      "mention": "we came to Bottle",
+      "note": "arrival after crossing Millam Sand"
+    },
+    {
+      "place": "Whitehaven",
+      "order": 7,
+      "mention": "we reached Whitehaven before Night",
+      "note": "arrival after crossing Sands"
+    },
+    {
+      "place": "Cockermouth",
+      "order": 8,
+      "mention": "I took my Leave of Whitehaven, and rode to Cockermouth",
+      "note": "departure from Whitehaven and arrival at Cockermouth"
+    },
+    {
+      "place": "Wigton",
+      "order": 9,
+      "mention": "I preached at Ten in the Market Place at Wigton",
+      "note": "preaching event"
+    },
+    {
+      "place": "Solway Frith",
+      "order": 10,
+      "mention": "came to Solway Frith",
+      "note": "crossing when water was fordable"
+    },
+    {
+      "place": "Dumfries",
+      "order": 11,
+      "mention": "we came to Dumfries before six o' Clock",
+      "note": "arrival after crossing Solway Frith"
+    },
+    {
+      "place": "Thorny Hill",
+      "order": 12,
+      "mention": "we rode through a pleasant Country, to Thorny hill",
+      "note": "passing through countryside"
+    },
+    {
+      "place": "Lead Hills",
+      "order": 13,
+      "mention": "we rode through, and over huge Mountains, green to the very Top, to Lead Hills",
+      "note": "arrival at Lead Hills"
+    },
+    {
+      "place": "Lesinabágow",
+      "order": 14,
+      "mention": "we came to Lesinabágow",
+      "note": "arrival at village"
+    },
+    {
+      "place": "Glasgow",
+      "order": 15,
+      "mention": "we took Horse soon after four, and did not stop before we came to Glasgow",
+      "note": "arrival in Glasgow"
+    },
+    {
+      "place": "Edinburgh",
+      "order": 16,
+      "mention": "I rode through Edinburgh",
+      "note": "passing through Edinburgh"
+    },
+    {
+      "place": "Musselbourgh",
+      "order": 17,
+      "mention": "preached in the Evening to a deeply attentive Congregation",
+      "note": "preaching event"
+    },
+    {
+      "place": "Dunbar",
+      "order": 18,
+      "mention": "I rode on to Dunbar",
+      "note": "arrival and preaching event"
+    }
+  ],
+  "route_summary": "Downam Green → Bolton → Lower Darwent → Lancaster → Fluckborough → Bottle → Whitehaven → Cockermouth → Wigton → Solway Frith → Dumfries → Thorny Hill → Lead Hills → Lesinabágow → Glasgow → Edinburgh → Musselbourgh → Dunbar",
+  "confidence": "high"
+}

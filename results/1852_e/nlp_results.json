@@ -1,0 +1,38 @@
+{
+  "trajectory": [
+    {
+      "place": "Liverpool",
+      "order": 1,
+      "context": "Reaching Liverpool that night, I was invited by the Rev. Mr. Bishop, the minister at large in Liverpool , to join a party who were to make an excursion, the next day, to the Lakes of Cumberland .",
+      "lat": "53.5225887298584",
+      "lon": "-2.878238320350647",
+      "type": "ppla"
+    },
+    {
+      "place": "Grasmere",
+      "order": 2,
+      "context": "There I again turned from the road into another foot-path which skirted Rydal Water , and at last I came in view of the village of Grasmere lying beyond its lake.",
+      "lat": "54.45838873427238",
+      "lon": "-3.02591946706321",
+      "type": "ppl"
+    },
+    {
+      "place": "America",
+      "order": 3,
+      "context": "The cook was a rosy English lass, and I advised her to go to America ; but she knew better and said,' It is too far; I might set out' said she,' but I am afraid I should never get there.'",
+      "lat": null,
+      "lon": null,
+      "type": null
+    },
+    {
+      "place": "Liverpool",
+      "order": 4,
+      "context": "Reaching the inn I found, to my alarm, that the steamer had left for the cars which leave Bowness for Liverpool .",
+      "lat": "53.5225887298584",
+      "lon": "-2.878238320350647",
+      "type": "ppla"
+    }
+  ],
+  "route_summary": "Liverpool → Grasmere → America → Liverpool",
+  "confidence": "medium"
+}

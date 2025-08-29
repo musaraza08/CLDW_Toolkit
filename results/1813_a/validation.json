@@ -1,0 +1,588 @@
+{
+  "ID": "1813_a",
+  "llm": {
+    "id": "1813_a",
+    "method": "LLM",
+    "counts": {
+      "pred_len": 12,
+      "gt_len": 20
+    },
+    "metrics": {
+      "nodes": {
+        "precision": 0.9166666666666666,
+        "recall": 0.55,
+        "f1": 0.6874999999999999,
+        "tp": 11,
+        "fp": 1,
+        "fn": 9
+      },
+      "edges": {
+        "precision": 0.45454545454545453,
+        "recall": 0.2631578947368421,
+        "f1": 0.3333333333333333,
+        "tp": 5,
+        "fp": 6,
+        "fn": 14
+      },
+      "sequence": {
+        "lcs_ratio": 0.5,
+        "edit_distance": 10,
+        "edit_distance_norm": 0.5,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.3333333333333333,
+        "kendall_tau": 1.0
+      }
+    },
+    "geo": {
+      "count": 0,
+      "mean_km": null,
+      "median_km": null,
+      "pct_within_1km": null,
+      "pct_within_5km": null,
+      "pct_within_10km": null
+    },
+    "ner": {
+      "precision": 0.9166666666666666,
+      "recall": 0.55,
+      "f1": 0.6874999999999999,
+      "tp": 11,
+      "fp": 1,
+      "fn": 9
+    },
+    "trajectory_simple": {
+      "edit_distance": 10,
+      "edit_distance_norm": 0.5,
+      "sequence_accuracy": 0.0,
+      "positional_accuracy": 0.3333333333333333,
+      "geospatial": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      }
+    },
+    "relations_simple": {
+      "precision": 0.45454545454545453,
+      "recall": 0.2631578947368421,
+      "f1": 0.3333333333333333,
+      "kendall_tau": 1.0
+    },
+    "errors": {
+      "hallucinations": {
+        "count": 1,
+        "proportion_pred": 0.08333333333333333
+      },
+      "mis_orderings": {
+        "num_inversions": 0,
+        "inversion_fraction": 0.0
+      },
+      "implicit_inference": {
+        "count": 8,
+        "proportion_pred_edges": 0.7272727272727273
+      }
+    },
+    "matches": [
+      {
+        "pred_index": 0,
+        "gt_index": 0,
+        "pred_place": "Netherby",
+        "gt_place": "Netherby",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 1,
+        "gt_index": 1,
+        "pred_place": "Long Town",
+        "gt_place": "Long Town",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 2,
+        "gt_index": 2,
+        "pred_place": "Carlisle",
+        "gt_place": "Carlisle",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 3,
+        "gt_index": 3,
+        "pred_place": "Penrith",
+        "gt_place": "Penrith",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 5,
+        "gt_index": 6,
+        "pred_place": "Keswick",
+        "gt_place": "Keswick",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 6,
+        "gt_index": 10,
+        "pred_place": "Ambleside",
+        "gt_place": "Ambleside",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 7,
+        "gt_index": 12,
+        "pred_place": "Low Wood",
+        "gt_place": "Low Wood",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 8,
+        "gt_index": 14,
+        "pred_place": "Calgarth Park",
+        "gt_place": "Calgarth Park",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 9,
+        "gt_index": 15,
+        "pred_place": "Bowness",
+        "gt_place": "Bowness-On-Windermere",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 10,
+        "gt_index": 16,
+        "pred_place": "Kendal",
+        "gt_place": "Kendal",
+        "reason": "name>=0.92",
+        "score": 0.0
+      },
+      {
+        "pred_index": 11,
+        "gt_index": 19,
+        "pred_place": "Lancaster",
+        "gt_place": "Lancaster",
+        "reason": "name>=0.92",
+        "score": 0.0
+      }
+    ],
+    "unmatched_pred_indices": [
+      4
+    ],
+    "unmatched_gt_indices": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      13,
+      17,
+      18
+    ]
+  },
+  "nlp": {
+    "id": "1813_a",
+    "method": "NLP",
+    "counts": {
+      "pred_len": 4,
+      "gt_len": 20
+    },
+    "metrics": {
+      "nodes": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.33333333333333337,
+        "tp": 4,
+        "fp": 0,
+        "fn": 16
+      },
+      "edges": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 3,
+        "fn": 19
+      },
+      "sequence": {
+        "lcs_ratio": 0.2,
+        "edit_distance": 16,
+        "edit_distance_norm": 0.8,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.25,
+        "kendall_tau": 1.0
+      }
+    },
+    "geo": {
+      "count": 4,
+      "mean_km": 0.0,
+      "median_km": 0.0,
+      "pct_within_1km": 1.0,
+      "pct_within_5km": 1.0,
+      "pct_within_10km": 1.0
+    },
+    "ner": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.33333333333333337,
+      "tp": 4,
+      "fp": 0,
+      "fn": 16
+    },
+    "trajectory_simple": {
+      "edit_distance": 16,
+      "edit_distance_norm": 0.8,
+      "sequence_accuracy": 0.0,
+      "positional_accuracy": 0.25,
+      "geospatial": {
+        "count": 4,
+        "mean_km": 0.0,
+        "median_km": 0.0,
+        "pct_within_1km": 1.0,
+        "pct_within_5km": 1.0,
+        "pct_within_10km": 1.0
+      }
+    },
+    "relations_simple": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "kendall_tau": 1.0
+    },
+    "errors": {
+      "hallucinations": {
+        "count": 0,
+        "proportion_pred": 0.0
+      },
+      "mis_orderings": {
+        "num_inversions": 0,
+        "inversion_fraction": 0.0
+      },
+      "implicit_inference": {
+        "count": 3,
+        "proportion_pred_edges": 1.0
+      }
+    },
+    "matches": [
+      {
+        "pred_index": 0,
+        "gt_index": 0,
+        "pred_place": "Netherby",
+        "gt_place": "Netherby",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      },
+      {
+        "pred_index": 1,
+        "gt_index": 6,
+        "pred_place": "Keswick",
+        "gt_place": "Keswick",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      },
+      {
+        "pred_index": 2,
+        "gt_index": 14,
+        "pred_place": "Calgarth Park",
+        "gt_place": "Calgarth Park",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      },
+      {
+        "pred_index": 3,
+        "gt_index": 19,
+        "pred_place": "Lancaster",
+        "gt_place": "Lancaster",
+        "reason": "geo<=5.0km",
+        "score": 0.0
+      }
+    ],
+    "unmatched_pred_indices": [],
+    "unmatched_gt_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "pairwise": {
+    "llm_as_pred": {
+      "id": "1813_a",
+      "method": "LLM_vs_NLP",
+      "counts": {
+        "pred_len": 12,
+        "gt_len": 4
+      },
+      "metrics": {
+        "nodes": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "tp": 4,
+          "fp": 8,
+          "fn": 0
+        },
+        "edges": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 11,
+          "fn": 3
+        },
+        "sequence": {
+          "lcs_ratio": 1.0,
+          "edit_distance": 8,
+          "edit_distance_norm": 2.0,
+          "sequence_accuracy": 0.0,
+          "positional_accuracy": 0.25,
+          "kendall_tau": 1.0
+        }
+      },
+      "geo": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      },
+      "ner": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "tp": 4,
+        "fp": 8,
+        "fn": 0
+      },
+      "trajectory_simple": {
+        "edit_distance": 8,
+        "edit_distance_norm": 2.0,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.25,
+        "geospatial": {
+          "count": 0,
+          "mean_km": null,
+          "median_km": null,
+          "pct_within_1km": null,
+          "pct_within_5km": null,
+          "pct_within_10km": null
+        }
+      },
+      "relations_simple": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "kendall_tau": 1.0
+      },
+      "errors": {
+        "hallucinations": {
+          "count": 8,
+          "proportion_pred": 0.6666666666666666
+        },
+        "mis_orderings": {
+          "num_inversions": 0,
+          "inversion_fraction": 0.0
+        },
+        "implicit_inference": {
+          "count": 11,
+          "proportion_pred_edges": 1.0
+        }
+      },
+      "matches": [
+        {
+          "pred_index": 0,
+          "gt_index": 0,
+          "pred_place": "Netherby",
+          "gt_place": "Netherby",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 5,
+          "gt_index": 1,
+          "pred_place": "Keswick",
+          "gt_place": "Keswick",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 8,
+          "gt_index": 2,
+          "pred_place": "Calgarth Park",
+          "gt_place": "Calgarth Park",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 11,
+          "gt_index": 3,
+          "pred_place": "Lancaster",
+          "gt_place": "Lancaster",
+          "reason": "name>=0.92",
+          "score": 0.0
+        }
+      ],
+      "unmatched_pred_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "unmatched_gt_indices": []
+    },
+    "nlp_as_pred": {
+      "id": "1813_a",
+      "method": "NLP_vs_LLM",
+      "counts": {
+        "pred_len": 4,
+        "gt_len": 12
+      },
+      "metrics": {
+        "nodes": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "tp": 4,
+          "fp": 0,
+          "fn": 8
+        },
+        "edges": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 3,
+          "fn": 11
+        },
+        "sequence": {
+          "lcs_ratio": 0.3333333333333333,
+          "edit_distance": 8,
+          "edit_distance_norm": 0.6666666666666666,
+          "sequence_accuracy": 0.0,
+          "positional_accuracy": 0.25,
+          "kendall_tau": 1.0
+        }
+      },
+      "geo": {
+        "count": 0,
+        "mean_km": null,
+        "median_km": null,
+        "pct_within_1km": null,
+        "pct_within_5km": null,
+        "pct_within_10km": null
+      },
+      "ner": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "tp": 4,
+        "fp": 0,
+        "fn": 8
+      },
+      "trajectory_simple": {
+        "edit_distance": 8,
+        "edit_distance_norm": 0.6666666666666666,
+        "sequence_accuracy": 0.0,
+        "positional_accuracy": 0.25,
+        "geospatial": {
+          "count": 0,
+          "mean_km": null,
+          "median_km": null,
+          "pct_within_1km": null,
+          "pct_within_5km": null,
+          "pct_within_10km": null
+        }
+      },
+      "relations_simple": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "kendall_tau": 1.0
+      },
+      "errors": {
+        "hallucinations": {
+          "count": 0,
+          "proportion_pred": 0.0
+        },
+        "mis_orderings": {
+          "num_inversions": 0,
+          "inversion_fraction": 0.0
+        },
+        "implicit_inference": {
+          "count": 3,
+          "proportion_pred_edges": 1.0
+        }
+      },
+      "matches": [
+        {
+          "pred_index": 0,
+          "gt_index": 0,
+          "pred_place": "Netherby",
+          "gt_place": "Netherby",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 1,
+          "gt_index": 5,
+          "pred_place": "Keswick",
+          "gt_place": "Keswick",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 2,
+          "gt_index": 8,
+          "pred_place": "Calgarth Park",
+          "gt_place": "Calgarth Park",
+          "reason": "name>=0.92",
+          "score": 0.0
+        },
+        {
+          "pred_index": 3,
+          "gt_index": 11,
+          "pred_place": "Lancaster",
+          "gt_place": "Lancaster",
+          "reason": "name>=0.92",
+          "score": 0.0
+        }
+      ],
+      "unmatched_pred_indices": [],
+      "unmatched_gt_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ]
+    }
+  }
+}

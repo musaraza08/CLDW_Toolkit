@@ -1,0 +1,78 @@
+{
+  "trajectory": [
+    {
+      "place": "Netherby",
+      "order": 1,
+      "mention": "set out for Carlisle , which is 12 miles distant from Netherby",
+      "note": "departure"
+    },
+    {
+      "place": "Long Town",
+      "order": 2,
+      "mention": "In three miles we passed through Long Town",
+      "note": "en route"
+    },
+    {
+      "place": "Carlisle",
+      "order": 3,
+      "mention": "approach to Carlisle",
+      "note": "arrival and sightseeing"
+    },
+    {
+      "place": "Penrith",
+      "order": 4,
+      "mention": "proceeded on our route to Penrith",
+      "note": "travelled 18 miles to Penrith"
+    },
+    {
+      "place": "Ullswater Lake",
+      "order": 5,
+      "mention": "rode to Ulleswater Lake",
+      "note": "visited the lake"
+    },
+    {
+      "place": "Keswick",
+      "order": 6,
+      "mention": "continued our journey afterwards to Keswick",
+      "note": "arrival and overnight stay"
+    },
+    {
+      "place": "Ambleside",
+      "order": 7,
+      "mention": "proceeded straight to Ambleside",
+      "note": "travelled from Keswick"
+    },
+    {
+      "place": "Low Wood",
+      "order": 8,
+      "mention": "thence two miles further, to Low Wood",
+      "note": "arrival and stay"
+    },
+    {
+      "place": "Calgarth Park",
+      "order": 9,
+      "mention": "moved our quarters to Calgarth Park",
+      "note": "dined and stayed"
+    },
+    {
+      "place": "Bowness",
+      "order": 10,
+      "mention": "accompanied the Bishop to church at Bowness",
+      "note": "church visit"
+    },
+    {
+      "place": "Kendal",
+      "order": 11,
+      "mention": "Our first stage was to Kendal",
+      "note": "travelled from Calgarth"
+    },
+    {
+      "place": "Lancaster",
+      "order": 12,
+      "mention": "to Lancaster",
+      "note": "final destination of the day"
+    }
+  ],
+  "route_summary": "Netherby → Long Town → Carlisle → Penrith → Ullswater Lake → Keswick → Ambleside → Low Wood → Calgarth Park → Bowness → Kendal → Lancaster",
+  "confidence": "high"
+}

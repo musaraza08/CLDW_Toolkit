@@ -35,11 +35,3 @@ htmlcov/
 .vscode/
 .idea/
 *.code-workspace
-
-# Results and generated maps (optional: comment out to commit)
-results/*
-!results/manual_trajectories.json
-analysis/*
-
-# Folium maps
-*.html 

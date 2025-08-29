@@ -1,0 +1,22 @@
+{
+  "trajectory": [
+    {
+      "place": "Market Place",
+      "order": 1,
+      "context": "mile long; and there, ouer a little riuolet, wee entered into the next Country, the place where the High Sheriffe receiues the Judges, with many attendant Bonnetts , and Gallowayes, and heere we left Tyne to seeke his head, not far from Tees; From that place to Warwicke Bridge , we passed all the way ouer that Lords Librerties, and Franchises, and there ouer the Riuer Eden, by a fayre Archt Bridge, and to end our second weekes trauell, passing the little Brooke, Petterell, we came safe, and well, though well wet to our Inne the Angell , in the Market Place , in that old strong Citty of Carlile , built by a British King, neere 1000.",
+      "lat": null,
+      "lon": null,
+      "type": null
+    },
+    {
+      "place": "Cumberland",
+      "order": 2,
+      "context": "I forgot to tell you, that at Perith Towne end we came ouer the Riuer that diuides the two Counties of Cumberland , and Westmorland , which are very mountaynous, stony, and boggy: close to this sayd sayd[ sic] Riuer, we passeded by another Bridge, another Riuer, neere to the brinke whereof stands Broom Castle ; few other Seats in this dayes tiresome march did appeare, vnlesse some small Clusters of poore Cottages in those deep valleys by.",
+      "lat": null,
+      "lon": null,
+      "type": null
+    }
+  ],
+  "route_summary": "Market Place → Cumberland",
+  "confidence": "medium"
+}

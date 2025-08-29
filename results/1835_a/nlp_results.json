@@ -1,0 +1,78 @@
+{
+  "trajectory": [
+    {
+      "place": "Lancaster",
+      "order": 1,
+      "context": "The journey towards the lake country through Lancashire , is, with the exception of the Vale of the Ribble, at Preston , uninteresting; till you come near Lancaster , and obtain a view of the fells and mountains of Lancashire and Westmoreland ; with Lancaster Castle , and the Tower of the Church seeming to make part of the Castle , in the foreground.",
+      "lat": "54.04660667916625",
+      "lon": "-2.801902525771824",
+      "type": "ppl"
+    },
+    {
+      "place": "Carlisle",
+      "order": 2,
+      "context": "Travellers from the North would do well to go from Carlisle by Wigton , and proceed along the Lake of Bassenthwaite to Keswick ; or, if convenience should take them first to Penrith , it would still be better to cross the country to Keswick , and begin with that vale, rather than with Ulswater.",
+      "lat": "54.89435005187988",
+      "lon": "-2.923743724822998",
+      "type": "ppla"
+    },
+    {
+      "place": "Wigton",
+      "order": 3,
+      "context": "Travellers from the North would do well to go from Carlisle by Wigton , and proceed along the Lake of Bassenthwaite to Keswick ; or, if convenience should take them first to Penrith , it would still be better to cross the country to Keswick , and begin with that vale, rather than with Ulswater.",
+      "lat": "54.82423915205727",
+      "lon": "-3.162105902218126",
+      "type": "ppl"
+    },
+    {
+      "place": "Keswick",
+      "order": 4,
+      "context": "Travellers from the North would do well to go from Carlisle by Wigton , and proceed along the Lake of Bassenthwaite to Keswick ; or, if convenience should take them first to Penrith , it would still be better to cross the country to Keswick , and begin with that vale, rather than with Ulswater.",
+      "lat": "54.60160037173823",
+      "lon": "-3.125370693283439",
+      "type": "ppl"
+    },
+    {
+      "place": "Armathwaite bridge",
+      "order": 5,
+      "context": "Nunnery may be reached by Corby by making a circuit and crossing the Eden at Armathwaite bridge .",
+      "lat": "54.6813",
+      "lon": "-3.2315",
+      "type": "manual update"
+    },
+    {
+      "place": "Storrs Hall",
+      "order": 6,
+      "context": "Bowness is situated upon its eastern side, and at equal distance from each extremity of the Lake of Windermere The lower part of this Lake is rarely visited, but has many interesting points of view, especially at Storrs Hall and at Fell Foot , where the Coniston Mountains peer nobly over the western barrier, which elsewhere, along the whole Lake, is comparatively tame.",
+      "lat": "54.1374080041431",
+      "lon": "-2.650576036698101",
+      "type": "fac"
+    },
+    {
+      "place": "Keswick",
+      "order": 7,
+      "context": "Having previously enquired, at the Inn near Wythburn Chapel , the best way from this mile-stone to the bridge that divides the Lake, he must cross it, and proceed with the Lake on the right, to the hamlet a little beyond its termination, and rejoin the main road upon Shoulthwaite Moss , about four miles from Keswick ; or, if on foot, the Tourist may follow the stream that issues from Thirlmere down the romantic Vale of St. John 's, and so( enquiring the way at some cottage) to Keswick , by a circuit of little more than a mile.",
+      "lat": "54.60160037173823",
+      "lon": "-3.125370693283439",
+      "type": "ppl"
+    },
+    {
+      "place": "Ullswater",
+      "order": 8,
+      "context": "The other, coming down Martindale , enters Ullswater at sandwyke, opposite to Gowbarrow Park .",
+      "lat": "54.57527677327518",
+      "lon": "-2.885404073107643",
+      "type": "water"
+    },
+    {
+      "place": "Blowick",
+      "order": 9,
+      "context": "No persons but such as come to Patterdale , merely to pass through it, should fail to walk as far as Blowick , the only enclosed land which on this side borders the higher part of the Lake.",
+      "lat": "54.54900660499009",
+      "lon": "-2.935420119284143",
+      "type": "other"
+    }
+  ],
+  "route_summary": "Lancaster → Carlisle → Wigton → Keswick → Armathwaite bridge → Storrs Hall → Keswick → Ullswater → Blowick",
+  "confidence": "high"
+}
