@@ -1,0 +1,45 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+*.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local data
+*.log
+logs/
+
+# Build artifacts / reports
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Results and generated maps (optional: comment out to commit)
+results/*
+!results/manual_trajectories.json
+analysis/*
+
+# Folium maps
+*.html 
